@@ -1,0 +1,239 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Upcoming//Keynote Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Upcoming — keynotes & announcements
+X-WR-CALDESC:Keynotes\, product announcements\, and keynote-bearing confere
+ nces from organizations of every size. Dates verified against official sou
+ rces.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:adobe-summit-2027@upcoming-keynotes
+SUMMARY:Adobe Summit
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270326
+DESCRIPTION:Adobe’s customer experience conference. Online programming ru
+ ns March 23–24.\nConference March 23–25\; preconference March 22. Keyn
+ ote times pending.\nConference dates\; see the event for individual keynot
+ e times.\nOfficial source: https://summit.adobe.com/na/faq/
+LOCATION:Las Vegas + online
+URL:https://summit.adobe.com/na/faq/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:aws-ceo-2026@upcoming-keynotes
+SUMMARY:re:Invent · CEO keynote
+DTSTART:20261201T163000Z
+DTEND:20261201T183000Z
+DESCRIPTION:AWS’s flagship keynote on cloud infrastructure and AI.\nTimes
+  interpreted as Las Vegas local time. The livestream page labels winter ti
+ mes PDT\; confirm with the organizer.\nOfficial source: https://aws.amazon
+ .com/events/reinvent/sessions/keynotes/
+LOCATION:Las Vegas + online
+URL:https://aws.amazon.com/events/reinvent/livestream/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:aws-data-2026@upcoming-keynotes
+SUMMARY:re:Invent · Data & AI keynote
+DTSTART:20261202T163000Z
+DTEND:20261202T180000Z
+DESCRIPTION:Data systems and putting AI agents into production.\nTimes inte
+ rpreted as Las Vegas local time. The livestream page labels winter times P
+ DT\; confirm with the organizer.\nOfficial source: https://aws.amazon.com/
+ events/reinvent/sessions/keynotes/
+LOCATION:Las Vegas + online
+URL:https://aws.amazon.com/events/reinvent/livestream/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:aws-developer-2026@upcoming-keynotes
+SUMMARY:re:Invent · Developer keynote
+DTSTART:20261201T033000Z
+DTEND:20261201T044500Z
+DESCRIPTION:Software development\, agents\, and live demos from AWS enginee
+ ring.\nTimes interpreted as Las Vegas local time. The livestream page labe
+ ls winter times PDT\; confirm with the organizer.\nOfficial source: https:
+ //aws.amazon.com/events/reinvent/sessions/keynotes/
+LOCATION:Las Vegas + online
+URL:https://aws.amazon.com/events/reinvent/livestream/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:aws-partner-2026@upcoming-keynotes
+SUMMARY:re:Invent · Partner keynote
+DTSTART:20261202T230000Z
+DTEND:20261203T000000Z
+DESCRIPTION:AWS’s partner ecosystem and go-to-market updates.\nTimes inte
+ rpreted as Las Vegas local time. The livestream page labels winter times P
+ DT\; confirm with the organizer.\nOfficial source: https://aws.amazon.com/
+ events/reinvent/sessions/keynotes/
+LOCATION:Las Vegas + online
+URL:https://aws.amazon.com/events/reinvent/livestream/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:aws-technical-2026@upcoming-keynotes
+SUMMARY:re:Invent · Technical innovations
+DTSTART:20261203T163000Z
+DTEND:20261203T180000Z
+DESCRIPTION:A closer look at the infrastructure behind AWS.\nTimes interpre
+ ted as Las Vegas local time. The livestream page labels winter times PDT\;
+  confirm with the organizer.\nOfficial source: https://aws.amazon.com/even
+ ts/reinvent/sessions/keynotes/
+LOCATION:Las Vegas + online
+URL:https://aws.amazon.com/events/reinvent/livestream/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:fosdem-2027@upcoming-keynotes
+SUMMARY:FOSDEM 2027
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Community-led free and open source developer conference. Indivi
+ dual main-track and keynote details are pending.\nConference dates\; see t
+ he event for individual keynote times.\nOfficial source: https://fosdem.or
+ g/2027/
+LOCATION:Brussels\, Belgium
+URL:https://fosdem.org/2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:google-next-2027@upcoming-keynotes
+SUMMARY:Google Cloud Next
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270416
+DESCRIPTION:Google Cloud’s conference returns to Mandalay Bay. Keynote ti
+ mes pending.\nConference dates\; see the event for individual keynote time
+ s.\nOfficial source: https://developers.google.com/events/
+LOCATION:Las Vegas
+URL:https://developers.google.com/events/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ignite-2026@upcoming-keynotes
+SUMMARY:Ignite opening keynote
+DTSTART:20261117T180000Z
+DESCRIPTION:Microsoft’s opening keynote. Start time verified\; check the 
+ official page for replay availability.\nEnd time not announced.\nOfficial 
+ source: https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/j
+ oin-nvidia-and-microsoft-at-ignite-2026/4573012
+LOCATION:San Francisco + online
+URL:https://news.microsoft.com/events/ignite/2026/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kubecon-europe-2027@upcoming-keynotes
+SUMMARY:KubeCon + CloudNativeCon Europe
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270319
+DESCRIPTION:Cloud native community conference\, with keynote programming on
+  March 16–18. Co-located pre-event programming takes place March 15.\nMa
+ in conference dates only\; individual keynote times pending. Recordings wi
+ ll be published\; no virtual attendance component is announced.\nConferenc
+ e dates\; see the event for individual keynote times.\nOfficial source: ht
+ tps://events.linuxfoundation.org/kubecon-cloudnativecon-europe/attend/faq/
+LOCATION:Barcelona\, Spain
+URL:https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lenovo-ces-2027@upcoming-keynotes
+SUMMARY:Tech World @ CES
+DTSTART:20270107T010000Z
+DESCRIPTION:Lenovo’s hybrid AI vision takes the stage at Sphere.\nEnd tim
+ e not announced.\nEnd time not announced.\nOfficial source: https://news.l
+ enovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-e
+ ra-of-hybrid-ai/
+LOCATION:Las Vegas + online
+URL:https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-de
+ fining-the-next-era-of-hybrid-ai/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nvidia-gtc-2027@upcoming-keynotes
+SUMMARY:GTC 2027
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270319
+DESCRIPTION:NVIDIA’s AI conference. Conference dates announced\; keynote 
+ schedule pending.\nMain event page lists March 15–18\; the FAQ includes 
+ March 14. This listing follows the main page. No keynote date or time infe
+ rred.\nConference dates\; see the event for individual keynote times.\nOff
+ icial source: https://www.nvidia.com/gtc/
+LOCATION:San Jose + online
+URL:https://www.nvidia.com/gtc/
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stellantis-ces-2027@upcoming-keynotes
+SUMMARY:CES · Stellantis keynote
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:The future of connected mobility\, following the CTA State of t
+ he Industry Address.\nFollows the 8:30 AM Pacific CTA address. A separate 
+ keynote start time has not been announced.\nAll-day placeholder: keynote t
+ ime pending.\nOfficial source: https://www.ces.tech/press-releases/stellan
+ tis-to-bring-human-centered-mobility-vision-to-ces-2027-keynote
+LOCATION:Las Vegas
+URL:https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-
+ mobility-vision-to-ces-2027-keynote
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:waymo-ces-2027@upcoming-keynotes
+SUMMARY:CES · Waymo keynote
+DTSTART:20270106T023000Z
+DESCRIPTION:Waymo’s next chapter in autonomous mobility.\nUpdated officia
+ l release lists January 5 at 6:30 PM Pacific. End time not announced.\nEnd
+  time not announced.\nOfficial source: https://www.ces.tech/press-releases
+ /waymo-co-ceo-tekedra-mawakana-to-keynote-at-ces-2027
+LOCATION:Las Vegas
+URL:https://www.ces.tech/press-releases/waymo-co-ceo-tekedra-mawakana-to-ke
+ ynote-at-ces-2027
+STATUS:CONFIRMED
+DTSTAMP:20261117T185945Z
+LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

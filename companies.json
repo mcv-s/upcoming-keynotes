@@ -1,0 +1,1193 @@
+{
+  "updated": "2026-11-17",
+  "policy": "This is a non-exclusive research seed list, never an event allowlist. Include any publicly announced keynote or launch presentation from any organization, large or small, worldwide.",
+  "discoveryQueries": [
+    "upcoming keynote launch event official next month",
+    "upcoming startup product launch livestream keynote",
+    "upcoming open source developer conference keynote official",
+    "upcoming AI developer day keynote official",
+    "upcoming hardware gaming automotive robotics keynote official",
+    "upcoming tech keynote Asia Europe Americas official"
+  ],
+  "companies": [
+    {
+      "company": "1Password",
+      "mark": "1",
+      "color": "#53679b",
+      "event": "Security · official announcements",
+      "url": "https://1password.com/",
+      "sector": "Security"
+    },
+    {
+      "company": "Acer",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.acer.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Adobe",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Design & creativity · official announcements",
+      "url": "https://www.adobe.com/events.html",
+      "sector": "Design & creativity"
+    },
+    {
+      "company": "Alibaba",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "AI & cloud · official announcements",
+      "url": "https://www.alibabagroup.com/",
+      "sector": "AI & cloud"
+    },
+    {
+      "company": "Amazon",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Commerce & devices · official announcements",
+      "url": "https://www.amazon.com/",
+      "sector": "Commerce & devices"
+    },
+    {
+      "company": "AMD",
+      "mark": "↗",
+      "color": "#b53c3e",
+      "event": "Product & developer keynotes",
+      "url": "https://www.amd.com/en/corporate/events.html"
+    },
+    {
+      "company": "Anthropic",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "AI & research · official announcements",
+      "url": "https://www.anthropic.com/events",
+      "sector": "AI & research"
+    },
+    {
+      "company": "Anysphere / Cursor",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "AI & developer tools · official announcements",
+      "url": "https://cursor.com/",
+      "sector": "AI & developer tools"
+    },
+    {
+      "company": "Apple",
+      "mark": "a",
+      "color": "#505563",
+      "event": "Apple Events & WWDC",
+      "url": "https://www.apple.com/apple-events/"
+    },
+    {
+      "company": "Arduino",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.arduino.cc/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Arm",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Semiconductors · official announcements",
+      "url": "https://www.arm.com/",
+      "sector": "Semiconductors"
+    },
+    {
+      "company": "ASUS",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.asus.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Atlassian",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://www.atlassian.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "AWS",
+      "mark": "A",
+      "color": "#53679b",
+      "event": "Cloud & infrastructure · official announcements",
+      "url": "https://aws.amazon.com/events/",
+      "sector": "Cloud & infrastructure"
+    },
+    {
+      "company": "Baidu",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "AI & cloud · official announcements",
+      "url": "https://www.baidu.com/",
+      "sector": "AI & cloud"
+    },
+    {
+      "company": "Block",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Commerce & payments · official announcements",
+      "url": "https://block.xyz/",
+      "sector": "Commerce & payments"
+    },
+    {
+      "company": "Blue Origin",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Space · official announcements",
+      "url": "https://www.blueorigin.com/",
+      "sector": "Space"
+    },
+    {
+      "company": "BMW",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://www.bmwgroup.com/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "Boston Dynamics",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Robotics · official announcements",
+      "url": "https://bostondynamics.com/",
+      "sector": "Robotics"
+    },
+    {
+      "company": "Broadcom",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Semiconductors · official announcements",
+      "url": "https://www.broadcom.com/",
+      "sector": "Semiconductors"
+    },
+    {
+      "company": "Bun",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://bun.sh/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "BYD",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://www.byd.com/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "ByteDance",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "AI & media · official announcements",
+      "url": "https://www.bytedance.com/",
+      "sector": "AI & media"
+    },
+    {
+      "company": "Canonical",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://ubuntu.com/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Canva",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Design & creativity · official announcements",
+      "url": "https://www.canva.com/",
+      "sector": "Design & creativity"
+    },
+    {
+      "company": "CES / CTA",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Multi-company conferences · official announcements",
+      "url": "https://www.ces.tech/",
+      "sector": "Multi-company conferences"
+    },
+    {
+      "company": "ClickHouse",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Data & AI · official announcements",
+      "url": "https://clickhouse.com/",
+      "sector": "Data & AI"
+    },
+    {
+      "company": "Cloudflare",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Cloud & infrastructure · official announcements",
+      "url": "https://www.cloudflare.com/",
+      "sector": "Cloud & infrastructure"
+    },
+    {
+      "company": "CNCF",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://www.cncf.io/events/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Cognition",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "AI & developer tools · official announcements",
+      "url": "https://cognition.ai/",
+      "sector": "AI & developer tools"
+    },
+    {
+      "company": "Cohere",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "AI & research · official announcements",
+      "url": "https://cohere.com/",
+      "sector": "AI & research"
+    },
+    {
+      "company": "Confluent",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Data & AI · official announcements",
+      "url": "https://www.confluent.io/",
+      "sector": "Data & AI"
+    },
+    {
+      "company": "CrowdStrike",
+      "mark": "C",
+      "color": "#53679b",
+      "event": "Security · official announcements",
+      "url": "https://www.crowdstrike.com/",
+      "sector": "Security"
+    },
+    {
+      "company": "Databricks",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Data & AI · official announcements",
+      "url": "https://www.databricks.com/",
+      "sector": "Data & AI"
+    },
+    {
+      "company": "Datadog",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Cloud & infrastructure · official announcements",
+      "url": "https://www.datadoghq.com/",
+      "sector": "Cloud & infrastructure"
+    },
+    {
+      "company": "DeepSeek",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "AI & research · official announcements",
+      "url": "https://www.deepseek.com/",
+      "sector": "AI & research"
+    },
+    {
+      "company": "Dell",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.dell.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Deno",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://deno.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "Disney",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Media · official announcements",
+      "url": "https://thewaltdisneycompany.com/",
+      "sector": "Media"
+    },
+    {
+      "company": "DJI",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.dji.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Docker",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://www.docker.com/events/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "Dropbox",
+      "mark": "D",
+      "color": "#53679b",
+      "event": "Productivity · official announcements",
+      "url": "https://www.dropbox.com/",
+      "sector": "Productivity"
+    },
+    {
+      "company": "Elastic",
+      "mark": "E",
+      "color": "#53679b",
+      "event": "Data & AI · official announcements",
+      "url": "https://www.elastic.co/",
+      "sector": "Data & AI"
+    },
+    {
+      "company": "ElevenLabs",
+      "mark": "E",
+      "color": "#53679b",
+      "event": "AI & creativity · official announcements",
+      "url": "https://elevenlabs.io/",
+      "sector": "AI & creativity"
+    },
+    {
+      "company": "Epic Games",
+      "mark": "E",
+      "color": "#53679b",
+      "event": "Games & entertainment · official announcements",
+      "url": "https://www.epicgames.com/",
+      "sector": "Games & entertainment"
+    },
+    {
+      "company": "Fairphone",
+      "mark": "F",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.fairphone.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Figma",
+      "mark": "F",
+      "color": "#53679b",
+      "event": "Design & creativity · official announcements",
+      "url": "https://www.figma.com/",
+      "sector": "Design & creativity"
+    },
+    {
+      "company": "Figure",
+      "mark": "F",
+      "color": "#53679b",
+      "event": "Robotics · official announcements",
+      "url": "https://www.figure.ai/",
+      "sector": "Robotics"
+    },
+    {
+      "company": "FOSDEM",
+      "mark": "F",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://fosdem.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Framer",
+      "mark": "F",
+      "color": "#53679b",
+      "event": "Design & creativity · official announcements",
+      "url": "https://www.framer.com/",
+      "sector": "Design & creativity"
+    },
+    {
+      "company": "Framework",
+      "mark": "F",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://frame.work/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Garmin",
+      "mark": "G",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.garmin.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "GitHub",
+      "mark": "G",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://github.com/resources/events",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "GitLab",
+      "mark": "G",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://about.gitlab.com/events/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "GNOME",
+      "mark": "G",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://www.gnome.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Google",
+      "mark": "G",
+      "color": "#386fd1",
+      "event": "Google I/O",
+      "url": "https://developers.google.com/events/"
+    },
+    {
+      "company": "GSMA / MWC",
+      "mark": "G",
+      "color": "#53679b",
+      "event": "Multi-company conferences · official announcements",
+      "url": "https://www.mwcbarcelona.com/",
+      "sector": "Multi-company conferences"
+    },
+    {
+      "company": "HashiCorp",
+      "mark": "H",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://www.hashicorp.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "Honor",
+      "mark": "H",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.honor.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "HP",
+      "mark": "H",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.hp.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "HPE",
+      "mark": "H",
+      "color": "#53679b",
+      "event": "Cloud & infrastructure · official announcements",
+      "url": "https://www.hpe.com/",
+      "sector": "Cloud & infrastructure"
+    },
+    {
+      "company": "Huawei",
+      "mark": "H",
+      "color": "#53679b",
+      "event": "Hardware & connectivity · official announcements",
+      "url": "https://www.huawei.com/",
+      "sector": "Hardware & connectivity"
+    },
+    {
+      "company": "HubSpot",
+      "mark": "H",
+      "color": "#53679b",
+      "event": "Cloud & enterprise · official announcements",
+      "url": "https://www.hubspot.com/",
+      "sector": "Cloud & enterprise"
+    },
+    {
+      "company": "Hugging Face",
+      "mark": "H",
+      "color": "#53679b",
+      "event": "AI & research · official announcements",
+      "url": "https://huggingface.co/",
+      "sector": "AI & research"
+    },
+    {
+      "company": "IBM",
+      "mark": "I",
+      "color": "#53679b",
+      "event": "Cloud & enterprise · official announcements",
+      "url": "https://www.ibm.com/events",
+      "sector": "Cloud & enterprise"
+    },
+    {
+      "company": "Instagram",
+      "mark": "I",
+      "color": "#53679b",
+      "event": "Social & media · official announcements",
+      "url": "https://about.instagram.com/",
+      "sector": "Social & media"
+    },
+    {
+      "company": "Intel",
+      "mark": "i",
+      "color": "#167ab6",
+      "event": "Product & developer events",
+      "url": "https://www.intel.com/content/www/us/en/events/overview.html"
+    },
+    {
+      "company": "JetBrains",
+      "mark": "J",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://www.jetbrains.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "KDE",
+      "mark": "K",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://akademy.kde.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Lenovo",
+      "mark": "L",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://news.lenovo.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "LG",
+      "mark": "L",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.lg.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Linear",
+      "mark": "L",
+      "color": "#53679b",
+      "event": "Productivity · official announcements",
+      "url": "https://linear.app/",
+      "sector": "Productivity"
+    },
+    {
+      "company": "Linux Foundation",
+      "mark": "L",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://events.linuxfoundation.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Lucid",
+      "mark": "L",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://lucidmotors.com/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "MediaTek",
+      "mark": "M",
+      "color": "#53679b",
+      "event": "Semiconductors · official announcements",
+      "url": "https://www.mediatek.com/",
+      "sector": "Semiconductors"
+    },
+    {
+      "company": "Mercedes-Benz",
+      "mark": "M",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://group.mercedes-benz.com/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "Meta",
+      "mark": "∞",
+      "color": "#196bcb",
+      "event": "Meta Connect",
+      "url": "https://developers.meta.com/connect/"
+    },
+    {
+      "company": "Microsoft",
+      "mark": "M",
+      "color": "#5b68bb",
+      "event": "Microsoft Build",
+      "url": "https://build.microsoft.com/"
+    },
+    {
+      "company": "Midjourney",
+      "mark": "M",
+      "color": "#53679b",
+      "event": "AI & creativity · official announcements",
+      "url": "https://www.midjourney.com/",
+      "sector": "AI & creativity"
+    },
+    {
+      "company": "Mistral AI",
+      "mark": "M",
+      "color": "#53679b",
+      "event": "AI & research · official announcements",
+      "url": "https://mistral.ai/",
+      "sector": "AI & research"
+    },
+    {
+      "company": "MongoDB",
+      "mark": "M",
+      "color": "#53679b",
+      "event": "Data & AI · official announcements",
+      "url": "https://www.mongodb.com/",
+      "sector": "Data & AI"
+    },
+    {
+      "company": "Motorola",
+      "mark": "M",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.motorola.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Mozilla",
+      "mark": "M",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://www.mozilla.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Netflix",
+      "mark": "N",
+      "color": "#53679b",
+      "event": "Media · official announcements",
+      "url": "https://about.netflix.com/",
+      "sector": "Media"
+    },
+    {
+      "company": "Netlify",
+      "mark": "N",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://www.netlify.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "Nintendo",
+      "mark": "N",
+      "color": "#53679b",
+      "event": "Games & entertainment · official announcements",
+      "url": "https://www.nintendo.com/",
+      "sector": "Games & entertainment"
+    },
+    {
+      "company": "Nothing",
+      "mark": "N",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://nothing.tech/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Notion",
+      "mark": "N",
+      "color": "#53679b",
+      "event": "Productivity · official announcements",
+      "url": "https://www.notion.com/",
+      "sector": "Productivity"
+    },
+    {
+      "company": "NVIDIA",
+      "mark": "N",
+      "color": "#53679b",
+      "event": "AI & hardware · official announcements",
+      "url": "https://www.nvidia.com/gtc/",
+      "sector": "AI & hardware"
+    },
+    {
+      "company": "Okta",
+      "mark": "O",
+      "color": "#53679b",
+      "event": "Security · official announcements",
+      "url": "https://www.okta.com/",
+      "sector": "Security"
+    },
+    {
+      "company": "OnePlus",
+      "mark": "O",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.oneplus.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "OpenAI",
+      "mark": "O",
+      "color": "#177767",
+      "event": "Developer & product events",
+      "url": "https://openai.com/news/"
+    },
+    {
+      "company": "OpenJS Foundation",
+      "mark": "O",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://openjsf.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "OPPO",
+      "mark": "O",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.oppo.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "event": "Cloud & enterprise · official announcements",
+      "url": "https://www.oracle.com/events/",
+      "sector": "Cloud & enterprise"
+    },
+    {
+      "company": "Palo Alto Networks",
+      "mark": "P",
+      "color": "#53679b",
+      "event": "Security · official announcements",
+      "url": "https://www.paloaltonetworks.com/",
+      "sector": "Security"
+    },
+    {
+      "company": "Panasonic",
+      "mark": "P",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.panasonic.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "PayPal",
+      "mark": "P",
+      "color": "#53679b",
+      "event": "Commerce & payments · official announcements",
+      "url": "https://www.paypal.com/",
+      "sector": "Commerce & payments"
+    },
+    {
+      "company": "Perplexity",
+      "mark": "P",
+      "color": "#53679b",
+      "event": "AI & research · official announcements",
+      "url": "https://www.perplexity.ai/",
+      "sector": "AI & research"
+    },
+    {
+      "company": "Python Software Foundation",
+      "mark": "P",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://www.python.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Qualcomm",
+      "mark": "Q",
+      "color": "#53679b",
+      "event": "Semiconductors · official announcements",
+      "url": "https://www.qualcomm.com/",
+      "sector": "Semiconductors"
+    },
+    {
+      "company": "Raspberry Pi",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.raspberrypi.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Red Hat",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://www.redhat.com/en/events",
+      "sector": "Open source"
+    },
+    {
+      "company": "Redis",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Data & AI · official announcements",
+      "url": "https://redis.io/",
+      "sector": "Data & AI"
+    },
+    {
+      "company": "Replit",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://replit.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "Rivian",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://rivian.com/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "Roblox",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Games & entertainment · official announcements",
+      "url": "https://corp.roblox.com/",
+      "sector": "Games & entertainment"
+    },
+    {
+      "company": "Rocket Lab",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Space · official announcements",
+      "url": "https://www.rocketlabcorp.com/",
+      "sector": "Space"
+    },
+    {
+      "company": "RSAC",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Security conferences · official announcements",
+      "url": "https://www.rsaconference.com/",
+      "sector": "Security conferences"
+    },
+    {
+      "company": "Runway",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "AI & creativity · official announcements",
+      "url": "https://runwayml.com/",
+      "sector": "AI & creativity"
+    },
+    {
+      "company": "Rust Foundation",
+      "mark": "R",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://rustfoundation.org/",
+      "sector": "Open source"
+    },
+    {
+      "company": "Salesforce",
+      "mark": "sf",
+      "color": "#167fa8",
+      "event": "Dreamforce & company events",
+      "url": "https://www.salesforce.com/events/"
+    },
+    {
+      "company": "Samsung",
+      "mark": "S",
+      "color": "#2953b8",
+      "event": "Galaxy Unpacked",
+      "url": "https://www.samsung.com/us/unpacked/"
+    },
+    {
+      "company": "SAP",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Cloud & enterprise · official announcements",
+      "url": "https://www.sap.com/events.html",
+      "sector": "Cloud & enterprise"
+    },
+    {
+      "company": "ServiceNow",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Cloud & enterprise · official announcements",
+      "url": "https://www.servicenow.com/",
+      "sector": "Cloud & enterprise"
+    },
+    {
+      "company": "Shopify",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Commerce & payments · official announcements",
+      "url": "https://www.shopify.com/",
+      "sector": "Commerce & payments"
+    },
+    {
+      "company": "Slack",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Productivity · official announcements",
+      "url": "https://slack.com/",
+      "sector": "Productivity"
+    },
+    {
+      "company": "Slush",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Startup conferences · official announcements",
+      "url": "https://slush.org/",
+      "sector": "Startup conferences"
+    },
+    {
+      "company": "Snowflake",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Data & AI · official announcements",
+      "url": "https://www.snowflake.com/",
+      "sector": "Data & AI"
+    },
+    {
+      "company": "Sony",
+      "mark": "S",
+      "color": "#505563",
+      "event": "Product announcements",
+      "url": "https://www.sony.com/en/SonyInfo/News/Press/"
+    },
+    {
+      "company": "SpaceX",
+      "mark": "X",
+      "color": "#40516e",
+      "event": "Company & technology updates",
+      "url": "https://www.spacex.com/updates/"
+    },
+    {
+      "company": "Spotify",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Media · official announcements",
+      "url": "https://newsroom.spotify.com/",
+      "sector": "Media"
+    },
+    {
+      "company": "Stability AI",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "AI & creativity · official announcements",
+      "url": "https://stability.ai/",
+      "sector": "AI & creativity"
+    },
+    {
+      "company": "Stellantis",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://www.stellantis.com/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "Stripe",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Commerce & payments · official announcements",
+      "url": "https://stripe.com/",
+      "sector": "Commerce & payments"
+    },
+    {
+      "company": "Supabase",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://supabase.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "SUSE",
+      "mark": "S",
+      "color": "#53679b",
+      "event": "Open source · official announcements",
+      "url": "https://www.suse.com/",
+      "sector": "Open source"
+    },
+    {
+      "company": "TechCrunch",
+      "mark": "T",
+      "color": "#53679b",
+      "event": "Startup conferences · official announcements",
+      "url": "https://techcrunch.com/",
+      "sector": "Startup conferences"
+    },
+    {
+      "company": "Tencent",
+      "mark": "T",
+      "color": "#53679b",
+      "event": "AI & cloud · official announcements",
+      "url": "https://www.tencent.com/",
+      "sector": "AI & cloud"
+    },
+    {
+      "company": "Tesla",
+      "mark": "T",
+      "color": "#c83543",
+      "event": "Company & product presentations",
+      "url": "https://www.tesla.com/events"
+    },
+    {
+      "company": "Toyota",
+      "mark": "T",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://global.toyota/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "TSMC",
+      "mark": "T",
+      "color": "#53679b",
+      "event": "Semiconductors · official announcements",
+      "url": "https://www.tsmc.com/",
+      "sector": "Semiconductors"
+    },
+    {
+      "company": "Twilio",
+      "mark": "T",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://www.twilio.com/",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "Unity",
+      "mark": "U",
+      "color": "#53679b",
+      "event": "Games & entertainment · official announcements",
+      "url": "https://unity.com/",
+      "sector": "Games & entertainment"
+    },
+    {
+      "company": "Valve",
+      "mark": "V",
+      "color": "#53679b",
+      "event": "Games & entertainment · official announcements",
+      "url": "https://www.valvesoftware.com/",
+      "sector": "Games & entertainment"
+    },
+    {
+      "company": "Vercel",
+      "mark": "V",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://vercel.com/events",
+      "sector": "Developer tools"
+    },
+    {
+      "company": "vidIQ",
+      "mark": "v",
+      "color": "#3374c3",
+      "event": "Creator tools · official announcements",
+      "url": "https://vidiq.com/",
+      "sector": "Creator tools"
+    },
+    {
+      "company": "vivo",
+      "mark": "v",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.vivo.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "Waymo",
+      "mark": "W",
+      "color": "#53679b",
+      "event": "Mobility · official announcements",
+      "url": "https://waymo.com/",
+      "sector": "Mobility"
+    },
+    {
+      "company": "Web Summit",
+      "mark": "W",
+      "color": "#53679b",
+      "event": "Multi-company conferences · official announcements",
+      "url": "https://websummit.com/",
+      "sector": "Multi-company conferences"
+    },
+    {
+      "company": "Webflow",
+      "mark": "W",
+      "color": "#53679b",
+      "event": "Design & creativity · official announcements",
+      "url": "https://webflow.com/",
+      "sector": "Design & creativity"
+    },
+    {
+      "company": "Wiz",
+      "mark": "W",
+      "color": "#53679b",
+      "event": "Security · official announcements",
+      "url": "https://www.wiz.io/",
+      "sector": "Security"
+    },
+    {
+      "company": "Workday",
+      "mark": "W",
+      "color": "#53679b",
+      "event": "Cloud & enterprise · official announcements",
+      "url": "https://www.workday.com/",
+      "sector": "Cloud & enterprise"
+    },
+    {
+      "company": "X",
+      "mark": "X",
+      "color": "#53679b",
+      "event": "Social & media · official announcements",
+      "url": "https://x.com/",
+      "sector": "Social & media"
+    },
+    {
+      "company": "xAI",
+      "mark": "x",
+      "color": "#505563",
+      "event": "Model & product announcements",
+      "url": "https://x.ai/news"
+    },
+    {
+      "company": "Xbox",
+      "mark": "X",
+      "color": "#53679b",
+      "event": "Games & entertainment · official announcements",
+      "url": "https://www.xbox.com/",
+      "sector": "Games & entertainment"
+    },
+    {
+      "company": "Xiaomi",
+      "mark": "X",
+      "color": "#53679b",
+      "event": "Hardware · official announcements",
+      "url": "https://www.mi.com/",
+      "sector": "Hardware"
+    },
+    {
+      "company": "YouTube",
+      "mark": "Y",
+      "color": "#53679b",
+      "event": "Social & media · official announcements",
+      "url": "https://blog.youtube/",
+      "sector": "Social & media"
+    },
+    {
+      "company": "Zoom",
+      "mark": "Z",
+      "color": "#53679b",
+      "event": "Productivity · official announcements",
+      "url": "https://www.zoom.com/",
+      "sector": "Productivity"
+    }
+  ]
+}

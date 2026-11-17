@@ -1,0 +1,150 @@
+1Password
+Acer
+Adobe
+Alibaba
+Amazon
+AMD
+Anthropic
+Anysphere / Cursor
+Apple
+Arduino
+Arm
+ASUS
+Atlassian
+AWS
+Baidu
+Block
+Blue Origin
+BMW
+Boston Dynamics
+Broadcom
+Bun
+BYD
+ByteDance
+Canonical
+Canva
+CES / CTA
+ClickHouse
+Cloudflare
+CNCF
+Cognition
+Cohere
+Confluent
+CrowdStrike
+Databricks
+Datadog
+DeepSeek
+Dell
+Deno
+Disney
+DJI
+Docker
+Dropbox
+Elastic
+ElevenLabs
+Epic Games
+Fairphone
+Figma
+Figure
+FOSDEM
+Framer
+Framework
+Garmin
+GitHub
+GitLab
+GNOME
+Google
+GSMA / MWC
+HashiCorp
+Honor
+HP
+HPE
+Huawei
+HubSpot
+Hugging Face
+IBM
+Instagram
+Intel
+JetBrains
+KDE
+Lenovo
+LG
+Linear
+Linux Foundation
+Lucid
+MediaTek
+Mercedes-Benz
+Meta
+Microsoft
+Midjourney
+Mistral AI
+MongoDB
+Motorola
+Mozilla
+Netflix
+Netlify
+Nintendo
+Nothing
+Notion
+NVIDIA
+Okta
+OnePlus
+OpenAI
+OpenJS Foundation
+OPPO
+Oracle
+Palo Alto Networks
+Panasonic
+PayPal
+Perplexity
+Python Software Foundation
+Qualcomm
+Raspberry Pi
+Red Hat
+Redis
+Replit
+Rivian
+Roblox
+Rocket Lab
+RSAC
+Runway
+Rust Foundation
+Salesforce
+Samsung
+SAP
+ServiceNow
+Shopify
+Slack
+Slush
+Snowflake
+Sony
+SpaceX
+Spotify
+Stability AI
+Stellantis
+Stripe
+Supabase
+SUSE
+TechCrunch
+Tencent
+Tesla
+Toyota
+TSMC
+Twilio
+Unity
+Valve
+Vercel
+vidIQ
+vivo
+Waymo
+Web Summit
+Webflow
+Wiz
+Wordpress
+Workday
+X
+xAI
+Xbox
+Xiaomi
+YouTube
+Zoom

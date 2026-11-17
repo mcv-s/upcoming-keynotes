@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f9">
+  <meta name="description" content="A quieter way to keep up with the next big thing. Track public keynotes, product announcements, and conferences from companies and communities of every size.">
+  <title>Upcoming — The keynote calendar</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#schedule">Skip to events</a>
+  <header class="topbar shell">
+    <a class="wordmark" href="./" aria-label="Upcoming home"><span class="brand-icon">u<i class="ph-bold ph-arrow-up-right brand-arrow" aria-hidden="true"></i></span>upcoming<span class="wordmark-dot">.</span></a>
+    <nav aria-label="Main navigation"><a class="nav-current" href="#schedule">Calendar</a><a href="#watchlist">On our radar</a><a href="https://github.com/mcv-s/upcoming-keynotes" target="_blank" rel="noopener noreferrer">GitHub <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></nav>
+  </header>
+  <main class="shell">
+    <section class="intro" aria-labelledby="headline">
+      <div class="eyebrow"><span class="green-dot"></span> THE TECH KEYNOTE CALENDAR</div>
+      <h1 id="headline">Big ideas.<br>Worth making time for<span class="blue-dot">.</span></h1>
+      <div class="intro-bottom"><p>Every big reveal, a little easier to follow.<br>Keynotes, product reveals, and community stages — big and small.</p><div class="edition">INDEPENDENTLY CURATED<span id="checked-date">Checking event data…</span></div></div>
+    </section>
+    <section id="subscription" class="subscription" aria-labelledby="subscription-title">
+      <div><h2 id="subscription-title">One subscription. Every new keynote.</h2><p>Add the calendar URL in your calendar app’s “Subscribe” or “From URL” option. Updates appear when your app refreshes the feed.</p></div>
+      <div class="subscription-controls"><label for="calendar-url">Calendar subscription URL</label><div class="url-row"><input id="calendar-url" type="url" readonly><button id="copy-calendar" class="button secondary"><i class="ph ph-copy" aria-hidden="true"></i> Copy URL</button></div><p><a id="open-calendar" href="#">Open in calendar app <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a> <span aria-hidden="true">·</span> <a id="feed-file" href="./keynotes.ics">View ICS file</a></p><span id="copy-status" role="status" aria-live="polite"></span></div>
+    </section>
+    <section id="featured" aria-label="Next keynote"></section>
+    <section id="schedule" class="schedule" aria-labelledby="schedule-title">
+      <div class="section-heading"><div><span class="eyebrow">MAKE ROOM IN YOUR CALENDAR</span><h2 id="schedule-title">Coming up <span id="event-count" class="count"></span></h2></div><div class="calendar-actions"><a id="subscribe" class="button primary" href="#subscription"><i class="ph ph-calendar-plus" aria-hidden="true"></i> Subscribe to calendar</a><button id="export" class="button secondary" disabled><i class="ph ph-download-simple" aria-hidden="true"></i> Download selection</button></div></div>
+      <div class="toolbar">
+        <label class="search"><i class="ph ph-magnifying-glass" aria-hidden="true"></i><input id="search" type="search" placeholder="Search companies, events, topics…" aria-label="Search events"></label>
+        <label class="select-wrap"><span class="sr-only">Company</span><select id="company"><option value="all">All companies</option></select></label>
+        <label class="select-wrap"><span class="sr-only">Display timezone</span><select id="timezone"><option value="local">Your time zone</option><option value="America/New_York">Eastern time</option><option value="America/Los_Angeles">Pacific time</option><option value="UTC">UTC</option></select></label>
+      </div>
+      <div class="filter-line"><div class="tabs" role="group" aria-label="Filter events"><button class="tab active" data-filter="all" aria-pressed="true">All events</button><button class="tab" data-filter="keynote" aria-pressed="false">Keynotes</button><button class="tab" data-filter="conference" aria-pressed="false">Conferences</button><button class="tab" data-filter="saved" aria-pressed="false">Saved <span id="saved-count">0</span></button></div><span id="zone-label" class="muted"></span></div>
+      <p id="stale-notice" class="notice" hidden></p>
+      <p id="result-message" class="sr-only" role="status" aria-live="polite"></p>
+      <div id="events"><p class="empty">Loading the calendar…</p></div>
+      <noscript><p class="notice">JavaScript is required to display and filter the calendar. Browse the official company sources below or enable JavaScript.</p></noscript>
+      <p class="schedule-note"><span class="green-dot"></span> Official sources. No rumored dates. <span>Conference dates do not imply a confirmed keynote time.</span></p>
+    </section>
+    <section id="watchlist" class="watchlist" aria-labelledby="radar-title"><div class="section-heading"><div><span class="eyebrow">THE NEXT ANNOUNCEMENT STARTS HERE</span><h2 id="radar-title">On our radar</h2></div><span class="muted"><span id="watchlist-count"></span> research sources</span></div><p class="radar-description">A research starting point, not a limit. We also discover keynotes from smaller companies, open source communities, and organizers beyond this list.</p><div id="radar" class="radar-grid"></div></section>
+    <section class="about"><h2>A little less noise.<br>A little more heads-up.</h2><div><p>Upcoming is an independent calendar of public keynotes, product announcements, and keynote-bearing conferences from organizations of every size. Every dated listing links to an official source. New events and schedule changes are researched weekly.</p><p>Dates can change. Check the organizer before making plans. Subscribe by URL to receive feed updates; downloaded calendar files are snapshots. Saved stars stay in this browser.</p></div></section>
+  </main>
+  <footer class="shell"><a class="wordmark" href="./">upcoming<span class="wordmark-dot">.</span></a><span>A front-row seat to what’s next.</span><a href="https://github.com/mcv-s/upcoming-keynotes" target="_blank" rel="noopener noreferrer">View source <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></footer>
+</body>
+</html>

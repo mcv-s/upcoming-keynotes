@@ -1,0 +1,14 @@
+{
+  "calendarName": "Upcoming — keynotes & announcements",
+  "calendarDescription": "Keynotes, product announcements, and keynote-bearing conferences from organizations of every size. Dates verified against official sources.",
+  "publishedUrl": "https://mcv-s.github.io/upcoming-keynotes/",
+  "calendarFile": "keynotes.ics",
+  "uidDomain": "upcoming-keynotes",
+  "refreshHours": 12,
+  "staleAfterDays": 14,
+  "maintenance": {
+    "schedule": "Sundays at 9:00 AM America/New_York",
+    "scope": "Worldwide public keynotes, launch presentations, developer announcements, and conferences with keynote programming. Include companies and communities of any size, even when absent from the research watchlist.",
+    "lookAheadMonths": 12
+  }
+}
