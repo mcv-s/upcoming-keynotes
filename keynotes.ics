@@ -26,6 +26,22 @@ LAST-MODIFIED:20261117T185945Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:atlassian-team-2027@upcoming-keynotes
+SUMMARY:Team ’27
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270423
+DESCRIPTION:Atlassian’s annual collaboration and product conference at Mo
+ scone Center.\nConference dates confirmed\; individual keynote schedule pe
+ nding.\nConference dates\; see the event for individual keynote times.\nOf
+ ficial source: https://events.atlassian.com/team
+LOCATION:San Francisco + select content online
+URL:https://events.atlassian.com/team
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:aws-ceo-2026@upcoming-keynotes
 SUMMARY:re:Invent · CEO keynote
 DTSTART:20261201T163000Z
@@ -106,6 +122,75 @@ LAST-MODIFIED:20261117T185945Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:databricks-summit-2027@upcoming-keynotes
+SUMMARY:Data + AI Summit
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270625
+DESCRIPTION:Databricks’ data and AI conference. Individual keynote times 
+ remain pending.\nConference dates are confirmed. Session pages without a d
+ ated 2027 slot are not used to infer keynote start times.\nConference date
+ s\; see the event for individual keynote times.\nOfficial source: https://
+ www.databricks.com/dataaisummit
+LOCATION:San Francisco + virtual
+URL:https://www.databricks.com/dataaisummit
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:espc-amsterdam-2026@upcoming-keynotes
+SUMMARY:ESPC Microsoft 365 & AI
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261204
+DESCRIPTION:European Microsoft community conference with an opening keynote
+  from Jeff Teper.\nConference date range only. Do not infer the opening ke
+ ynote’s day or time from the start of the conference.\nConference dates\
+ ; see the event for individual keynote times.\nOfficial source: https://ww
+ w.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amste
+ rdam-bringing-microsoft-and-the-community-together/
+LOCATION:Amsterdam\, Netherlands
+URL:https://espc.tech/conference/espc-2026/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:esri-devtech-2027@upcoming-keynotes
+SUMMARY:Esri Developer & Technology Summit
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270313
+DESCRIPTION:Esri’s developer and geospatial technology conference at Palm
+  Springs Convention Center.\nConference dates announced. Individual plenar
+ y and keynote times pending.\nConference dates\; see the event for individ
+ ual keynote times.\nOfficial source: https://www.esri.com/en-us/about/even
+ ts/devtech/overview
+LOCATION:Palm Springs\, California
+URL:https://www.esri.com/en-us/about/events/devtech/overview
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:figma-config-2027@upcoming-keynotes
+SUMMARY:Config 2027
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270528
+DESCRIPTION:Figma’s product-building conference\, featuring keynotes\, de
+ sign tools\, and product updates.\nConference dates announced. Individual 
+ keynote dates\, times\, and speakers pending.\nConference dates\; see the 
+ event for individual keynote times.\nOfficial source: https://config.figma
+ .com/
+LOCATION:San Francisco + virtual
+URL:https://config.figma.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:fosdem-2027@upcoming-keynotes
 SUMMARY:FOSDEM 2027
 DTSTART;VALUE=DATE:20270130
@@ -134,6 +219,23 @@ URL:https://developers.google.com/events/
 STATUS:CONFIRMED
 DTSTAMP:20261117T185945Z
 LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ibm-think-2027@upcoming-keynotes
+SUMMARY:Think 2027
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270611
+DESCRIPTION:IBM’s enterprise technology conference. 2027 conference dates
+  announced.\n2026 keynote replays on the page are not the 2027 agenda. Ind
+ ividual 2027 keynote details pending.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.ibm.com/events/t
+ hink
+LOCATION:Boston\, Massachusetts
+URL:https://www.ibm.com/events/think
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -186,6 +288,23 @@ LAST-MODIFIED:20261117T185945Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:mwc-barcelona-2027@upcoming-keynotes
+SUMMARY:MWC Barcelona
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270305
+DESCRIPTION:The global connectivity conference\, with announced keynote spe
+ akers and industry programming.\nConference dates announced. Individual ke
+ ynote dates and times must be checked against the forthcoming agenda.\nCon
+ ference dates\; see the event for individual keynote times.\nOfficial sour
+ ce: https://www.mwcbarcelona.com/
+LOCATION:Barcelona\, Spain
+URL:https://www.mwcbarcelona.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:nvidia-gtc-2027@upcoming-keynotes
 SUMMARY:GTC 2027
 DTSTART;VALUE=DATE:20270315
@@ -200,6 +319,155 @@ URL:https://www.nvidia.com/gtc/
 STATUS:CONFIRMED
 DTSTAMP:20261117T185945Z
 LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nvidia-gtc-dc-2026@upcoming-keynotes
+SUMMARY:GTC Washington\, D.C. keynote
+DTSTART:20261201T190000Z
+DTEND:20261201T210000Z
+DESCRIPTION:NVIDIA’s Washington\, D.C. keynote on AI and accelerated comp
+ uting.\nOrganizer lists December 1\, 2–4 PM Eastern. Speaker details sho
+ uld be reconfirmed on the official page.\nOfficial source: https://www.nvi
+ dia.com/gtc/dc/keynote/
+LOCATION:Washington\, D.C. + online
+URL:https://www.nvidia.com/gtc/dc/keynote/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oss-europe-2027@upcoming-keynotes
+SUMMARY:Open Source Summit Europe
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270923
+DESCRIPTION:The Linux Foundation’s European open source conference.\nConf
+ erence dates announced\; keynote lineup and times pending.\nConference dat
+ es\; see the event for individual keynote times.\nOfficial source: https:/
+ /events.linuxfoundation.org/open-source-summit-europe-2027/
+LOCATION:Glasgow\, Scotland
+URL:https://events.linuxfoundation.org/open-source-summit-europe-2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oss-north-america-2027@upcoming-keynotes
+SUMMARY:Open Source Summit North America
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270520
+DESCRIPTION:The Linux Foundation’s North American open source conference.
+ \nConference dates announced\; keynote lineup and times pending.\nConferen
+ ce dates\; see the event for individual keynote times.\nOfficial source: h
+ ttps://events.linuxfoundation.org/open-source-summit-north-america/
+LOCATION:Vancouver\, Canada
+URL:https://events.linuxfoundation.org/open-source-summit-north-america/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:redhat-summit-2027@upcoming-keynotes
+SUMMARY:Red Hat Summit
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270528
+DESCRIPTION:Red Hat’s enterprise open source conference at the Thomas M. 
+ Menino Convention & Exhibition Center.\nIn-person event\; highlights avail
+ able after the conference. Individual keynote schedule pending.\nConferenc
+ e dates\; see the event for individual keynote times.\nOfficial source: ht
+ tps://www.redhat.com/en/summit/about/faq
+LOCATION:Boston\, Massachusetts
+URL:https://www.redhat.com/en/summit/about/faq
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:salesforce-nyc-keynote-2026@upcoming-keynotes
+SUMMARY:World Tour New York · Main keynote
+DTSTART:20261203T150000Z
+DTEND:20261203T160000Z
+DESCRIPTION:Product announcements and customer stories from Salesforce’s 
+ New York event.\nOfficial source: https://www.salesforce.com/events/world-
+ tour/nyc/
+LOCATION:New York City + Salesforce+
+URL:https://www.salesforce.com/events/world-tour/nyc/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:salesforce-tdx-2027@upcoming-keynotes
+SUMMARY:TDX 2027
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270312
+DESCRIPTION:Salesforce’s conference for developers\, admins\, architects\
+ , and IT leaders.\nDates verified on Salesforce’s events directory and s
+ ave-the-date page. The general /tdx/ page still contains earlier-edition m
+ aterial\; individual keynote times pending.\nConference dates\; see the ev
+ ent for individual keynote times.\nOfficial source: https://www.salesforce
+ .com/events/
+LOCATION:San Francisco + Salesforce+
+URL:https://www.salesforce.com/tdx/form-save-date-tdx27/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:salesforce-tokyo-keynote-2026@upcoming-keynotes
+SUMMARY:World Tour Tokyo · Opening keynote
+DTSTART:20261118T010000Z
+DTEND:20261118T023000Z
+DESCRIPTION:Salesforce’s Tokyo keynote on AI\, CRM\, and product demonstr
+ ations.\nOfficial Japanese agenda lists November 18\, 10:00–11:30 AM Jap
+ an Standard Time. Main-room access requires an invitation\; Salesforce+ on
+ line viewing is available.\nOfficial source: https://www.salesforce.com/jp
+ /events/world-tour/tokyo/
+LOCATION:Tokyo + Salesforce+
+URL:https://www.salesforce.com/jp/events/world-tour/tokyo/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:servicenow-knowledge-2027@upcoming-keynotes
+SUMMARY:Knowledge 2027
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270507
+DESCRIPTION:ServiceNow’s annual event\, with keynote programming\, labs\,
+  and CreatorCon.\nConference dates confirmed. Do not confuse the 2026 on-d
+ emand keynotes with the forthcoming 2027 schedule.\nConference dates\; see
+  the event for individual keynote times.\nOfficial source: https://www.ser
+ vicenow.com/events.html
+LOCATION:Las Vegas
+URL:https://www.servicenow.com/events/knowledge.html
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:snowflake-summit-2027@upcoming-keynotes
+SUMMARY:Snowflake Summit 27
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270611
+DESCRIPTION:Snowflake’s data and AI conference at Moscone Center.\n2027 d
+ ates announced\; keynote schedule pending. Featured speakers and replays c
+ urrently shown on the page are from 2026.\nConference dates\; see the even
+ t for individual keynote times.\nOfficial source: https://www.snowflake.co
+ m/en/events/summit/
+LOCATION:San Francisco
+URL:https://www.snowflake.com/en/events/summit/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -218,6 +486,71 @@ URL:https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-
 STATUS:CONFIRMED
 DTSTAMP:20261117T185945Z
 LAST-MODIFIED:20261117T185945Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stripe-developer-2027@upcoming-keynotes
+SUMMARY:Sessions · Developer keynote
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+DESCRIPTION:Stripe’s developer keynote. Exact time and speakers pending.\
+ nDate confirmed in the organizer’s agenda at a glance. All-day calendar 
+ placeholder until the keynote time is published.\nAll-day placeholder: key
+ note time pending.\nOfficial source: https://stripesessions.com/
+LOCATION:San Francisco
+URL:https://stripesessions.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stripe-opening-2027@upcoming-keynotes
+SUMMARY:Sessions · Opening keynote
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+DESCRIPTION:The opening keynote at Stripe Sessions. Exact time and speakers
+  pending.\nDate confirmed in the organizer’s agenda at a glance. All-day
+  calendar placeholder until the keynote time is published.\nAll-day placeh
+ older: keynote time pending.\nOfficial source: https://stripesessions.com/
+LOCATION:San Francisco
+URL:https://stripesessions.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stripe-product-2027@upcoming-keynotes
+SUMMARY:Sessions · Product keynote
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+DESCRIPTION:Stripe’s product keynote. Exact time and speakers pending.\nD
+ ate confirmed in the organizer’s agenda at a glance. All-day calendar pl
+ aceholder until the keynote time is published.\nAll-day placeholder: keyno
+ te time pending.\nOfficial source: https://stripesessions.com/
+LOCATION:San Francisco
+URL:https://stripesessions.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stripe-thursday-2027@upcoming-keynotes
+SUMMARY:Sessions · Thursday keynote
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DESCRIPTION:The Thursday keynote at Stripe Sessions. Exact time and speaker
+ s pending.\nDate confirmed in the organizer’s agenda at a glance. All-da
+ y calendar placeholder until the keynote time is published.\nAll-day place
+ holder: keynote time pending.\nOfficial source: https://stripesessions.com
+ /
+LOCATION:San Francisco
+URL:https://stripesessions.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T191111Z
+LAST-MODIFIED:20261117T191111Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT

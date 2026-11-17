@@ -13,6 +13,8 @@ ASUS
 Atlassian
 AWS
 Baidu
+Bitwarden
+Blackrock
 Block
 Blue Origin
 BMW
@@ -43,6 +45,8 @@ Dropbox
 Elastic
 ElevenLabs
 Epic Games
+ESPC
+Esri
 Fairphone
 Figma
 Figure

@@ -109,7 +109,7 @@
       "mark": "A",
       "color": "#53679b",
       "event": "Developer tools · official announcements",
-      "url": "https://www.atlassian.com/",
+      "url": "https://events.atlassian.com/team",
       "sector": "Developer tools"
     },
     {
@@ -127,6 +127,22 @@
       "event": "AI & cloud · official announcements",
       "url": "https://www.baidu.com/",
       "sector": "AI & cloud"
+    },
+    {
+      "company": "Bitwarden",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Security · official announcements",
+      "url": "https://bitwarden.com/events/",
+      "sector": "Security"
+    },
+    {
+      "company": "Blackrock",
+      "mark": "B",
+      "color": "#53679b",
+      "event": "Finance & investing · official announcements",
+      "url": "https://ir.blackrock.com/news-and-events/events-and-presentations/default.aspx",
+      "sector": "Finance & investing"
     },
     {
       "company": "Block",
@@ -277,7 +293,7 @@
       "mark": "D",
       "color": "#53679b",
       "event": "Data & AI · official announcements",
-      "url": "https://www.databricks.com/",
+      "url": "https://www.databricks.com/dataaisummit",
       "sector": "Data & AI"
     },
     {
@@ -369,6 +385,22 @@
       "sector": "Games & entertainment"
     },
     {
+      "company": "ESPC",
+      "mark": "E",
+      "color": "#53679b",
+      "event": "Community conferences · official announcements",
+      "url": "https://espc.tech/conference/espc-2026/",
+      "sector": "Community conferences"
+    },
+    {
+      "company": "Esri",
+      "mark": "E",
+      "color": "#53679b",
+      "event": "Developer tools · official announcements",
+      "url": "https://www.esri.com/en-us/about/events/devtech/overview",
+      "sector": "Developer tools"
+    },
+    {
       "company": "Fairphone",
       "mark": "F",
       "color": "#53679b",
@@ -381,7 +413,7 @@
       "mark": "F",
       "color": "#53679b",
       "event": "Design & creativity · official announcements",
-      "url": "https://www.figma.com/",
+      "url": "https://config.figma.com/",
       "sector": "Design & creativity"
     },
     {
@@ -524,7 +556,7 @@
       "mark": "I",
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
-      "url": "https://www.ibm.com/events",
+      "url": "https://www.ibm.com/events/think",
       "sector": "Cloud & enterprise"
     },
     {
@@ -824,7 +856,7 @@
       "mark": "R",
       "color": "#53679b",
       "event": "Open source · official announcements",
-      "url": "https://www.redhat.com/en/events",
+      "url": "https://www.redhat.com/en/summit/about/faq",
       "sector": "Open source"
     },
     {
@@ -918,7 +950,7 @@
       "mark": "S",
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
-      "url": "https://www.servicenow.com/",
+      "url": "https://www.servicenow.com/events.html",
       "sector": "Cloud & enterprise"
     },
     {
@@ -950,7 +982,7 @@
       "mark": "S",
       "color": "#53679b",
       "event": "Data & AI · official announcements",
-      "url": "https://www.snowflake.com/",
+      "url": "https://www.snowflake.com/en/events/summit/",
       "sector": "Data & AI"
     },
     {
@@ -996,7 +1028,7 @@
       "mark": "S",
       "color": "#53679b",
       "event": "Commerce & payments · official announcements",
-      "url": "https://stripe.com/",
+      "url": "https://stripesessions.com/",
       "sector": "Commerce & payments"
     },
     {
