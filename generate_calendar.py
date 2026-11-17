@@ -54,7 +54,7 @@ def payload(event, config):
     disclaimer = ('Conference dates; see the event for individual keynote times.' if event['kind'] == 'conference' else
                   'All-day placeholder: keynote time pending.' if not event.get('start') else
                   'End time not announced.' if not event.get('end') else '')
-    description = '\n'.join(filter(None, [event['description'], event.get('note'), disclaimer, 'Official source: ' + event.get('source', event['url'])]))
+    description = '\n'.join(filter(None, [event['description'], event.get('note'), 'Attendance: ' + {'in_person':'In person', 'online':'Online', 'hybrid':'In person and online', 'unknown':'Format pending'}.get(event.get('attendance', 'unknown'), 'Format pending'), event.get('attendanceNotes'), disclaimer, 'Official source: ' + event.get('source', event['url'])]))
     lines.extend(['DESCRIPTION:' + text(description), 'LOCATION:' + text(event['location']), 'URL:' + event['url'],
                   'STATUS:' + event.get('status', 'CONFIRMED')])
     return lines

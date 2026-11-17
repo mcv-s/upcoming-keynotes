@@ -45,31 +45,77 @@ function sortDate(event) {
 function when(event) {
   if (event.start) return format(event.start, {month:'short', day:'numeric'}) + ' · ' + format(event.start, {hour:'numeric', minute:'2-digit', timeZoneName:'short'});
   const start = dateOnly(event.date, {month:'short', day:'numeric'});
-  return event.endDate ? `${start}–${dateOnly(event.endDate, {day:'numeric'})}` : start;
+  return event.endDate ? `${start}–${dateOnly(event.endDate, event.date.slice(0,7) === event.endDate.slice(0,7) ? {day:'numeric'} : {month:'short', day:'numeric'})}` : start;
+}
+function brandCandidates(item) {
+  const profile = companiesData?.companies.find(company => company.company === item.company);
+  const name = item.iconName ?? profile?.iconName;
+  return typeof name === 'string' && /^[a-z0-9-]+$/.test(name) ? [name] : [];
 }
 function mark(item) {
-  return `<span class="company-mark ${item.company === 'AWS' ? 'aws' : ''}" style="--company-color:${escapeHTML(item.color)}" aria-hidden="true">${escapeHTML(item.mark)}</span>`;
+  return `<span class="company-mark ${item.company === 'AWS' ? 'aws' : ''}" style="--company-color:${escapeHTML(item.color)}" aria-hidden="true"><i class="brand-logo ph" data-brand-candidates="${escapeHTML(brandCandidates(item).join(','))}"></i><span class="brand-fallback">${escapeHTML(item.mark)}</span></span>`;
 }
+const brandFontLoads = new Map();
+function resolveBrandIcons() {
+  document.querySelectorAll('[data-brand-candidates]').forEach(element => {
+    const candidates = element.dataset.brandCandidates.split(',');
+    let found = false;
+    for (const candidate of candidates) {
+      element.className = `brand-logo ph ph-${candidate}`;
+      const glyph = getComputedStyle(element, '::before').content;
+      if (glyph && !['none','normal','""',"''"].includes(glyph)) { found = true; break; }
+    }
+    if (!found) {
+      element.parentElement.classList.remove('has-brand');
+      element.className = 'brand-logo ph';
+      return;
+    }
+    // A CSS rule alone isn't enough: keep the letter if the font fails to load.
+    const glyph = getComputedStyle(element, '::before').content.replace(/^["']|["']$/g, '');
+    if (!brandFontLoads.has(glyph)) {
+      brandFontLoads.set(glyph, document.fonts.load('23px "Phosphor"', glyph).then(fonts => fonts.length > 0).catch(() => false));
+    }
+    brandFontLoads.get(glyph).then(loaded => {
+      if (element.isConnected) element.parentElement.classList.toggle('has-brand', loaded);
+    });
+  });
+}
+window.addEventListener('load', resolveBrandIcons);
+document.fonts?.ready.then(resolveBrandIcons);
+document.fonts?.addEventListener('loadingdone', resolveBrandIcons);
+
 function renderFeatured(events) {
   const event = events.find(item => item.kind === 'keynote' && item.start && new Date(item.start).getTime() > Date.now());
   if (!event) { $('#featured').innerHTML = ''; return; }
   const days = Math.ceil((new Date(event.start) - Date.now()) / 86400000);
   $('#featured').innerHTML = `<article class="featured"><div class="featured-content"><span class="eyebrow"><span class="green-dot"></span> NEXT ON THE MAIN STAGE</span><h2>${escapeHTML(event.title)}</h2><p>${escapeHTML(event.company)} &nbsp; / &nbsp; ${escapeHTML(when(event))} &nbsp; / &nbsp; ${escapeHTML(event.location)}</p><div class="featured-actions"><a class="button primary" href="${escapeHTML(event.url)}" target="_blank" rel="noopener noreferrer">Official event ${icon('arrow-up-right')}</a><button class="button secondary" data-calendar="${escapeHTML(event.id)}">${icon('calendar-plus')} Add to calendar</button></div></div><div class="countdown"><strong>${days}</strong><span>${days === 1 ? 'DAY TO GO' : 'DAYS TO GO'}</span><small>${escapeHTML(dateOnly(event.date, {month:'short', day:'numeric', year:'numeric'}))}</small></div></article>`;
 }
+const attendanceFormats = {
+  in_person: {label:'In person', icon:'users', detail:'In-person attendance confirmed. See event details for online availability.'},
+  online: {label:'Online', icon:'broadcast', detail:'Watch online.'},
+  hybrid: {label:'Both', icon:'globe', detail:'In-person and online attendance available.'},
+  unknown: {label:'Pending', icon:'question', detail:'Attendance format has not been confirmed.'}
+};
+function matchesAttendance(event, selected) {
+  const value = event.attendance || 'unknown';
+  return selected === 'all' || value === selected || (value === 'hybrid' && ['in_person','online'].includes(selected));
+}
 function eventCard(event) {
   const number = event.start ? format(event.start, {day:'2-digit'}) : dateOnly(event.date, {day:'2-digit'});
   const weekday = event.start ? format(event.start, {weekday:'short'}) : dateOnly(event.date, {weekday:'short'});
-  const time = event.start ? format(event.start, {hour:'numeric', minute:'2-digit', timeZoneName:'short'}) : event.kind === 'conference' ? when(event) : 'Time to be announced';
-  const status = event.kind === 'conference' ? 'Keynote schedule pending' : event.start ? 'Time announced' : 'Date announced';
+  const time = event.start ? format(event.start, {hour:'numeric', minute:'2-digit', timeZoneName:'short'}) : event.kind === 'conference' ? when(event) : 'Time pending';
+  const attendance = attendanceFormats[event.attendance] || attendanceFormats.unknown;
   const label = `${saved.has(event.id) ? 'Unsave' : 'Save'} ${event.title}`;
-  return `<article class="event"><div class="date"><strong>${escapeHTML(number)}</strong><span>${escapeHTML(weekday)}</span></div>${mark(event)}<div class="event-info"><div class="company-label">${escapeHTML(event.company)}<span class="category">${escapeHTML(event.category)}</span></div><h3><a href="${escapeHTML(event.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(event.title)}</a></h3><p class="speaker">${escapeHTML(event.speaker)}</p></div><div class="event-time">${escapeHTML(time)}<small>${escapeHTML(event.location)}</small><span class="status ${event.kind === 'conference' ? 'pending' : ''}">${status}</span></div><div class="event-actions"><button class="icon-button" data-save="${escapeHTML(event.id)}" aria-pressed="${saved.has(event.id)}" aria-label="${escapeHTML(label)}" title="${escapeHTML(label)}">${icon('star', saved.has(event.id))}</button><button class="icon-button" data-calendar="${escapeHTML(event.id)}" aria-label="Add ${escapeHTML(event.title)} to calendar" title="Add to calendar">${icon('calendar-plus')}</button><a class="icon-button" href="${escapeHTML(event.url)}" target="_blank" rel="noopener noreferrer" aria-label="Official ${escapeHTML(event.title)} page" title="Official event">${icon('arrow-up-right')}</a></div><details><summary>Details & source</summary><p>${escapeHTML(event.description)}</p>${event.note ? `<p>${escapeHTML(event.note)}</p>` : ''}<a href="${escapeHTML(event.source || event.url)}" target="_blank" rel="noopener noreferrer">Official source ${icon('arrow-up-right')}</a><p>Checked ${escapeHTML(dateOnly(event.checked || data.updated, {month:'long', day:'numeric', year:'numeric'}))}. ${event.kind === 'conference' ? 'Calendar download covers the conference dates, not an individual keynote.' : !event.start ? 'Calendar download is an all-day placeholder until the time is announced.' : !event.end ? 'End time has not been announced; calendar download includes only the start time.' : ''}</p></details></article>`;
+  const place = event.venueLabel || event.location.replace(/\s*\+\s*(online|virtual|Salesforce\+|select content online)$/i, '').replace(/\s*\+\s*Salesforce\+$/i, '');
+  const allDayNote = event.kind === 'conference' ? 'Calendar covers the conference dates.' : !event.start ? 'Calendar uses an all-day placeholder until a time is announced.' : !event.end ? 'End time not announced.' : '';
+  return `<article class="event"><div class="date"><strong>${escapeHTML(number)}</strong><span>${escapeHTML(weekday)}</span><span class="attendance-label attendance-${escapeHTML(event.attendance || 'unknown')}" title="${escapeHTML(attendance.detail)}">${icon(attendance.icon)}<span>${attendance.label}</span></span></div>${mark(event)}<div class="event-info"><div class="company-label">${escapeHTML(event.company)}</div><h3><a href="${escapeHTML(event.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(event.title)}</a></h3><details><summary>Details ${icon('caret-down')}</summary><div class="event-detail-body"><p class="detail-speaker">${icon('microphone-stage')} ${escapeHTML(event.speaker)}</p><p>${escapeHTML(event.description)}</p>${event.note ? `<p>${escapeHTML(event.note)}</p>` : ''}<p>${escapeHTML(event.attendanceNotes || attendance.detail)} ${escapeHTML(allDayNote)}</p><p class="detail-source"><a href="${escapeHTML(event.source || event.url)}" target="_blank" rel="noopener noreferrer">Official source ${icon('arrow-up-right')}</a><span>Checked ${escapeHTML(dateOnly(event.checked || data.updated, {month:'short', day:'numeric', year:'numeric'}))}</span></p></div></details></div><div class="event-time"><span>${event.start ? icon('clock') : event.kind === 'conference' ? icon('calendar-blank') : ''}${escapeHTML(time)}</span><small>${icon(event.attendance === 'online' ? 'broadcast' : 'map-pin')}${escapeHTML(event.attendance === 'online' ? 'Online' : place)}</small></div><div class="event-actions"><button class="icon-button" data-save="${escapeHTML(event.id)}" aria-pressed="${saved.has(event.id)}" aria-label="${escapeHTML(label)}" title="${escapeHTML(label)}">${icon('star', saved.has(event.id))}</button><button class="icon-button" data-calendar="${escapeHTML(event.id)}" aria-label="Add ${escapeHTML(event.title)} to calendar" title="Add to calendar">${icon('calendar-plus')}</button></div></article>`;
 }
 function render() {
   if (!data) return;
   const query = $('#search').value.trim().toLowerCase();
   const company = $('#company').value;
   const upcoming = data.events.filter(event => isUpcoming(event)).sort((a,b) => sortDate(a).localeCompare(sortDate(b)));
-  visibleEvents = upcoming.filter(event => (company === 'all' || event.company === company) && (filter === 'all' || (filter === 'saved' ? saved.has(event.id) : event.kind === filter)) && [event.company, event.title, event.category, event.location, event.speaker, event.description].join(' ').toLowerCase().includes(query));
+  visibleEvents = upcoming.filter(event => (company === 'all' || event.company === company) && matchesAttendance(event, $('#attendance').value) && (filter === 'all' || (filter === 'saved' ? saved.has(event.id) : event.kind === filter)) && [event.company, event.title, event.category, event.location, event.speaker, event.description].join(' ').toLowerCase().includes(query));
   let month = '';
   $('#events').innerHTML = visibleEvents.map(event => {
     const key = monthKey(event);
@@ -86,6 +132,7 @@ function render() {
   $('#zone-label').textContent = `Times in ${zone().replaceAll('_', ' ')}`;
   $('#export').disabled = visibleEvents.length === 0;
   renderFeatured(upcoming);
+  resolveBrandIcons();
 }
 
 // RFC 5545 escaping and UTF-8 line folding keep exports valid in major calendar apps.
@@ -113,7 +160,7 @@ function calendar(events) {
       lines.push(`DTSTART;VALUE=DATE:${icalDate(event.date)}`, `DTEND;VALUE=DATE:${icalDate(nextDay(event.endDate || event.date))}`);
     }
     const disclaimer = event.kind === 'conference' ? 'Conference dates only. Keynote schedule pending.' : !event.start ? 'All-day placeholder. Keynote time pending.' : !event.end ? 'End time not announced.' : '';
-    lines.push(`DESCRIPTION:${icalText([event.description, event.note, disclaimer, 'Source: ' + (event.source || event.url), 'Snapshot checked: ' + data.updated + '. This download will not update automatically.'].filter(Boolean).join('\n'))}`, `LOCATION:${icalText(event.location)}`, `URL:${event.url}`, 'END:VEVENT');
+    lines.push(`DESCRIPTION:${icalText([event.description, event.note, 'Attendance: ' + (attendanceFormats[event.attendance] || attendanceFormats.unknown).detail, event.attendanceNotes, disclaimer, 'Source: ' + (event.source || event.url), 'Snapshot checked: ' + data.updated + '. This download will not update automatically.'].filter(Boolean).join('\n'))}`, `LOCATION:${icalText(event.location)}`, `URL:${event.url}`, 'END:VEVENT');
   }
   lines.push('END:VCALENDAR');
   return lines.map(fold).join('\r\n') + '\r\n';
@@ -129,6 +176,7 @@ $('#copy-calendar').addEventListener('click', async () => {
 });
 $('#search').addEventListener('input', render);
 $('#company').addEventListener('change', render);
+$('#attendance').addEventListener('change', render);
 $('#timezone').addEventListener('change', render);
 $('.tabs').addEventListener('click', event => {
   const button = event.target.closest('[data-filter]'); if (!button) return;
@@ -148,7 +196,7 @@ document.addEventListener('click', event => {
   const add = event.target.closest('[data-calendar]');
   if (add && data) { const item = data.events.find(item => item.id === add.dataset.calendar); if (item) download([item], `${item.id}.ics`); }
   if (event.target.closest('[data-reset]')) {
-    $('#search').value = ''; $('#company').value = 'all'; $('[data-filter="all"]').click(); $('#search').focus();
+    $('#search').value = ''; $('#company').value = 'all'; $('#attendance').value = 'all'; $('[data-filter="all"]').click(); $('#search').focus();
   }
 });
 async function load() {

@@ -16,7 +16,20 @@
       "description": "Microsoft’s opening keynote. Start time verified; check the official page for replay availability.",
       "url": "https://news.microsoft.com/events/ignite/2026/",
       "source": "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/join-nvidia-and-microsoft-at-ignite-2026/4573012",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/join-nvidia-and-microsoft-at-ignite-2026/4573012",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://news.microsoft.com/events/ignite/2026/",
+          "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/join-nvidia-and-microsoft-at-ignite-2026/4573012"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": "windows-logo"
     },
     {
       "id": "aws-developer-2026",
@@ -35,7 +48,20 @@
       "url": "https://aws.amazon.com/events/reinvent/livestream/",
       "note": "Times interpreted as Las Vegas local time. The livestream page labels winter times PDT; confirm with the organizer.",
       "source": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://aws.amazon.com/events/reinvent/livestream/",
+          "https://aws.amazon.com/events/reinvent/sessions/keynotes/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "aws-ceo-2026",
@@ -54,7 +80,20 @@
       "url": "https://aws.amazon.com/events/reinvent/livestream/",
       "note": "Times interpreted as Las Vegas local time. The livestream page labels winter times PDT; confirm with the organizer.",
       "source": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://aws.amazon.com/events/reinvent/livestream/",
+          "https://aws.amazon.com/events/reinvent/sessions/keynotes/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "aws-data-2026",
@@ -73,7 +112,20 @@
       "url": "https://aws.amazon.com/events/reinvent/livestream/",
       "note": "Times interpreted as Las Vegas local time. The livestream page labels winter times PDT; confirm with the organizer.",
       "source": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://aws.amazon.com/events/reinvent/livestream/",
+          "https://aws.amazon.com/events/reinvent/sessions/keynotes/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "aws-partner-2026",
@@ -92,7 +144,20 @@
       "url": "https://aws.amazon.com/events/reinvent/livestream/",
       "note": "Times interpreted as Las Vegas local time. The livestream page labels winter times PDT; confirm with the organizer.",
       "source": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://aws.amazon.com/events/reinvent/livestream/",
+          "https://aws.amazon.com/events/reinvent/sessions/keynotes/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "aws-technical-2026",
@@ -111,7 +176,20 @@
       "url": "https://aws.amazon.com/events/reinvent/livestream/",
       "note": "Times interpreted as Las Vegas local time. The livestream page labels winter times PDT; confirm with the organizer.",
       "source": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://aws.amazon.com/events/reinvent/livestream/",
+          "https://aws.amazon.com/events/reinvent/sessions/keynotes/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "waymo-ces-2027",
@@ -128,7 +206,19 @@
       "description": "Waymo’s next chapter in autonomous mobility.",
       "url": "https://www.ces.tech/press-releases/waymo-co-ceo-tekedra-mawakana-to-keynote-at-ces-2027",
       "note": "Updated official release lists January 5 at 6:30 PM Pacific. End time not announced.",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.ces.tech/press-releases/waymo-co-ceo-tekedra-mawakana-to-keynote-at-ces-2027",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.ces.tech/press-releases/waymo-co-ceo-tekedra-mawakana-to-keynote-at-ces-2027"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "stellantis-ces-2027",
@@ -144,7 +234,19 @@
       "description": "The future of connected mobility, following the CTA State of the Industry Address.",
       "url": "https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-mobility-vision-to-ces-2027-keynote",
       "note": "Follows the 8:30 AM Pacific CTA address. A separate keynote start time has not been announced.",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-mobility-vision-to-ces-2027-keynote",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-mobility-vision-to-ces-2027-keynote"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "lenovo-ces-2027",
@@ -161,7 +263,19 @@
       "description": "Lenovo’s hybrid AI vision takes the stage at Sphere.",
       "url": "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/",
       "note": "End time not announced.",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "nvidia-gtc-2027",
@@ -178,7 +292,19 @@
       "description": "NVIDIA’s AI conference. Conference dates announced; keynote schedule pending.",
       "url": "https://www.nvidia.com/gtc/",
       "note": "Main event page lists March 15–18; the FAQ includes March 14. This listing follows the main page. No keynote date or time inferred.",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://www.nvidia.com/gtc/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.nvidia.com/gtc/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "adobe-summit-2027",
@@ -195,7 +321,19 @@
       "description": "Adobe’s customer experience conference. Online programming runs March 23–24.",
       "url": "https://summit.adobe.com/na/faq/",
       "note": "Conference March 23–25; preconference March 22. Keynote times pending.",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "hybrid",
+      "attendanceSource": "https://summit.adobe.com/na/faq/",
+      "attendanceNotes": "In Las Vegas March 23–25; online program March 23–24. The wider event directory includes March 22 preconference activity.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://summit.adobe.com/na/faq/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "google-next-2027",
@@ -211,7 +349,19 @@
       "speaker": "Keynote lineup pending",
       "description": "Google Cloud’s conference returns to Mandalay Bay. Keynote times pending.",
       "url": "https://developers.google.com/events/",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://developers.google.com/events/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://developers.google.com/events/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": "google-logo"
     },
     {
       "id": "fosdem-2027",
@@ -227,7 +377,19 @@
       "speaker": "Main-track schedule pending",
       "description": "Community-led free and open source developer conference. Individual main-track and keynote details are pending.",
       "url": "https://fosdem.org/2027/",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://fosdem.org/2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://fosdem.org/2027/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "kubecon-europe-2027",
@@ -245,7 +407,20 @@
       "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
       "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/attend/faq/",
       "note": "Main conference dates only; individual keynote times pending. Recordings will be published; no virtual attendance component is announced.",
-      "checked": "2026-11-17"
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/attend/faq/",
+      "attendanceNotes": "The organizer FAQ explicitly says there is no virtual component. Recordings after the event do not provide live online attendance.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+          "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/attend/faq/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "nvidia-gtc-dc-2026",
@@ -263,7 +438,19 @@
       "checked": "2026-11-17",
       "start": "2026-12-01T19:00:00Z",
       "end": "2026-12-01T21:00:00Z",
-      "note": "Organizer lists December 1, 2–4 PM Eastern. Speaker details should be reconfirmed on the official page."
+      "note": "Organizer lists December 1, 2–4 PM Eastern. Speaker details should be reconfirmed on the official page.",
+      "attendance": "hybrid",
+      "attendanceSource": "https://www.nvidia.com/gtc/dc/keynote/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.nvidia.com/gtc/dc/keynote/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "salesforce-tokyo-keynote-2026",
@@ -281,7 +468,19 @@
       "checked": "2026-11-17",
       "start": "2026-11-18T01:00:00Z",
       "end": "2026-11-18T02:30:00Z",
-      "note": "Official Japanese agenda lists November 18, 10:00–11:30 AM Japan Standard Time. Main-room access requires an invitation; Salesforce+ online viewing is available."
+      "note": "Official Japanese agenda lists November 18, 10:00–11:30 AM Japan Standard Time. Main-room access requires an invitation; Salesforce+ online viewing is available.",
+      "attendance": "hybrid",
+      "attendanceSource": "https://www.salesforce.com/jp/events/world-tour/tokyo/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.salesforce.com/jp/events/world-tour/tokyo/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "salesforce-nyc-keynote-2026",
@@ -298,7 +497,19 @@
       "url": "https://www.salesforce.com/events/world-tour/nyc/",
       "checked": "2026-11-17",
       "start": "2026-12-03T15:00:00Z",
-      "end": "2026-12-03T16:00:00Z"
+      "end": "2026-12-03T16:00:00Z",
+      "attendance": "hybrid",
+      "attendanceSource": "https://www.salesforce.com/events/world-tour/nyc/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.salesforce.com/events/world-tour/nyc/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "stripe-opening-2027",
@@ -314,7 +525,19 @@
       "description": "The opening keynote at Stripe Sessions. Exact time and speakers pending.",
       "url": "https://stripesessions.com/",
       "checked": "2026-11-17",
-      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published."
+      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published.",
+      "attendance": "in_person",
+      "attendanceSource": "https://stripesessions.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://stripesessions.com/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": "stripe-logo"
     },
     {
       "id": "stripe-product-2027",
@@ -330,7 +553,19 @@
       "description": "Stripe’s product keynote. Exact time and speakers pending.",
       "url": "https://stripesessions.com/",
       "checked": "2026-11-17",
-      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published."
+      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published.",
+      "attendance": "in_person",
+      "attendanceSource": "https://stripesessions.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://stripesessions.com/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": "stripe-logo"
     },
     {
       "id": "stripe-developer-2027",
@@ -346,7 +581,19 @@
       "description": "Stripe’s developer keynote. Exact time and speakers pending.",
       "url": "https://stripesessions.com/",
       "checked": "2026-11-17",
-      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published."
+      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published.",
+      "attendance": "in_person",
+      "attendanceSource": "https://stripesessions.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://stripesessions.com/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": "stripe-logo"
     },
     {
       "id": "stripe-thursday-2027",
@@ -362,7 +609,19 @@
       "description": "The Thursday keynote at Stripe Sessions. Exact time and speakers pending.",
       "url": "https://stripesessions.com/",
       "checked": "2026-11-17",
-      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published."
+      "note": "Date confirmed in the organizer’s agenda at a glance. All-day calendar placeholder until the keynote time is published.",
+      "attendance": "in_person",
+      "attendanceSource": "https://stripesessions.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://stripesessions.com/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": "stripe-logo"
     },
     {
       "id": "figma-config-2027",
@@ -379,7 +638,19 @@
       "url": "https://config.figma.com/",
       "checked": "2026-11-17",
       "endDate": "2027-05-27",
-      "note": "Conference dates announced. Individual keynote dates, times, and speakers pending."
+      "note": "Conference dates announced. Individual keynote dates, times, and speakers pending.",
+      "attendance": "hybrid",
+      "attendanceSource": "https://config.figma.com/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://config.figma.com/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": "figma-logo"
     },
     {
       "id": "atlassian-team-2027",
@@ -396,7 +667,19 @@
       "url": "https://events.atlassian.com/team",
       "checked": "2026-11-17",
       "endDate": "2027-04-22",
-      "note": "Conference dates confirmed; individual keynote schedule pending."
+      "note": "Conference dates confirmed; individual keynote schedule pending.",
+      "attendance": "hybrid",
+      "attendanceSource": "https://events.atlassian.com/team",
+      "attendanceNotes": "In-person event with select content available online; not every session is streamed.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.atlassian.com/team"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "servicenow-knowledge-2027",
@@ -414,7 +697,20 @@
       "checked": "2026-11-17",
       "endDate": "2027-05-06",
       "source": "https://www.servicenow.com/events.html",
-      "note": "Conference dates confirmed. Do not confuse the 2026 on-demand keynotes with the forthcoming 2027 schedule."
+      "note": "Conference dates confirmed. Do not confuse the 2026 on-demand keynotes with the forthcoming 2027 schedule.",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.servicenow.com/events.html",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.servicenow.com/events/knowledge.html",
+          "https://www.servicenow.com/events.html"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "snowflake-summit-2027",
@@ -431,7 +727,19 @@
       "url": "https://www.snowflake.com/en/events/summit/",
       "checked": "2026-11-17",
       "endDate": "2027-06-10",
-      "note": "2027 dates announced; keynote schedule pending. Featured speakers and replays currently shown on the page are from 2026."
+      "note": "2027 dates announced; keynote schedule pending. Featured speakers and replays currently shown on the page are from 2026.",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.snowflake.com/en/events/summit/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.snowflake.com/en/events/summit/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "databricks-summit-2027",
@@ -448,7 +756,19 @@
       "url": "https://www.databricks.com/dataaisummit",
       "checked": "2026-11-17",
       "endDate": "2027-06-24",
-      "note": "Conference dates are confirmed. Session pages without a dated 2027 slot are not used to infer keynote start times."
+      "note": "Conference dates are confirmed. Session pages without a dated 2027 slot are not used to infer keynote start times.",
+      "attendance": "hybrid",
+      "attendanceSource": "https://www.databricks.com/dataaisummit",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.databricks.com/dataaisummit"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "redhat-summit-2027",
@@ -465,7 +785,19 @@
       "url": "https://www.redhat.com/en/summit/about/faq",
       "checked": "2026-11-17",
       "endDate": "2027-05-27",
-      "note": "In-person event; highlights available after the conference. Individual keynote schedule pending."
+      "note": "In-person event; highlights available after the conference. Individual keynote schedule pending.",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.redhat.com/en/summit/about/faq",
+      "attendanceNotes": "In person only; the FAQ says there is no live virtual component. Selected recordings follow later.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.redhat.com/en/summit/about/faq"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "ibm-think-2027",
@@ -482,7 +814,19 @@
       "url": "https://www.ibm.com/events/think",
       "checked": "2026-11-17",
       "endDate": "2027-06-10",
-      "note": "2026 keynote replays on the page are not the 2027 agenda. Individual 2027 keynote details pending."
+      "note": "2026 keynote replays on the page are not the 2027 agenda. Individual 2027 keynote details pending.",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.ibm.com/events/think",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.ibm.com/events/think"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "oss-north-america-2027",
@@ -499,7 +843,19 @@
       "url": "https://events.linuxfoundation.org/open-source-summit-north-america/",
       "checked": "2026-11-17",
       "endDate": "2027-05-19",
-      "note": "Conference dates announced; keynote lineup and times pending."
+      "note": "Conference dates announced; keynote lineup and times pending.",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/open-source-summit-north-america/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/open-source-summit-north-america/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "oss-europe-2027",
@@ -516,7 +872,19 @@
       "url": "https://events.linuxfoundation.org/open-source-summit-europe-2027/",
       "checked": "2026-11-17",
       "endDate": "2027-09-22",
-      "note": "Conference dates announced; keynote lineup and times pending."
+      "note": "Conference dates announced; keynote lineup and times pending.",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/open-source-summit-europe-2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/open-source-summit-europe-2027/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "salesforce-tdx-2027",
@@ -534,7 +902,21 @@
       "checked": "2026-11-17",
       "endDate": "2027-03-11",
       "source": "https://www.salesforce.com/events/",
-      "note": "Dates verified on Salesforce’s events directory and save-the-date page. The general /tdx/ page still contains earlier-edition material; individual keynote times pending."
+      "note": "Dates verified on Salesforce’s events directory and save-the-date page. The general /tdx/ page still contains earlier-edition material; individual keynote times pending.",
+      "attendance": "hybrid",
+      "attendanceSource": "https://www.salesforce.com/events/",
+      "attendanceNotes": "Organizer confirms in-person and online access; registration and available sessions may differ.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.salesforce.com/tdx/form-save-date-tdx27/",
+          "https://www.salesforce.com/events/",
+          "https://www.salesforce.com/events/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "mwc-barcelona-2027",
@@ -551,7 +933,19 @@
       "url": "https://www.mwcbarcelona.com/",
       "checked": "2026-11-17",
       "endDate": "2027-03-04",
-      "note": "Conference dates announced. Individual keynote dates and times must be checked against the forthcoming agenda."
+      "note": "Conference dates announced. Individual keynote dates and times must be checked against the forthcoming agenda.",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.mwcbarcelona.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.mwcbarcelona.com/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "esri-devtech-2027",
@@ -568,7 +962,19 @@
       "url": "https://www.esri.com/en-us/about/events/devtech/overview",
       "checked": "2026-11-17",
       "endDate": "2027-03-12",
-      "note": "Conference dates announced. Individual plenary and keynote times pending."
+      "note": "Conference dates announced. Individual plenary and keynote times pending.",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.esri.com/en-us/about/events/devtech/overview",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.esri.com/en-us/about/events/devtech/overview"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
     },
     {
       "id": "espc-amsterdam-2026",
@@ -586,13 +992,1433 @@
       "checked": "2026-11-17",
       "endDate": "2026-12-03",
       "source": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-      "note": "Conference date range only. Do not infer the opening keynote’s day or time from the start of the conference."
+      "note": "Conference date range only. Do not infer the opening keynote’s day or time from the start of the conference.",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://espc.tech/conference/espc-2026/",
+          "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/"
+        ],
+        "findings": "Rechecked the announced schedule against organizer sources. Conference ranges remain placeholders where individual keynote times are unpublished."
+      },
+      "iconName": null
+    },
+    {
+      "id": "dell-world-2027",
+      "company": "Dell",
+      "mark": "D",
+      "color": "#53679b",
+      "title": "Dell Technologies World",
+      "category": "AI & infrastructure",
+      "kind": "conference",
+      "date": "2027-05-24",
+      "location": "Las Vegas",
+      "speaker": "Speaker lineup pending",
+      "description": "Dell Technologies World. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://www.dell.com/en-us/learn/events/lp/dell-technologies-world/overview",
+      "source": "https://www.dell.com/en-us/learn/events/lp/dell-technologies-world/overview",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.dell.com/en-us/learn/events/lp/dell-technologies-world/overview",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-05-27",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.dell.com/en-us/learn/events/lp/dell-technologies-world/overview"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "datadog-dash-2027",
+      "company": "Datadog",
+      "mark": "D",
+      "color": "#53679b",
+      "title": "DASH 2027",
+      "category": "Developers",
+      "kind": "conference",
+      "date": "2027-06-15",
+      "location": "New York City",
+      "speaker": "Speaker lineup pending",
+      "description": "DASH 2027. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://dash.datadoghq.com/",
+      "source": "https://dash.datadoghq.com/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://dash.datadoghq.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-06-16",
+      "note": "The organizer displays June (14) 15–16. This placeholder covers the two main days; June 14 activity and the keynote schedule need clarification.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://dash.datadoghq.com/"
+        ],
+        "findings": "The organizer displays June (14) 15–16. This placeholder covers the two main days; June 14 activity and the keynote schedule need clarification."
+      },
+      "iconName": null
+    },
+    {
+      "id": "hpe-discover-vegas-2027",
+      "company": "HPE",
+      "mark": "H",
+      "color": "#53679b",
+      "title": "HPE Discover Las Vegas",
+      "category": "AI & infrastructure",
+      "kind": "conference",
+      "date": "2027-06-21",
+      "location": "Las Vegas",
+      "speaker": "Speaker lineup pending",
+      "description": "HPE Discover Las Vegas. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://www.hpe.com/us/en/discover/lasvegas.html",
+      "source": "https://www.hpe.com/us/en/discover/lasvegas.html",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.hpe.com/us/en/discover/lasvegas.html",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-06-24",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.hpe.com/us/en/discover/lasvegas.html"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "hpe-discover-barcelona-keynote-2026",
+      "company": "HPE",
+      "mark": "H",
+      "color": "#53679b",
+      "title": "Discover Barcelona · Antonio Neri keynote",
+      "category": "AI & infrastructure",
+      "kind": "keynote",
+      "date": "2026-12-02",
+      "location": "Barcelona, Spain",
+      "speaker": "Antonio Neri",
+      "description": "HPE’s main-stage keynote at Discover Barcelona.",
+      "url": "https://www.hpe.com/us/en/discover/barcelona.html",
+      "source": "https://www.hpe.com/us/en/discover/barcelona.html",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.hpe.com/us/en/discover/barcelona.html",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "start": "2026-12-02T08:30:00Z",
+      "end": "2026-12-02T09:30:00Z",
+      "note": "Published as December 2, 09:30–10:30 CET; conference runs December 2–3.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.hpe.com/us/en/discover/barcelona.html"
+        ],
+        "findings": "Published as December 2, 09:30–10:30 CET; conference runs December 2–3."
+      },
+      "iconName": null
+    },
+    {
+      "id": "hubspot-unbound-2027",
+      "company": "HubSpot",
+      "mark": "H",
+      "color": "#53679b",
+      "title": "UNBOUND 2027",
+      "category": "Marketing & enterprise",
+      "kind": "conference",
+      "date": "2027-09-08",
+      "location": "Boston, Massachusetts",
+      "speaker": "Speaker lineup pending",
+      "description": "UNBOUND 2027. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://unbound.hubspot.com/",
+      "source": "https://unbound.hubspot.com/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://unbound.hubspot.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-09-10",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://unbound.hubspot.com/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "okta-oktane-2027",
+      "company": "Okta",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "Oktane 2027",
+      "category": "Security",
+      "kind": "conference",
+      "date": "2027-09-28",
+      "location": "Las Vegas",
+      "speaker": "Speaker lineup pending",
+      "description": "Oktane 2027. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://www.okta.com/oktane/",
+      "source": "https://www.okta.com/oktane/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.okta.com/oktane/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-09-30",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.okta.com/oktane/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "rsac-2027",
+      "company": "RSAC",
+      "mark": "R",
+      "color": "#53679b",
+      "title": "RSAC Conference",
+      "category": "Security",
+      "kind": "conference",
+      "date": "2027-04-05",
+      "location": "San Francisco",
+      "speaker": "Speaker lineup pending",
+      "description": "RSAC Conference. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://www.rsaconference.com/About/FAQ",
+      "source": "https://www.rsaconference.com/About/FAQ",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.rsaconference.com/About/FAQ",
+      "attendanceNotes": "In person. Recordings available after the conference are not a confirmed live online option.",
+      "endDate": "2027-04-08",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.rsaconference.com/About/FAQ"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "susecon-2027",
+      "company": "SUSE",
+      "mark": "S",
+      "color": "#53679b",
+      "title": "SUSECON 2027",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2027-02-15",
+      "location": "Barcelona, Spain",
+      "speaker": "Speaker lineup pending",
+      "description": "SUSECON 2027. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://www.suse.com/susecon/",
+      "source": "https://www.suse.com/blog/early-bird-registration-is-open-for-susecon-2027-in-barcelona/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.suse.com/susecon/faq/",
+      "attendanceNotes": "In person; the FAQ promises recordings after the event, not a live virtual program.",
+      "endDate": "2027-02-17",
+      "note": "Published range includes Partner Summit activity on February 15. Individual keynote dates and times remain pending.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.suse.com/susecon/",
+          "https://www.suse.com/blog/early-bird-registration-is-open-for-susecon-2027-in-barcelona/"
+        ],
+        "findings": "Published range includes Partner Summit activity on February 15. Individual keynote dates and times remain pending."
+      },
+      "iconName": null
+    },
+    {
+      "id": "jetbrains-kotlinconf-2027",
+      "company": "JetBrains",
+      "mark": "J",
+      "color": "#53679b",
+      "title": "KotlinConf 2027",
+      "category": "Developers",
+      "kind": "conference",
+      "date": "2027-04-21",
+      "location": "Kraków, Poland",
+      "speaker": "Speaker lineup pending",
+      "description": "KotlinConf 2027. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://kotlinconf.com/",
+      "source": "https://kotlinconf.com/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://kotlinconf.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-04-23",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://kotlinconf.com/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "twilio-signal-main-2027",
+      "company": "Twilio",
+      "mark": "T",
+      "color": "#53679b",
+      "title": "SIGNAL · Main keynote",
+      "category": "Developers",
+      "kind": "keynote",
+      "date": "2027-04-13",
+      "location": "San Francisco",
+      "speaker": "Speaker lineup pending",
+      "description": "Twilio’s published SIGNAL keynote session.",
+      "url": "https://signal.twilio.com/",
+      "source": "https://signal.twilio.com/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://signal.twilio.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "note": "The agenda lists 09:00–10:30 at the San Francisco venue without an explicit time zone. Kept date-only until the organizer clarifies the zone.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://signal.twilio.com/"
+        ],
+        "findings": "The agenda lists 09:00–10:30 at the San Francisco venue without an explicit time zone. Kept date-only until the organizer clarifies the zone."
+      },
+      "iconName": null
+    },
+    {
+      "id": "twilio-signal-technical-2027",
+      "company": "Twilio",
+      "mark": "T",
+      "color": "#53679b",
+      "title": "SIGNAL · Technical keynote",
+      "category": "Developers",
+      "kind": "keynote",
+      "date": "2027-04-14",
+      "location": "San Francisco",
+      "speaker": "Speaker lineup pending",
+      "description": "Twilio’s published SIGNAL keynote session.",
+      "url": "https://signal.twilio.com/",
+      "source": "https://signal.twilio.com/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://signal.twilio.com/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "note": "The agenda lists 09:00–10:00 at the San Francisco venue without an explicit time zone. Kept date-only until the organizer clarifies the zone.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://signal.twilio.com/"
+        ],
+        "findings": "The agenda lists 09:00–10:00 at the San Francisco venue without an explicit time zone. Kept date-only until the organizer clarifies the zone."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-public-sector-morning-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "Public Sector Summit · Morning keynote",
+      "category": "AI & government",
+      "kind": "keynote",
+      "date": "2027-02-10",
+      "location": "Washington, D.C.",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle’s public-sector summit keynote.",
+      "url": "https://www.oracle.com/government/public-sector-summit/",
+      "source": "https://www.oracle.com/government/public-sector-summit/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/government/public-sector-summit/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "note": "The local agenda publishes session hours but does not explicitly label the time zone. Kept date-only until confirmed.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/government/public-sector-summit/"
+        ],
+        "findings": "The local agenda publishes session hours but does not explicitly label the time zone. Kept date-only until confirmed."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-public-sector-afternoon-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "Public Sector Summit · Afternoon keynote",
+      "category": "AI & government",
+      "kind": "keynote",
+      "date": "2027-02-10",
+      "location": "Washington, D.C.",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle’s public-sector summit keynote.",
+      "url": "https://www.oracle.com/government/public-sector-summit/",
+      "source": "https://www.oracle.com/government/public-sector-summit/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/government/public-sector-summit/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "note": "The local agenda publishes session hours but does not explicitly label the time zone. Kept date-only until confirmed.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/government/public-sector-summit/"
+        ],
+        "findings": "The local agenda publishes session hours but does not explicitly label the time zone. Kept date-only until confirmed."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-mumbai-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · Mumbai",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-02-25",
+      "location": "Mumbai",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-paris-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · Paris",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-03-16",
+      "location": "Paris",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-tokyo-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · Tokyo",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-03-17",
+      "location": "Tokyo",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-sydney-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · Sydney",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-03-23",
+      "location": "Sydney",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-london-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · London",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-04-07",
+      "location": "London",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-new-york-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · New York",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-04-15",
+      "location": "New York",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-singapore-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · Singapore",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-04-20",
+      "location": "Singapore",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oracle-ai-tour-dubai-2027",
+      "company": "Oracle",
+      "mark": "O",
+      "color": "#53679b",
+      "title": "AI World Tour · Dubai",
+      "category": "AI & cloud",
+      "kind": "conference",
+      "date": "2027-04-27",
+      "location": "Dubai",
+      "speaker": "Speaker lineup pending",
+      "description": "Oracle AI World Tour conference stop. Individual keynote schedule pending.",
+      "url": "https://www.oracle.com/ai-world-tour/",
+      "source": "https://www.oracle.com/ai-world-tour/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.oracle.com/ai-world-tour/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.oracle.com/ai-world-tour/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "panasonic-solutionbox-2027",
+      "company": "Panasonic",
+      "mark": "P",
+      "color": "#53679b",
+      "title": "Solution BOX India",
+      "category": "Hardware",
+      "kind": "conference",
+      "date": "2027-01-21",
+      "location": "New Delhi, India",
+      "speaker": "Speaker lineup pending",
+      "description": "Solution BOX India. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://www.lsin.panasonic.com/sbox-registration",
+      "source": "https://www.lsin.panasonic.com/sbox-registration",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.lsin.panasonic.com/sbox-registration",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-01-22",
+      "note": "Main public event January 21–22; January 20 is invitation-only pre-event activity. Keynote timings are provisional.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.lsin.panasonic.com/sbox-registration"
+        ],
+        "findings": "Main public event January 21–22; January 20 is invitation-only pre-event activity. Keynote timings are provisional."
+      },
+      "iconName": null
+    },
+    {
+      "id": "workday-rising-emea-2026",
+      "company": "Workday",
+      "mark": "W",
+      "color": "#53679b",
+      "title": "Workday Rising EMEA",
+      "category": "Enterprise",
+      "kind": "conference",
+      "date": "2026-11-17",
+      "location": "Barcelona, Spain",
+      "speaker": "Speaker lineup pending",
+      "description": "Workday Rising EMEA. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://www.workday.com/en-us/company/latest/events-webinars/events.html",
+      "source": "https://www.workday.com/en-us/company/latest/events-webinars/events.html",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://www.workday.com/en-us/company/latest/events-webinars/events.html",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2026-11-19",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://www.workday.com/en-us/company/latest/events-webinars/events.html"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "wordcamp-europe-2027",
+      "company": "Wordpress",
+      "mark": "W",
+      "color": "#21759b",
+      "title": "WordCamp Europe",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2027-05-27",
+      "location": "Málaga, Spain",
+      "speaker": "Speaker lineup pending",
+      "description": "WordCamp Europe. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://europe.wordcamp.org/2027/",
+      "source": "https://europe.wordcamp.org/2027/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://europe.wordcamp.org/2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-05-29",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://europe.wordcamp.org/2027/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "websummit-lisbon-2027",
+      "company": "Web Summit",
+      "mark": "W",
+      "color": "#53679b",
+      "title": "Web Summit Lisbon",
+      "category": "Technology",
+      "kind": "conference",
+      "date": "2027-11-08",
+      "location": "Lisbon, Portugal",
+      "speaker": "Speaker lineup pending",
+      "description": "Web Summit Lisbon. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://websummit.com/web-summit-2027/",
+      "source": "https://websummit.com/web-summit-2027/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://websummit.com/web-summit-2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-11-11",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://websummit.com/web-summit-2027/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "websummit-qatar-2027",
+      "company": "Web Summit",
+      "mark": "W",
+      "color": "#53679b",
+      "title": "Web Summit Qatar",
+      "category": "Technology",
+      "kind": "conference",
+      "date": "2027-01-31",
+      "location": "Doha, Qatar",
+      "speaker": "Speaker lineup pending",
+      "description": "Web Summit Qatar. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://qatar.websummit.com/web-summit-qatar-2027/",
+      "source": "https://qatar.websummit.com/web-summit-qatar-2027/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://qatar.websummit.com/web-summit-qatar-2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-02-03",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://qatar.websummit.com/web-summit-qatar-2027/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "eppc-2027",
+      "company": "ESPC",
+      "mark": "E",
+      "color": "#53679b",
+      "title": "European Power Platform Conference",
+      "category": "Developers",
+      "kind": "conference",
+      "date": "2027-06-14",
+      "location": "Dublin, Ireland",
+      "speaker": "Speaker lineup pending",
+      "description": "European Power Platform Conference. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://espc.tech/conference/eppc-2027/",
+      "source": "https://espc.tech/conference/eppc-2027/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://espc.tech/conference/eppc-2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-06-17",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://espc.tech/conference/eppc-2027/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "espc-fabric-sql-2027",
+      "company": "ESPC",
+      "mark": "E",
+      "color": "#53679b",
+      "title": "European Microsoft Fabric + SQL Conference",
+      "category": "Developers",
+      "kind": "conference",
+      "date": "2027-10-25",
+      "location": "Amsterdam, Netherlands",
+      "speaker": "Speaker lineup pending",
+      "description": "European Microsoft Fabric + SQL Conference. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://espc.tech/",
+      "source": "https://espc.tech/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://espc.tech/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-10-28",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://espc.tech/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "oss-japan-2026",
+      "company": "Linux Foundation",
+      "mark": "L",
+      "color": "#53679b",
+      "title": "Open Source Summit Japan",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2026-12-07",
+      "location": "Tokyo, Japan",
+      "speaker": "Speaker lineup pending",
+      "description": "Open Source Summit Japan. Published keynote program available on the organizer’s event page.",
+      "url": "https://events.linuxfoundation.org/open-source-summit-japan/",
+      "source": "https://events.linuxfoundation.org/open-source-summit-japan/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/open-source-summit-japan/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2026-12-09",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/open-source-summit-japan/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "agntcon-na-2027",
+      "company": "Linux Foundation",
+      "mark": "L",
+      "color": "#53679b",
+      "title": "AGNTCon + MCPCon North America",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2027-04-28",
+      "location": "San Francisco",
+      "speaker": "Speaker lineup pending",
+      "description": "AGNTCon + MCPCon North America. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america/",
+      "source": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-04-29",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/agntcon-mcpcon-north-america/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "agntcon-europe-2027",
+      "company": "Linux Foundation",
+      "mark": "L",
+      "color": "#53679b",
+      "title": "AGNTCon + MCPCon Europe",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2027-09-15",
+      "location": "London, United Kingdom",
+      "speaker": "Speaker lineup pending",
+      "description": "AGNTCon + MCPCon Europe. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/",
+      "source": "https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-09-16",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "pytorch-conference-2027",
+      "company": "Linux Foundation",
+      "mark": "L",
+      "color": "#53679b",
+      "title": "PyTorch Conference",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2027-10-06",
+      "location": "San Jose, California",
+      "speaker": "Speaker lineup pending",
+      "description": "PyTorch Conference. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://events.linuxfoundation.org/pytorch-conference-2027/",
+      "source": "https://events.linuxfoundation.org/pytorch-conference-2027/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/pytorch-conference-2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-10-07",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/pytorch-conference-2027/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "kubecon-japan-2027",
+      "company": "CNCF",
+      "mark": "C",
+      "color": "#53679b",
+      "title": "KubeCon + CloudNativeCon Japan",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2027-08-25",
+      "location": "Yokohama, Japan",
+      "speaker": "Speaker lineup pending",
+      "description": "KubeCon + CloudNativeCon Japan. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+      "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-08-26",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "kubecon-na-2027",
+      "company": "CNCF",
+      "mark": "C",
+      "color": "#53679b",
+      "title": "KubeCon + CloudNativeCon North America",
+      "category": "Open source",
+      "kind": "conference",
+      "date": "2027-11-08",
+      "location": "New Orleans, Louisiana",
+      "speaker": "Speaker lineup pending",
+      "description": "KubeCon + CloudNativeCon North America. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2027/",
+      "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2027/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2027/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-11-11",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2027/"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "rivian-ai-day-2026",
+      "company": "Rivian",
+      "mark": "R",
+      "color": "#53679b",
+      "title": "Autonomy & AI Day",
+      "category": "AI & mobility",
+      "kind": "keynote",
+      "date": "2026-12-09",
+      "location": "Online",
+      "speaker": "RJ Scaringe, Wassym Bensaid, James Philbin & Vidya Rajagopalan",
+      "description": "Rivian’s public Autonomy & AI Day livestream.",
+      "url": "https://rivian.com/events/autonomy-and-ai-day",
+      "source": "https://rivian.com/events/autonomy-and-ai-day",
+      "checked": "2026-11-17",
+      "attendance": "online",
+      "attendanceSource": "https://rivian.com/events/autonomy-and-ai-day",
+      "attendanceNotes": "Public livestream announced for December 9 at 10 AM Pacific. Physical audience access not confirmed.",
+      "start": "2026-12-09T18:00:00Z",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://rivian.com/events/autonomy-and-ai-day"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "netlify-community-launch-2026",
+      "company": "Netlify",
+      "mark": "N",
+      "color": "#53679b",
+      "title": "Netlify · Product reveal",
+      "category": "Developers",
+      "kind": "keynote",
+      "date": "2026-11-19",
+      "location": "Online",
+      "speaker": "Elad Rosenheim, Karthik Puvvada, Tania Chakraborty & Sam Jones",
+      "description": "Live Netlify product announcements and demonstrations.",
+      "url": "https://luma.com/netlify-xqd5",
+      "source": "https://luma.com/netlify-xqd5",
+      "checked": "2026-11-17",
+      "attendance": "online",
+      "attendanceSource": "https://luma.com/netlify-xqd5",
+      "attendanceNotes": "Organizer-hosted Luma listing confirms YouTube and November 19, 1–2 PM EST.",
+      "start": "2026-11-19T18:00:00Z",
+      "end": "2026-11-19T19:00:00Z",
+      "note": "Separate from the November 18 San Francisco launch party; the event directory’s party date/format conflicts with its registration page.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://luma.com/netlify-xqd5"
+        ],
+        "findings": "Separate from the November 18 San Francisco launch party; the event directory’s party date/format conflicts with its registration page."
+      },
+      "iconName": null
+    },
+    {
+      "id": "slush-2026",
+      "company": "Slush",
+      "mark": "S",
+      "color": "#53679b",
+      "title": "Slush 2026",
+      "category": "Startups",
+      "kind": "conference",
+      "date": "2026-11-18",
+      "location": "Helsinki, Finland",
+      "speaker": "Speaker lineup pending",
+      "description": "Slush 2026. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://slush.org/event-info",
+      "source": "https://slush.org/event-info",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://slush.org/event-info",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2026-11-19",
+      "note": "Current practical information confirms November 18–19, 2026. The homepage still contains some 2025 speaker/agenda labels; those are not used as a 2026 speaker lineup.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://slush.org/event-info"
+        ],
+        "findings": "Current practical information confirms November 18–19, 2026. The homepage still contains some 2025 speaker/agenda labels; those are not used as a 2026 speaker lineup."
+      },
+      "iconName": null
+    },
+    {
+      "id": "atlassian-tour-toronto-keynote-2026",
+      "company": "Atlassian",
+      "mark": "A",
+      "color": "#53679b",
+      "title": "Team on Tour Toronto · Opening keynote",
+      "category": "Developers",
+      "kind": "keynote",
+      "date": "2026-12-08",
+      "location": "Toronto, Canada",
+      "speaker": "Speaker lineup pending",
+      "description": "Atlassian’s opening keynote on AI and teamwork.",
+      "url": "https://events.atlassian.com/teamontour-toronto",
+      "source": "https://events.atlassian.com/teamontour-toronto",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://events.atlassian.com/teamontour-toronto",
+      "attendanceNotes": "The event FAQ explicitly says Team on Tour will not be live streamed.",
+      "start": "2026-12-08T14:45:00Z",
+      "end": "2026-12-08T15:45:00Z",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://events.atlassian.com/teamontour-toronto"
+        ],
+        "findings": "Dates and location checked against the official event announcement. Only explicitly published session times are included."
+      },
+      "iconName": null
+    },
+    {
+      "id": "khipu-2027",
+      "company": "KHIPU",
+      "mark": "K",
+      "color": "#53679b",
+      "title": "KHIPU 2027",
+      "category": "AI & research",
+      "kind": "conference",
+      "date": "2027-04-05",
+      "location": "São Paulo, Brazil",
+      "speaker": "Speaker lineup pending",
+      "description": "KHIPU 2027. Conference dates announced; individual keynote schedule pending.",
+      "url": "https://khipu.ai/khipu-for-startups/",
+      "source": "https://khipu.ai/khipu-for-startups/",
+      "checked": "2026-11-17",
+      "attendance": "in_person",
+      "attendanceSource": "https://khipu.ai/khipu-for-startups/",
+      "attendanceNotes": "In-person attendance confirmed. A live online option has not been verified.",
+      "endDate": "2027-04-09",
+      "note": "Main conference April 5–9; the startup track runs April 7–8 with shared main-stage keynotes. Individual keynote times pending.",
+      "verification": {
+        "checkedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified",
+        "sources": [
+          "https://khipu.ai/khipu-for-startups/"
+        ],
+        "findings": "Main conference April 5–9; the startup track runs April 7–8 with shared main-stage keynotes. Individual keynote times pending."
+      },
+      "iconName": null
     }
   ],
   "lastRefresh": {
-    "date": "2026-11-17",
-    "type": "Immediate research refresh requested by user",
-    "addedEventIds": [
+    "startedAt": "2026-11-17 19:16:29 UTC",
+    "finishedAt": "2026-11-17T19:38:10Z",
+    "mode": "full_seed_audit",
+    "complete": false,
+    "scope": "Every initial tracked organization individually searched and its official channel attempted; all 34 existing listings rechecked, followed by worldwide discovery. Blocked/ambiguous sources prevent fully verified exhaustive completion.",
+    "lookAheadThrough": "2027-11-17",
+    "initialOrganizations": [
+      "1Password",
+      "Acer",
+      "Adobe",
+      "Alibaba",
+      "Amazon",
+      "AMD",
+      "Anthropic",
+      "Anysphere / Cursor",
+      "Apple",
+      "Arduino",
+      "Arm",
+      "ASUS",
+      "Atlassian",
+      "AWS",
+      "Baidu",
+      "Bitwarden",
+      "Blackrock",
+      "Block",
+      "Blue Origin",
+      "BMW",
+      "Boston Dynamics",
+      "Broadcom",
+      "Bun",
+      "BYD",
+      "ByteDance",
+      "Canonical",
+      "Canva",
+      "CES / CTA",
+      "ClickHouse",
+      "Cloudflare",
+      "CNCF",
+      "Cognition",
+      "Cohere",
+      "Confluent",
+      "CrowdStrike",
+      "Databricks",
+      "Datadog",
+      "DeepSeek",
+      "Dell",
+      "Deno",
+      "Disney",
+      "DJI",
+      "Docker",
+      "Dropbox",
+      "Elastic",
+      "ElevenLabs",
+      "Epic Games",
+      "ESPC",
+      "Esri",
+      "Fairphone",
+      "Figma",
+      "Figure",
+      "FOSDEM",
+      "Framer",
+      "Framework",
+      "Garmin",
+      "GitHub",
+      "GitLab",
+      "GNOME",
+      "Google",
+      "GSMA / MWC",
+      "HashiCorp",
+      "Honor",
+      "HP",
+      "HPE",
+      "Huawei",
+      "HubSpot",
+      "Hugging Face",
+      "IBM",
+      "Instagram",
+      "Intel",
+      "JetBrains",
+      "KDE",
+      "Lenovo",
+      "LG",
+      "Linear",
+      "Linux Foundation",
+      "Lucid",
+      "MediaTek",
+      "Mercedes-Benz",
+      "Meta",
+      "Microsoft",
+      "Midjourney",
+      "Mistral AI",
+      "MongoDB",
+      "Motorola",
+      "Mozilla",
+      "Netflix",
+      "Netlify",
+      "Nintendo",
+      "Nothing",
+      "Notion",
+      "NVIDIA",
+      "Okta",
+      "OnePlus",
+      "OpenAI",
+      "OpenJS Foundation",
+      "OPPO",
+      "Oracle",
+      "Palo Alto Networks",
+      "Panasonic",
+      "PayPal",
+      "Perplexity",
+      "Python Software Foundation",
+      "Qualcomm",
+      "Raspberry Pi",
+      "Red Hat",
+      "Redis",
+      "Replit",
+      "Rivian",
+      "Roblox",
+      "Rocket Lab",
+      "RSAC",
+      "Runway",
+      "Rust Foundation",
+      "Salesforce",
+      "Samsung",
+      "SAP",
+      "ServiceNow",
+      "Shopify",
+      "Slack",
+      "Slush",
+      "Snowflake",
+      "Sony",
+      "SpaceX",
+      "Spotify",
+      "Stability AI",
+      "Stellantis",
+      "Stripe",
+      "Supabase",
+      "SUSE",
+      "TechCrunch",
+      "Tencent",
+      "Tesla",
+      "Toyota",
+      "TSMC",
+      "Twilio",
+      "Unity",
+      "Valve",
+      "Vercel",
+      "vidIQ",
+      "vivo",
+      "Waymo",
+      "Web Summit",
+      "Webflow",
+      "Wiz",
+      "Wordpress",
+      "Workday",
+      "X",
+      "xAI",
+      "Xbox",
+      "Xiaomi",
+      "YouTube",
+      "Zoom"
+    ],
+    "initialOrganizationCount": 154,
+    "attemptedOrganizationCount": 154,
+    "verifiedOrganizationCount": 131,
+    "blockedOrganizations": [
+      {
+        "company": "Anysphere / Cursor",
+        "reason": "Compile Amsterdam says January 27 without a year, under a 2026 parent heading. Sydney says February 2027 without an exact day. Neither can be dated safely."
+      },
+      {
+        "company": "Block",
+        "reason": "Official news channel could not be fetched; focused search did not establish a future keynote."
+      },
+      {
+        "company": "ByteDance",
+        "reason": "Official news URL returned 404; search evidence alone cannot verify absence."
+      },
+      {
+        "company": "Garmin",
+        "reason": "Official events channel exposed insufficient current schedule content."
+      },
+      {
+        "company": "HashiCorp",
+        "reason": "Rendered events page showed featured webinars but its dynamic event list returned null/zero results; full listing remains unverified."
+      },
+      {
+        "company": "HP",
+        "reason": "Amplify channel was inaccessible and no exact future keynote was verified from alternative primary evidence."
+      },
+      {
+        "company": "Instagram",
+        "reason": "Official blog was rate-limited; no current keynote announcement verified."
+      },
+      {
+        "company": "MediaTek",
+        "reason": "Official event page did not expose a usable current event list."
+      },
+      {
+        "company": "Midjourney",
+        "reason": "Updates channel redirects to a private/gated page. No login attempted."
+      },
+      {
+        "company": "MongoDB",
+        "reason": "Official dynamic event page exposed no schedule in the available content."
+      },
+      {
+        "company": "Netflix",
+        "reason": "News channel returned 404; focused search did not establish a future keynote."
+      },
+      {
+        "company": "Nothing",
+        "reason": "Newsroom URL returned 404; no current primary announcement verified."
+      },
+      {
+        "company": "OpenAI",
+        "reason": "Regional Sydney pages contain conflicting October 2026 hero dates and February 2027 agenda dates; excluded until organizer clarification."
+      },
+      {
+        "company": "PayPal",
+        "reason": "Developer page has an invalid November 17–12, 2026 range. It is also a hackathon rather than a verified keynote."
+      },
+      {
+        "company": "Perplexity",
+        "reason": "Official news channel unavailable through the research tool; focused search did not verify a future keynote."
+      },
+      {
+        "company": "SAP",
+        "reason": "Official directory URLs failed; Sapphire search results exposed replay content without confirmed 2027 dates."
+      },
+      {
+        "company": "Shopify",
+        "reason": "Rendered Editions page remained Loading; future presentation date unverified."
+      },
+      {
+        "company": "SpaceX",
+        "reason": "Official updates channel exposed no readable schedule. Search-only absence is not a verification."
+      },
+      {
+        "company": "Tencent",
+        "reason": "Official news channel unavailable; no future keynote verified from alternatives."
+      },
+      {
+        "company": "Tesla",
+        "reason": "Official events channel exposed no readable schedule. Search-only absence is not a verification."
+      },
+      {
+        "company": "Webflow",
+        "reason": "Community event directory exposed insufficient schedule content."
+      },
+      {
+        "company": "Wiz",
+        "reason": "Wizdom London lists November 17–19 with Monday–Wednesday weekdays and 2025 context. Year is ambiguous; not treated as a 2026 event."
+      },
+      {
+        "company": "Zoom",
+        "reason": "Zoomtopia page could not be opened; future date remains unverified."
+      }
+    ],
+    "notYetAttempted": [],
+    "existingListingCount": 34,
+    "existingListingsVerified": [
+      "ignite-2026",
+      "aws-developer-2026",
+      "aws-ceo-2026",
+      "aws-data-2026",
+      "aws-partner-2026",
+      "aws-technical-2026",
+      "waymo-ces-2027",
+      "stellantis-ces-2027",
+      "lenovo-ces-2027",
+      "nvidia-gtc-2027",
+      "adobe-summit-2027",
+      "google-next-2027",
+      "fosdem-2027",
+      "kubecon-europe-2027",
       "nvidia-gtc-dc-2026",
       "salesforce-tokyo-keynote-2026",
       "salesforce-nyc-keynote-2026",
@@ -614,13 +2440,98 @@
       "esri-devtech-2027",
       "espc-amsterdam-2026"
     ],
-    "scope": "Targeted worldwide discovery across company event hubs, enterprise/developer events, consumer launches, AI, and open source. Prioritized upcoming 90 days, with announced conferences through the next 12 months.",
-    "coverageNotes": [
-      "Research seed list is not an allowlist; Esri and ESPC were discovered outside it.",
-      "No verified new keynote date was established for Apple WWDC 2027, Samsung Unpacked 2027, OpenAI DevDay 2027, or Vercel Open 2027. Predicted dates were not added.",
-      "Bitwarden recurring product deep dives and BlackRock earnings/investor meetings were not treated as keynote announcements.",
-      "This quick discovery sweep is not an exhaustive source-by-source certification of all tracked organizations. No cancellation or reschedule is asserted without primary-source evidence.",
-      "Conference-only listings retain pending keynote times; prior-year speaker/replay sections were not treated as upcoming schedules."
+    "existingListingsUnverified": [],
+    "discoverySearches": [
+      "site:kotlinconf.com 2027 dates keynote",
+      "site:githubuniverse.com 2027 dates",
+      "site:crowdstrike.com fal.con 2027 dates",
+      "site:sap.com sapphire 2027 Orlando Madrid dates",
+      "site:hp.com Amplify 2027 conference dates",
+      "site:ces.tech \"Cindy Rose\" \"2027\" keynote",
+      "site:netlify.com \"Compose\" \"2027\" \"January\"",
+      "upcoming startup launch keynote 2027 conference official Asia Africa Latin America",
+      "upcoming keynote launch event official next month",
+      "upcoming startup product launch livestream keynote",
+      "upcoming open source developer conference keynote official",
+      "upcoming AI developer day keynote official",
+      "upcoming hardware gaming automotive robotics keynote official",
+      "upcoming tech keynote Asia Europe Americas official"
+    ],
+    "discoveryFindings": [
+      {
+        "organization": "KHIPU",
+        "outcome": "added",
+        "source": "https://khipu.ai/khipu-for-startups/",
+        "finding": "Confirmed 2027 conference and shared main-stage keynotes outside the initial research list."
+      },
+      {
+        "organization": "GITEX LATAM",
+        "outcome": "program_pending",
+        "source": "https://www.gitexlatam.com/about-us",
+        "finding": "March 16–17, 2027 dates verified; keynote program needs confirmation."
+      },
+      {
+        "organization": "Africa Startup Congress",
+        "outcome": "blocked_unverified",
+        "source": "https://africastartupcongress.org/program",
+        "finding": "Search surfaced a possible February 2027 keynote program, but primary page content was insufficient to verify it."
+      },
+      {
+        "organization": "WPP",
+        "outcome": "unverified",
+        "source": "https://www.ces.tech/",
+        "finding": "CES related-news listing surfaced a possible keynote announcement; exact session date not verified."
+      }
+    ],
+    "changes": {
+      "addedEventIds": [
+        "dell-world-2027",
+        "datadog-dash-2027",
+        "hpe-discover-vegas-2027",
+        "hpe-discover-barcelona-keynote-2026",
+        "hubspot-unbound-2027",
+        "okta-oktane-2027",
+        "rsac-2027",
+        "susecon-2027",
+        "jetbrains-kotlinconf-2027",
+        "twilio-signal-main-2027",
+        "twilio-signal-technical-2027",
+        "oracle-public-sector-morning-2027",
+        "oracle-public-sector-afternoon-2027",
+        "oracle-ai-tour-mumbai-2027",
+        "oracle-ai-tour-paris-2027",
+        "oracle-ai-tour-tokyo-2027",
+        "oracle-ai-tour-sydney-2027",
+        "oracle-ai-tour-london-2027",
+        "oracle-ai-tour-new-york-2027",
+        "oracle-ai-tour-singapore-2027",
+        "oracle-ai-tour-dubai-2027",
+        "panasonic-solutionbox-2027",
+        "workday-rising-emea-2026",
+        "wordcamp-europe-2027",
+        "websummit-lisbon-2027",
+        "websummit-qatar-2027",
+        "eppc-2027",
+        "espc-fabric-sql-2027",
+        "oss-japan-2026",
+        "agntcon-na-2027",
+        "agntcon-europe-2027",
+        "pytorch-conference-2027",
+        "kubecon-japan-2027",
+        "kubecon-na-2027",
+        "rivian-ai-day-2026",
+        "netlify-community-launch-2026",
+        "slush-2026",
+        "atlassian-tour-toronto-keynote-2026",
+        "khipu-2027"
+      ],
+      "attendanceClassified": 73,
+      "confirmedCancellations": []
+    },
+    "limitations": [
+      "All seed organizations were attempted; inaccessible, gated, ambiguous-year, and conflicting-date sources are explicitly unresolved.",
+      "A full seed audit is not a guarantee of finding every keynote worldwide. Conference placeholders do not assert an announced keynote time.",
+      "Regional tour directories contain additional dates whose individual keynote agendas still require verification."
     ]
   }
 }

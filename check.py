@@ -37,6 +37,11 @@ for event in data['events']:
     ids.add(event['id'])
     assert re.fullmatch(r'[a-z0-9-]+', event['id'])
     assert event['kind'] in ('keynote', 'conference')
+    assert event['attendance'] in ('in_person', 'online', 'hybrid', 'unknown')
+    assert event.get('attendanceNotes'), f"Missing attendance evidence: {event['id']}"
+    https(event['attendanceSource'])
+    if event.get('iconName') is not None:
+        assert re.fullmatch(r'[a-z0-9-]+', event['iconName']), f"Invalid Phosphor icon: {event['iconName']}"
     assert event.get('status', 'CONFIRMED') in ('CONFIRMED', 'CANCELLED', 'TENTATIVE')
     assert re.fullmatch(r'#[0-9a-fA-F]{6}', event['color'])
     start_date = date.fromisoformat(event['date'])
@@ -56,6 +61,27 @@ for company in companies['companies']:
     assert re.fullmatch(r'#[0-9a-fA-F]{6}', company['color'])
     https(company['url'])
     names.append(company['company'])
+    if company.get('iconName') is not None:
+        assert re.fullmatch(r'[a-z0-9-]+', company['iconName']), f"Invalid Phosphor icon: {company['iconName']}"
+    audit = company.get('audit')
+    if audit:
+        timestamp(audit['attemptedAt'])
+        assert audit['findings'] and audit['sources'], f"Missing audit evidence: {company['company']}"
+        for source in audit['sources']:
+            https(source['url'])
+        assert all(id in ids for id in audit['eventIds'])
+run = data.get('lastRefresh', {})
+if 'initialOrganizations' in run:
+    initial = set(run['initialOrganizations'])
+    assert len(initial) == run['initialOrganizationCount']
+    audited = {c['company'] for c in companies['companies'] if c.get('audit')}
+    assert initial <= audited | set(run['notYetAttempted']), 'Audit silently omits an initial organization'
+    assert run['attemptedOrganizationCount'] == len(initial - set(run['notYetAttempted']))
+    assert run['verifiedOrganizationCount'] + len(run['blockedOrganizations']) == run['attemptedOrganizationCount']
+    assert run['existingListingCount'] == len(run['existingListingsVerified']) + len(run['existingListingsUnverified'])
+    assert all(id in ids for id in run['existingListingsVerified'])
+    if run['complete']:
+        assert not run['blockedOrganizations'] and not run['notYetAttempted'] and not run['existingListingsUnverified']
 assert len(names) == len(set(names)), 'Duplicate company'
 assert (root / 'tracked-companies.txt').read_text().splitlines() == names, 'Research list differs from companies.json; run generator'
 html = (root / 'index.html').read_text()

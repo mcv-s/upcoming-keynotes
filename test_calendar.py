@@ -48,5 +48,15 @@ class CalendarTest(unittest.TestCase):
         self.assertIn('\\;\\,\\\\\\nhello', unfolded)
         self.assertIn('REFRESH-INTERVAL;VALUE=DURATION:PT12H', output)
 
+    def test_attendance_update_revises_existing_subscription_event(self):
+        first = self.feed([{**EVENT, 'attendance':'in_person'}])
+        changed = {**EVENT, 'attendance':'hybrid', 'attendanceNotes':'Online keynote\nRegistration required.'}
+        output = self.feed([changed], first, '20261124T120000Z')
+        block = read_events(output)['demo-2027@example.test']
+        description = next(line for line in block if line.startswith('DESCRIPTION:'))
+        self.assertIn('Attendance: In person and online', description)
+        self.assertIn('Online keynote\\nRegistration required.', description)
+        self.assertIn('SEQUENCE:1', block)
+
 if __name__ == '__main__':
     unittest.main()

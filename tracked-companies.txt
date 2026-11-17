@@ -152,3 +152,4 @@ Xbox
 Xiaomi
 YouTube
 Zoom
+KHIPU

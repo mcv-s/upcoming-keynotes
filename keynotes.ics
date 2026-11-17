@@ -16,13 +16,49 @@ DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270326
 DESCRIPTION:Adobe’s customer experience conference. Online programming ru
  ns March 23–24.\nConference March 23–25\; preconference March 22. Keyn
- ote times pending.\nConference dates\; see the event for individual keynot
- e times.\nOfficial source: https://summit.adobe.com/na/faq/
+ ote times pending.\nAttendance: In person and online\nIn Las Vegas March 2
+ 3–25\; online program March 23–24. The wider event directory includes 
+ March 22 preconference activity.\nConference dates\; see the event for ind
+ ividual keynote times.\nOfficial source: https://summit.adobe.com/na/faq/
 LOCATION:Las Vegas + online
 URL:https://summit.adobe.com/na/faq/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:agntcon-europe-2027@upcoming-keynotes
+SUMMARY:AGNTCon + MCPCon Europe
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270917
+DESCRIPTION:AGNTCon + MCPCon Europe. Conference dates announced\; individua
+ l keynote schedule pending.\nAttendance: In person\nIn-person attendance c
+ onfirmed. A live online option has not been verified.\nConference dates\; 
+ see the event for individual keynote times.\nOfficial source: https://even
+ ts.linuxfoundation.org/agntcon-mcpcon-europe-2027/
+LOCATION:London\, United Kingdom
+URL:https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:agntcon-na-2027@upcoming-keynotes
+SUMMARY:AGNTCon + MCPCon North America
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270430
+DESCRIPTION:AGNTCon + MCPCon North America. Conference dates announced\; in
+ dividual keynote schedule pending.\nAttendance: In person\nIn-person atten
+ dance confirmed. A live online option has not been verified.\nConference d
+ ates\; see the event for individual keynote times.\nOfficial source: https
+ ://events.linuxfoundation.org/agntcon-mcpcon-north-america/
+LOCATION:San Francisco
+URL:https://events.linuxfoundation.org/agntcon-mcpcon-north-america/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -32,13 +68,30 @@ DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270423
 DESCRIPTION:Atlassian’s annual collaboration and product conference at Mo
  scone Center.\nConference dates confirmed\; individual keynote schedule pe
- nding.\nConference dates\; see the event for individual keynote times.\nOf
- ficial source: https://events.atlassian.com/team
+ nding.\nAttendance: In person and online\nIn-person event with select cont
+ ent available online\; not every session is streamed.\nConference dates\; 
+ see the event for individual keynote times.\nOfficial source: https://even
+ ts.atlassian.com/team
 LOCATION:San Francisco + select content online
 URL:https://events.atlassian.com/team
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:atlassian-tour-toronto-keynote-2026@upcoming-keynotes
+SUMMARY:Team on Tour Toronto · Opening keynote
+DTSTART:20261208T144500Z
+DTEND:20261208T154500Z
+DESCRIPTION:Atlassian’s opening keynote on AI and teamwork.\nAttendance: 
+ In person\nThe event FAQ explicitly says Team on Tour will not be live str
+ eamed.\nOfficial source: https://events.atlassian.com/teamontour-toronto
+LOCATION:Toronto\, Canada
+URL:https://events.atlassian.com/teamontour-toronto
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -48,14 +101,16 @@ DTSTART:20261201T163000Z
 DTEND:20261201T183000Z
 DESCRIPTION:AWS’s flagship keynote on cloud infrastructure and AI.\nTimes
   interpreted as Las Vegas local time. The livestream page labels winter ti
- mes PDT\; confirm with the organizer.\nOfficial source: https://aws.amazon
- .com/events/reinvent/sessions/keynotes/
+ mes PDT\; confirm with the organizer.\nAttendance: In person and online\nO
+ rganizer confirms in-person and online access\; registration and available
+  sessions may differ.\nOfficial source: https://aws.amazon.com/events/rein
+ vent/sessions/keynotes/
 LOCATION:Las Vegas + online
 URL:https://aws.amazon.com/events/reinvent/livestream/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:aws-data-2026@upcoming-keynotes
@@ -64,14 +119,16 @@ DTSTART:20261202T163000Z
 DTEND:20261202T180000Z
 DESCRIPTION:Data systems and putting AI agents into production.\nTimes inte
  rpreted as Las Vegas local time. The livestream page labels winter times P
- DT\; confirm with the organizer.\nOfficial source: https://aws.amazon.com/
- events/reinvent/sessions/keynotes/
+ DT\; confirm with the organizer.\nAttendance: In person and online\nOrgani
+ zer confirms in-person and online access\; registration and available sess
+ ions may differ.\nOfficial source: https://aws.amazon.com/events/reinvent/
+ sessions/keynotes/
 LOCATION:Las Vegas + online
 URL:https://aws.amazon.com/events/reinvent/livestream/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:aws-developer-2026@upcoming-keynotes
@@ -80,14 +137,16 @@ DTSTART:20261201T033000Z
 DTEND:20261201T044500Z
 DESCRIPTION:Software development\, agents\, and live demos from AWS enginee
  ring.\nTimes interpreted as Las Vegas local time. The livestream page labe
- ls winter times PDT\; confirm with the organizer.\nOfficial source: https:
- //aws.amazon.com/events/reinvent/sessions/keynotes/
+ ls winter times PDT\; confirm with the organizer.\nAttendance: In person a
+ nd online\nOrganizer confirms in-person and online access\; registration a
+ nd available sessions may differ.\nOfficial source: https://aws.amazon.com
+ /events/reinvent/sessions/keynotes/
 LOCATION:Las Vegas + online
 URL:https://aws.amazon.com/events/reinvent/livestream/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:aws-partner-2026@upcoming-keynotes
@@ -96,14 +155,16 @@ DTSTART:20261202T230000Z
 DTEND:20261203T000000Z
 DESCRIPTION:AWS’s partner ecosystem and go-to-market updates.\nTimes inte
  rpreted as Las Vegas local time. The livestream page labels winter times P
- DT\; confirm with the organizer.\nOfficial source: https://aws.amazon.com/
- events/reinvent/sessions/keynotes/
+ DT\; confirm with the organizer.\nAttendance: In person and online\nOrgani
+ zer confirms in-person and online access\; registration and available sess
+ ions may differ.\nOfficial source: https://aws.amazon.com/events/reinvent/
+ sessions/keynotes/
 LOCATION:Las Vegas + online
 URL:https://aws.amazon.com/events/reinvent/livestream/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:aws-technical-2026@upcoming-keynotes
@@ -112,14 +173,16 @@ DTSTART:20261203T163000Z
 DTEND:20261203T180000Z
 DESCRIPTION:A closer look at the infrastructure behind AWS.\nTimes interpre
  ted as Las Vegas local time. The livestream page labels winter times PDT\;
-  confirm with the organizer.\nOfficial source: https://aws.amazon.com/even
- ts/reinvent/sessions/keynotes/
+  confirm with the organizer.\nAttendance: In person and online\nOrganizer 
+ confirms in-person and online access\; registration and available sessions
+  may differ.\nOfficial source: https://aws.amazon.com/events/reinvent/sess
+ ions/keynotes/
 LOCATION:Las Vegas + online
 URL:https://aws.amazon.com/events/reinvent/livestream/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:databricks-summit-2027@upcoming-keynotes
@@ -128,14 +191,70 @@ DTSTART;VALUE=DATE:20270621
 DTEND;VALUE=DATE:20270625
 DESCRIPTION:Databricks’ data and AI conference. Individual keynote times 
  remain pending.\nConference dates are confirmed. Session pages without a d
- ated 2027 slot are not used to infer keynote start times.\nConference date
- s\; see the event for individual keynote times.\nOfficial source: https://
- www.databricks.com/dataaisummit
+ ated 2027 slot are not used to infer keynote start times.\nAttendance: In 
+ person and online\nOrganizer confirms in-person and online access\; regist
+ ration and available sessions may differ.\nConference dates\; see the even
+ t for individual keynote times.\nOfficial source: https://www.databricks.c
+ om/dataaisummit
 LOCATION:San Francisco + virtual
 URL:https://www.databricks.com/dataaisummit
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:datadog-dash-2027@upcoming-keynotes
+SUMMARY:DASH 2027
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270617
+DESCRIPTION:DASH 2027. Conference dates announced\; individual keynote sche
+ dule pending.\nThe organizer displays June (14) 15–16. This placeholder 
+ covers the two main days\; June 14 activity and the keynote schedule need 
+ clarification.\nAttendance: In person\nIn-person attendance confirmed. A l
+ ive online option has not been verified.\nConference dates\; see the event
+  for individual keynote times.\nOfficial source: https://dash.datadoghq.co
+ m/
+LOCATION:New York City
+URL:https://dash.datadoghq.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dell-world-2027@upcoming-keynotes
+SUMMARY:Dell Technologies World
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270528
+DESCRIPTION:Dell Technologies World. Conference dates announced\; individua
+ l keynote schedule pending.\nAttendance: In person\nIn-person attendance c
+ onfirmed. A live online option has not been verified.\nConference dates\; 
+ see the event for individual keynote times.\nOfficial source: https://www.
+ dell.com/en-us/learn/events/lp/dell-technologies-world/overview
+LOCATION:Las Vegas
+URL:https://www.dell.com/en-us/learn/events/lp/dell-technologies-world/over
+ view
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eppc-2027@upcoming-keynotes
+SUMMARY:European Power Platform Conference
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270618
+DESCRIPTION:European Power Platform Conference. Conference dates announced\
+ ; individual keynote schedule pending.\nAttendance: In person\nIn-person a
+ ttendance confirmed. A live online option has not been verified.\nConferen
+ ce dates\; see the event for individual keynote times.\nOfficial source: h
+ ttps://espc.tech/conference/eppc-2027/
+LOCATION:Dublin\, Ireland
+URL:https://espc.tech/conference/eppc-2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -145,15 +264,34 @@ DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261204
 DESCRIPTION:European Microsoft community conference with an opening keynote
   from Jeff Teper.\nConference date range only. Do not infer the opening ke
- ynote’s day or time from the start of the conference.\nConference dates\
- ; see the event for individual keynote times.\nOfficial source: https://ww
- w.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amste
- rdam-bringing-microsoft-and-the-community-together/
+ ynote’s day or time from the start of the conference.\nAttendance: In pe
+ rson\nIn-person attendance confirmed. A live online option has not been ve
+ rified.\nConference dates\; see the event for individual keynote times.\nO
+ fficial source: https://www.microsoft.com/en-us/copilot/blog/2026/09/10/es
+ pc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-togeth
+ er/
 LOCATION:Amsterdam\, Netherlands
 URL:https://espc.tech/conference/espc-2026/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:espc-fabric-sql-2027@upcoming-keynotes
+SUMMARY:European Microsoft Fabric + SQL Conference
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271029
+DESCRIPTION:European Microsoft Fabric + SQL Conference. Conference dates an
+ nounced\; individual keynote schedule pending.\nAttendance: In person\nIn-
+ person attendance confirmed. A live online option has not been verified.\n
+ Conference dates\; see the event for individual keynote times.\nOfficial s
+ ource: https://espc.tech/
+LOCATION:Amsterdam\, Netherlands
+URL:https://espc.tech/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -163,15 +301,16 @@ DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270313
 DESCRIPTION:Esri’s developer and geospatial technology conference at Palm
   Springs Convention Center.\nConference dates announced. Individual plenar
- y and keynote times pending.\nConference dates\; see the event for individ
- ual keynote times.\nOfficial source: https://www.esri.com/en-us/about/even
- ts/devtech/overview
+ y and keynote times pending.\nAttendance: In person\nIn-person attendance 
+ confirmed. A live online option has not been verified.\nConference dates\;
+  see the event for individual keynote times.\nOfficial source: https://www
+ .esri.com/en-us/about/events/devtech/overview
 LOCATION:Palm Springs\, California
 URL:https://www.esri.com/en-us/about/events/devtech/overview
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:figma-config-2027@upcoming-keynotes
@@ -180,15 +319,16 @@ DTSTART;VALUE=DATE:20270525
 DTEND;VALUE=DATE:20270528
 DESCRIPTION:Figma’s product-building conference\, featuring keynotes\, de
  sign tools\, and product updates.\nConference dates announced. Individual 
- keynote dates\, times\, and speakers pending.\nConference dates\; see the 
- event for individual keynote times.\nOfficial source: https://config.figma
- .com/
+ keynote dates\, times\, and speakers pending.\nAttendance: In person and o
+ nline\nOrganizer confirms in-person and online access\; registration and a
+ vailable sessions may differ.\nConference dates\; see the event for indivi
+ dual keynote times.\nOfficial source: https://config.figma.com/
 LOCATION:San Francisco + virtual
 URL:https://config.figma.com/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:fosdem-2027@upcoming-keynotes
@@ -196,15 +336,16 @@ SUMMARY:FOSDEM 2027
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Community-led free and open source developer conference. Indivi
- dual main-track and keynote details are pending.\nConference dates\; see t
- he event for individual keynote times.\nOfficial source: https://fosdem.or
- g/2027/
+ dual main-track and keynote details are pending.\nAttendance: In person\nI
+ n-person attendance confirmed. A live online option has not been verified.
+ \nConference dates\; see the event for individual keynote times.\nOfficial
+  source: https://fosdem.org/2027/
 LOCATION:Brussels\, Belgium
 URL:https://fosdem.org/2027/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:google-next-2027@upcoming-keynotes
@@ -212,13 +353,66 @@ SUMMARY:Google Cloud Next
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270416
 DESCRIPTION:Google Cloud’s conference returns to Mandalay Bay. Keynote ti
- mes pending.\nConference dates\; see the event for individual keynote time
- s.\nOfficial source: https://developers.google.com/events/
+ mes pending.\nAttendance: In person\nIn-person attendance confirmed. A liv
+ e online option has not been verified.\nConference dates\; see the event f
+ or individual keynote times.\nOfficial source: https://developers.google.c
+ om/events/
 LOCATION:Las Vegas
 URL:https://developers.google.com/events/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:hpe-discover-barcelona-keynote-2026@upcoming-keynotes
+SUMMARY:Discover Barcelona · Antonio Neri keynote
+DTSTART:20261202T083000Z
+DTEND:20261202T093000Z
+DESCRIPTION:HPE’s main-stage keynote at Discover Barcelona.\nPublished as
+  December 2\, 09:30–10:30 CET\; conference runs December 2–3.\nAttenda
+ nce: In person\nIn-person attendance confirmed. A live online option has n
+ ot been verified.\nOfficial source: https://www.hpe.com/us/en/discover/bar
+ celona.html
+LOCATION:Barcelona\, Spain
+URL:https://www.hpe.com/us/en/discover/barcelona.html
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hpe-discover-vegas-2027@upcoming-keynotes
+SUMMARY:HPE Discover Las Vegas
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270625
+DESCRIPTION:HPE Discover Las Vegas. Conference dates announced\; individual
+  keynote schedule pending.\nAttendance: In person\nIn-person attendance co
+ nfirmed. A live online option has not been verified.\nConference dates\; s
+ ee the event for individual keynote times.\nOfficial source: https://www.h
+ pe.com/us/en/discover/lasvegas.html
+LOCATION:Las Vegas
+URL:https://www.hpe.com/us/en/discover/lasvegas.html
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hubspot-unbound-2027@upcoming-keynotes
+SUMMARY:UNBOUND 2027
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270911
+DESCRIPTION:UNBOUND 2027. Conference dates announced\; individual keynote s
+ chedule pending.\nAttendance: In person\nIn-person attendance confirmed. A
+  live online option has not been verified.\nConference dates\; see the eve
+ nt for individual keynote times.\nOfficial source: https://unbound.hubspot
+ .com/
+LOCATION:Boston\, Massachusetts
+URL:https://unbound.hubspot.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -228,29 +422,67 @@ DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270611
 DESCRIPTION:IBM’s enterprise technology conference. 2027 conference dates
   announced.\n2026 keynote replays on the page are not the 2027 agenda. Ind
- ividual 2027 keynote details pending.\nConference dates\; see the event fo
- r individual keynote times.\nOfficial source: https://www.ibm.com/events/t
- hink
+ ividual 2027 keynote details pending.\nAttendance: In person\nIn-person at
+ tendance confirmed. A live online option has not been verified.\nConferenc
+ e dates\; see the event for individual keynote times.\nOfficial source: ht
+ tps://www.ibm.com/events/think
 LOCATION:Boston\, Massachusetts
 URL:https://www.ibm.com/events/think
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:ignite-2026@upcoming-keynotes
 SUMMARY:Ignite opening keynote
 DTSTART:20261117T180000Z
 DESCRIPTION:Microsoft’s opening keynote. Start time verified\; check the 
- official page for replay availability.\nEnd time not announced.\nOfficial 
- source: https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/j
- oin-nvidia-and-microsoft-at-ignite-2026/4573012
+ official page for replay availability.\nAttendance: In person and online\n
+ Organizer confirms in-person and online access\; registration and availabl
+ e sessions may differ.\nEnd time not announced.\nOfficial source: https://
+ techcommunity.microsoft.com/blog/AzureInfrastructureBlog/join-nvidia-and-m
+ icrosoft-at-ignite-2026/4573012
 LOCATION:San Francisco + online
 URL:https://news.microsoft.com/events/ignite/2026/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:jetbrains-kotlinconf-2027@upcoming-keynotes
+SUMMARY:KotlinConf 2027
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270424
+DESCRIPTION:KotlinConf 2027. Conference dates announced\; individual keynot
+ e schedule pending.\nAttendance: In person\nIn-person attendance confirmed
+ . A live online option has not been verified.\nConference dates\; see the 
+ event for individual keynote times.\nOfficial source: https://kotlinconf.c
+ om/
+LOCATION:Kraków\, Poland
+URL:https://kotlinconf.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:khipu-2027@upcoming-keynotes
+SUMMARY:KHIPU 2027
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270410
+DESCRIPTION:KHIPU 2027. Conference dates announced\; individual keynote sch
+ edule pending.\nMain conference April 5–9\; the startup track runs April
+  7–8 with shared main-stage keynotes. Individual keynote times pending.\
+ nAttendance: In person\nIn-person attendance confirmed. A live online opti
+ on has not been verified.\nConference dates\; see the event for individual
+  keynote times.\nOfficial source: https://khipu.ai/khipu-for-startups/
+LOCATION:São Paulo\, Brazil
+URL:https://khipu.ai/khipu-for-startups/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -261,14 +493,53 @@ DTEND;VALUE=DATE:20270319
 DESCRIPTION:Cloud native community conference\, with keynote programming on
   March 16–18. Co-located pre-event programming takes place March 15.\nMa
  in conference dates only\; individual keynote times pending. Recordings wi
- ll be published\; no virtual attendance component is announced.\nConferenc
- e dates\; see the event for individual keynote times.\nOfficial source: ht
- tps://events.linuxfoundation.org/kubecon-cloudnativecon-europe/attend/faq/
+ ll be published\; no virtual attendance component is announced.\nAttendanc
+ e: In person\nThe organizer FAQ explicitly says there is no virtual compon
+ ent. Recordings after the event do not provide live online attendance.\nCo
+ nference dates\; see the event for individual keynote times.\nOfficial sou
+ rce: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/atte
+ nd/faq/
 LOCATION:Barcelona\, Spain
 URL:https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:kubecon-japan-2027@upcoming-keynotes
+SUMMARY:KubeCon + CloudNativeCon Japan
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270827
+DESCRIPTION:KubeCon + CloudNativeCon Japan. Conference dates announced\; in
+ dividual keynote schedule pending.\nAttendance: In person\nIn-person atten
+ dance confirmed. A live online option has not been verified.\nConference d
+ ates\; see the event for individual keynote times.\nOfficial source: https
+ ://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
+LOCATION:Yokohama\, Japan
+URL:https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kubecon-na-2027@upcoming-keynotes
+SUMMARY:KubeCon + CloudNativeCon North America
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271112
+DESCRIPTION:KubeCon + CloudNativeCon North America. Conference dates announ
+ ced\; individual keynote schedule pending.\nAttendance: In person\nIn-pers
+ on attendance confirmed. A live online option has not been verified.\nConf
+ erence dates\; see the event for individual keynote times.\nOfficial sourc
+ e: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america
+ -2027/
+LOCATION:New Orleans\, Louisiana
+URL:https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america
+ -2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -276,16 +547,17 @@ UID:lenovo-ces-2027@upcoming-keynotes
 SUMMARY:Tech World @ CES
 DTSTART:20270107T010000Z
 DESCRIPTION:Lenovo’s hybrid AI vision takes the stage at Sphere.\nEnd tim
- e not announced.\nEnd time not announced.\nOfficial source: https://news.l
- enovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-e
- ra-of-hybrid-ai/
+ e not announced.\nAttendance: In person\nIn-person attendance confirmed. A
+  live online option has not been verified.\nEnd time not announced.\nOffic
+ ial source: https://news.lenovo.com/pressroom/press-releases/tech-world-ce
+ s-2027-defining-the-next-era-of-hybrid-ai/
 LOCATION:Las Vegas + online
 URL:https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-de
  fining-the-next-era-of-hybrid-ai/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-barcelona-2027@upcoming-keynotes
@@ -294,14 +566,32 @@ DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270305
 DESCRIPTION:The global connectivity conference\, with announced keynote spe
  akers and industry programming.\nConference dates announced. Individual ke
- ynote dates and times must be checked against the forthcoming agenda.\nCon
- ference dates\; see the event for individual keynote times.\nOfficial sour
- ce: https://www.mwcbarcelona.com/
+ ynote dates and times must be checked against the forthcoming agenda.\nAtt
+ endance: In person\nIn-person attendance confirmed. A live online option h
+ as not been verified.\nConference dates\; see the event for individual key
+ note times.\nOfficial source: https://www.mwcbarcelona.com/
 LOCATION:Barcelona\, Spain
 URL:https://www.mwcbarcelona.com/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:netlify-community-launch-2026@upcoming-keynotes
+SUMMARY:Netlify · Product reveal
+DTSTART:20261119T180000Z
+DTEND:20261119T190000Z
+DESCRIPTION:Live Netlify product announcements and demonstrations.\nSeparat
+ e from the November 18 San Francisco launch party\; the event directory’
+ s party date/format conflicts with its registration page.\nAttendance: Onl
+ ine\nOrganizer-hosted Luma listing confirms YouTube and November 19\, 1–
+ 2 PM EST.\nOfficial source: https://luma.com/netlify-xqd5
+LOCATION:Online
+URL:https://luma.com/netlify-xqd5
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -312,14 +602,16 @@ DTEND;VALUE=DATE:20270319
 DESCRIPTION:NVIDIA’s AI conference. Conference dates announced\; keynote 
  schedule pending.\nMain event page lists March 15–18\; the FAQ includes 
  March 14. This listing follows the main page. No keynote date or time infe
- rred.\nConference dates\; see the event for individual keynote times.\nOff
- icial source: https://www.nvidia.com/gtc/
+ rred.\nAttendance: In person and online\nOrganizer confirms in-person and 
+ online access\; registration and available sessions may differ.\nConferenc
+ e dates\; see the event for individual keynote times.\nOfficial source: ht
+ tps://www.nvidia.com/gtc/
 LOCATION:San Jose + online
 URL:https://www.nvidia.com/gtc/
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:nvidia-gtc-dc-2026@upcoming-keynotes
@@ -328,13 +620,204 @@ DTSTART:20261201T190000Z
 DTEND:20261201T210000Z
 DESCRIPTION:NVIDIA’s Washington\, D.C. keynote on AI and accelerated comp
  uting.\nOrganizer lists December 1\, 2–4 PM Eastern. Speaker details sho
- uld be reconfirmed on the official page.\nOfficial source: https://www.nvi
- dia.com/gtc/dc/keynote/
+ uld be reconfirmed on the official page.\nAttendance: In person and online
+ \nOrganizer confirms in-person and online access\; registration and availa
+ ble sessions may differ.\nOfficial source: https://www.nvidia.com/gtc/dc/k
+ eynote/
 LOCATION:Washington\, D.C. + online
 URL:https://www.nvidia.com/gtc/dc/keynote/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:okta-oktane-2027@upcoming-keynotes
+SUMMARY:Oktane 2027
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20271001
+DESCRIPTION:Oktane 2027. Conference dates announced\; individual keynote sc
+ hedule pending.\nAttendance: In person\nIn-person attendance confirmed. A 
+ live online option has not been verified.\nConference dates\; see the even
+ t for individual keynote times.\nOfficial source: https://www.okta.com/okt
+ ane/
+LOCATION:Las Vegas
+URL:https://www.okta.com/oktane/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-dubai-2027@upcoming-keynotes
+SUMMARY:AI World Tour · Dubai
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:Dubai
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-london-2027@upcoming-keynotes
+SUMMARY:AI World Tour · London
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:London
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-mumbai-2027@upcoming-keynotes
+SUMMARY:AI World Tour · Mumbai
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:Mumbai
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-new-york-2027@upcoming-keynotes
+SUMMARY:AI World Tour · New York
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:New York
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-paris-2027@upcoming-keynotes
+SUMMARY:AI World Tour · Paris
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:Paris
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-singapore-2027@upcoming-keynotes
+SUMMARY:AI World Tour · Singapore
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:Singapore
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-sydney-2027@upcoming-keynotes
+SUMMARY:AI World Tour · Sydney
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:Sydney
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-ai-tour-tokyo-2027@upcoming-keynotes
+SUMMARY:AI World Tour · Tokyo
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+DESCRIPTION:Oracle AI World Tour conference stop. Individual keynote schedu
+ le pending.\nAttendance: In person\nIn-person attendance confirmed. A live
+  online option has not been verified.\nConference dates\; see the event fo
+ r individual keynote times.\nOfficial source: https://www.oracle.com/ai-wo
+ rld-tour/
+LOCATION:Tokyo
+URL:https://www.oracle.com/ai-world-tour/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-public-sector-afternoon-2027@upcoming-keynotes
+SUMMARY:Public Sector Summit · Afternoon keynote
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+DESCRIPTION:Oracle’s public-sector summit keynote.\nThe local agenda publ
+ ishes session hours but does not explicitly label the time zone. Kept date
+ -only until confirmed.\nAttendance: In person\nIn-person attendance confir
+ med. A live online option has not been verified.\nAll-day placeholder: key
+ note time pending.\nOfficial source: https://www.oracle.com/government/pub
+ lic-sector-summit/
+LOCATION:Washington\, D.C.
+URL:https://www.oracle.com/government/public-sector-summit/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:oracle-public-sector-morning-2027@upcoming-keynotes
+SUMMARY:Public Sector Summit · Morning keynote
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+DESCRIPTION:Oracle’s public-sector summit keynote.\nThe local agenda publ
+ ishes session hours but does not explicitly label the time zone. Kept date
+ -only until confirmed.\nAttendance: In person\nIn-person attendance confir
+ med. A live online option has not been verified.\nAll-day placeholder: key
+ note time pending.\nOfficial source: https://www.oracle.com/government/pub
+ lic-sector-summit/
+LOCATION:Washington\, D.C.
+URL:https://www.oracle.com/government/public-sector-summit/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -343,15 +826,34 @@ SUMMARY:Open Source Summit Europe
 DTSTART;VALUE=DATE:20270920
 DTEND;VALUE=DATE:20270923
 DESCRIPTION:The Linux Foundation’s European open source conference.\nConf
- erence dates announced\; keynote lineup and times pending.\nConference dat
- es\; see the event for individual keynote times.\nOfficial source: https:/
- /events.linuxfoundation.org/open-source-summit-europe-2027/
+ erence dates announced\; keynote lineup and times pending.\nAttendance: In
+  person\nIn-person attendance confirmed. A live online option has not been
+  verified.\nConference dates\; see the event for individual keynote times.
+ \nOfficial source: https://events.linuxfoundation.org/open-source-summit-e
+ urope-2027/
 LOCATION:Glasgow\, Scotland
 URL:https://events.linuxfoundation.org/open-source-summit-europe-2027/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:oss-japan-2026@upcoming-keynotes
+SUMMARY:Open Source Summit Japan
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261210
+DESCRIPTION:Open Source Summit Japan. Published keynote program available o
+ n the organizer’s event page.\nAttendance: In person\nIn-person attendan
+ ce confirmed. A live online option has not been verified.\nConference date
+ s\; see the event for individual keynote times.\nOfficial source: https://
+ events.linuxfoundation.org/open-source-summit-japan/
+LOCATION:Tokyo\, Japan
+URL:https://events.linuxfoundation.org/open-source-summit-japan/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193921Z
+LAST-MODIFIED:20261117T193921Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:oss-north-america-2027@upcoming-keynotes
@@ -359,14 +861,52 @@ SUMMARY:Open Source Summit North America
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270520
 DESCRIPTION:The Linux Foundation’s North American open source conference.
- \nConference dates announced\; keynote lineup and times pending.\nConferen
- ce dates\; see the event for individual keynote times.\nOfficial source: h
- ttps://events.linuxfoundation.org/open-source-summit-north-america/
+ \nConference dates announced\; keynote lineup and times pending.\nAttendan
+ ce: In person\nIn-person attendance confirmed. A live online option has no
+ t been verified.\nConference dates\; see the event for individual keynote 
+ times.\nOfficial source: https://events.linuxfoundation.org/open-source-su
+ mmit-north-america/
 LOCATION:Vancouver\, Canada
 URL:https://events.linuxfoundation.org/open-source-summit-north-america/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:panasonic-solutionbox-2027@upcoming-keynotes
+SUMMARY:Solution BOX India
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270123
+DESCRIPTION:Solution BOX India. Conference dates announced\; individual key
+ note schedule pending.\nMain public event January 21–22\; January 20 is 
+ invitation-only pre-event activity. Keynote timings are provisional.\nAtte
+ ndance: In person\nIn-person attendance confirmed. A live online option ha
+ s not been verified.\nConference dates\; see the event for individual keyn
+ ote times.\nOfficial source: https://www.lsin.panasonic.com/sbox-registrat
+ ion
+LOCATION:New Delhi\, India
+URL:https://www.lsin.panasonic.com/sbox-registration
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pytorch-conference-2027@upcoming-keynotes
+SUMMARY:PyTorch Conference
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271008
+DESCRIPTION:PyTorch Conference. Conference dates announced\; individual key
+ note schedule pending.\nAttendance: In person\nIn-person attendance confir
+ med. A live online option has not been verified.\nConference dates\; see t
+ he event for individual keynote times.\nOfficial source: https://events.li
+ nuxfoundation.org/pytorch-conference-2027/
+LOCATION:San Jose\, California
+URL:https://events.linuxfoundation.org/pytorch-conference-2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -376,14 +916,48 @@ DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270528
 DESCRIPTION:Red Hat’s enterprise open source conference at the Thomas M. 
  Menino Convention & Exhibition Center.\nIn-person event\; highlights avail
- able after the conference. Individual keynote schedule pending.\nConferenc
- e dates\; see the event for individual keynote times.\nOfficial source: ht
- tps://www.redhat.com/en/summit/about/faq
+ able after the conference. Individual keynote schedule pending.\nAttendanc
+ e: In person\nIn person only\; the FAQ says there is no live virtual compo
+ nent. Selected recordings follow later.\nConference dates\; see the event 
+ for individual keynote times.\nOfficial source: https://www.redhat.com/en/
+ summit/about/faq
 LOCATION:Boston\, Massachusetts
 URL:https://www.redhat.com/en/summit/about/faq
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:rivian-ai-day-2026@upcoming-keynotes
+SUMMARY:Autonomy & AI Day
+DTSTART:20261209T180000Z
+DESCRIPTION:Rivian’s public Autonomy & AI Day livestream.\nAttendance: On
+ line\nPublic livestream announced for December 9 at 10 AM Pacific. Physica
+ l audience access not confirmed.\nEnd time not announced.\nOfficial source
+ : https://rivian.com/events/autonomy-and-ai-day
+LOCATION:Online
+URL:https://rivian.com/events/autonomy-and-ai-day
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rsac-2027@upcoming-keynotes
+SUMMARY:RSAC Conference
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270409
+DESCRIPTION:RSAC Conference. Conference dates announced\; individual keynot
+ e schedule pending.\nAttendance: In person\nIn person. Recordings availabl
+ e after the conference are not a confirmed live online option.\nConference
+  dates\; see the event for individual keynote times.\nOfficial source: htt
+ ps://www.rsaconference.com/About/FAQ
+LOCATION:San Francisco
+URL:https://www.rsaconference.com/About/FAQ
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -392,14 +966,15 @@ SUMMARY:World Tour New York · Main keynote
 DTSTART:20261203T150000Z
 DTEND:20261203T160000Z
 DESCRIPTION:Product announcements and customer stories from Salesforce’s 
- New York event.\nOfficial source: https://www.salesforce.com/events/world-
- tour/nyc/
+ New York event.\nAttendance: In person and online\nOrganizer confirms in-p
+ erson and online access\; registration and available sessions may differ.\
+ nOfficial source: https://www.salesforce.com/events/world-tour/nyc/
 LOCATION:New York City + Salesforce+
 URL:https://www.salesforce.com/events/world-tour/nyc/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:salesforce-tdx-2027@upcoming-keynotes
@@ -409,15 +984,16 @@ DTEND;VALUE=DATE:20270312
 DESCRIPTION:Salesforce’s conference for developers\, admins\, architects\
  , and IT leaders.\nDates verified on Salesforce’s events directory and s
  ave-the-date page. The general /tdx/ page still contains earlier-edition m
- aterial\; individual keynote times pending.\nConference dates\; see the ev
- ent for individual keynote times.\nOfficial source: https://www.salesforce
- .com/events/
+ aterial\; individual keynote times pending.\nAttendance: In person and onl
+ ine\nOrganizer confirms in-person and online access\; registration and ava
+ ilable sessions may differ.\nConference dates\; see the event for individu
+ al keynote times.\nOfficial source: https://www.salesforce.com/events/
 LOCATION:San Francisco + Salesforce+
 URL:https://www.salesforce.com/tdx/form-save-date-tdx27/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:salesforce-tokyo-keynote-2026@upcoming-keynotes
@@ -427,14 +1003,16 @@ DTEND:20261118T023000Z
 DESCRIPTION:Salesforce’s Tokyo keynote on AI\, CRM\, and product demonstr
  ations.\nOfficial Japanese agenda lists November 18\, 10:00–11:30 AM Jap
  an Standard Time. Main-room access requires an invitation\; Salesforce+ on
- line viewing is available.\nOfficial source: https://www.salesforce.com/jp
- /events/world-tour/tokyo/
+ line viewing is available.\nAttendance: In person and online\nOrganizer co
+ nfirms in-person and online access\; registration and available sessions m
+ ay differ.\nOfficial source: https://www.salesforce.com/jp/events/world-to
+ ur/tokyo/
 LOCATION:Tokyo + Salesforce+
 URL:https://www.salesforce.com/jp/events/world-tour/tokyo/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:servicenow-knowledge-2027@upcoming-keynotes
@@ -443,14 +1021,34 @@ DTSTART;VALUE=DATE:20270504
 DTEND;VALUE=DATE:20270507
 DESCRIPTION:ServiceNow’s annual event\, with keynote programming\, labs\,
   and CreatorCon.\nConference dates confirmed. Do not confuse the 2026 on-d
- emand keynotes with the forthcoming 2027 schedule.\nConference dates\; see
-  the event for individual keynote times.\nOfficial source: https://www.ser
- vicenow.com/events.html
+ emand keynotes with the forthcoming 2027 schedule.\nAttendance: In person\
+ nIn-person attendance confirmed. A live online option has not been verifie
+ d.\nConference dates\; see the event for individual keynote times.\nOffici
+ al source: https://www.servicenow.com/events.html
 LOCATION:Las Vegas
 URL:https://www.servicenow.com/events/knowledge.html
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:slush-2026@upcoming-keynotes
+SUMMARY:Slush 2026
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+DESCRIPTION:Slush 2026. Conference dates announced\; individual keynote sch
+ edule pending.\nCurrent practical information confirms November 18–19\, 
+ 2026. The homepage still contains some 2025 speaker/agenda labels\; those 
+ are not used as a 2026 speaker lineup.\nAttendance: In person\nIn-person a
+ ttendance confirmed. A live online option has not been verified.\nConferen
+ ce dates\; see the event for individual keynote times.\nOfficial source: h
+ ttps://slush.org/event-info
+LOCATION:Helsinki\, Finland
+URL:https://slush.org/event-info
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -460,15 +1058,16 @@ DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270611
 DESCRIPTION:Snowflake’s data and AI conference at Moscone Center.\n2027 d
  ates announced\; keynote schedule pending. Featured speakers and replays c
- urrently shown on the page are from 2026.\nConference dates\; see the even
- t for individual keynote times.\nOfficial source: https://www.snowflake.co
- m/en/events/summit/
+ urrently shown on the page are from 2026.\nAttendance: In person\nIn-perso
+ n attendance confirmed. A live online option has not been verified.\nConfe
+ rence dates\; see the event for individual keynote times.\nOfficial source
+ : https://www.snowflake.com/en/events/summit/
 LOCATION:San Francisco
 URL:https://www.snowflake.com/en/events/summit/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:stellantis-ces-2027@upcoming-keynotes
@@ -477,16 +1076,18 @@ DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 DESCRIPTION:The future of connected mobility\, following the CTA State of t
  he Industry Address.\nFollows the 8:30 AM Pacific CTA address. A separate 
- keynote start time has not been announced.\nAll-day placeholder: keynote t
- ime pending.\nOfficial source: https://www.ces.tech/press-releases/stellan
- tis-to-bring-human-centered-mobility-vision-to-ces-2027-keynote
+ keynote start time has not been announced.\nAttendance: In person\nIn-pers
+ on attendance confirmed. A live online option has not been verified.\nAll-
+ day placeholder: keynote time pending.\nOfficial source: https://www.ces.t
+ ech/press-releases/stellantis-to-bring-human-centered-mobility-vision-to-c
+ es-2027-keynote
 LOCATION:Las Vegas
 URL:https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-
  mobility-vision-to-ces-2027-keynote
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:stripe-developer-2027@upcoming-keynotes
@@ -495,14 +1096,16 @@ DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 DESCRIPTION:Stripe’s developer keynote. Exact time and speakers pending.\
  nDate confirmed in the organizer’s agenda at a glance. All-day calendar 
- placeholder until the keynote time is published.\nAll-day placeholder: key
- note time pending.\nOfficial source: https://stripesessions.com/
+ placeholder until the keynote time is published.\nAttendance: In person\nI
+ n-person attendance confirmed. A live online option has not been verified.
+ \nAll-day placeholder: keynote time pending.\nOfficial source: https://str
+ ipesessions.com/
 LOCATION:San Francisco
 URL:https://stripesessions.com/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:stripe-opening-2027@upcoming-keynotes
@@ -511,14 +1114,16 @@ DTSTART;VALUE=DATE:20270504
 DTEND;VALUE=DATE:20270505
 DESCRIPTION:The opening keynote at Stripe Sessions. Exact time and speakers
   pending.\nDate confirmed in the organizer’s agenda at a glance. All-day
-  calendar placeholder until the keynote time is published.\nAll-day placeh
- older: keynote time pending.\nOfficial source: https://stripesessions.com/
+  calendar placeholder until the keynote time is published.\nAttendance: In
+  person\nIn-person attendance confirmed. A live online option has not been
+  verified.\nAll-day placeholder: keynote time pending.\nOfficial source: h
+ ttps://stripesessions.com/
 LOCATION:San Francisco
 URL:https://stripesessions.com/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:stripe-product-2027@upcoming-keynotes
@@ -527,14 +1132,16 @@ DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 DESCRIPTION:Stripe’s product keynote. Exact time and speakers pending.\nD
  ate confirmed in the organizer’s agenda at a glance. All-day calendar pl
- aceholder until the keynote time is published.\nAll-day placeholder: keyno
- te time pending.\nOfficial source: https://stripesessions.com/
+ aceholder until the keynote time is published.\nAttendance: In person\nIn-
+ person attendance confirmed. A live online option has not been verified.\n
+ All-day placeholder: keynote time pending.\nOfficial source: https://strip
+ esessions.com/
 LOCATION:San Francisco
 URL:https://stripesessions.com/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
-SEQUENCE:0
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:stripe-thursday-2027@upcoming-keynotes
@@ -543,14 +1150,70 @@ DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
 DESCRIPTION:The Thursday keynote at Stripe Sessions. Exact time and speaker
  s pending.\nDate confirmed in the organizer’s agenda at a glance. All-da
- y calendar placeholder until the keynote time is published.\nAll-day place
- holder: keynote time pending.\nOfficial source: https://stripesessions.com
- /
+ y calendar placeholder until the keynote time is published.\nAttendance: I
+ n person\nIn-person attendance confirmed. A live online option has not bee
+ n verified.\nAll-day placeholder: keynote time pending.\nOfficial source: 
+ https://stripesessions.com/
 LOCATION:San Francisco
 URL:https://stripesessions.com/
 STATUS:CONFIRMED
-DTSTAMP:20261117T191111Z
-LAST-MODIFIED:20261117T191111Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:susecon-2027@upcoming-keynotes
+SUMMARY:SUSECON 2027
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270218
+DESCRIPTION:SUSECON 2027. Conference dates announced\; individual keynote s
+ chedule pending.\nPublished range includes Partner Summit activity on Febr
+ uary 15. Individual keynote dates and times remain pending.\nAttendance: I
+ n person\nIn person\; the FAQ promises recordings after the event\, not a 
+ live virtual program.\nConference dates\; see the event for individual key
+ note times.\nOfficial source: https://www.suse.com/blog/early-bird-registr
+ ation-is-open-for-susecon-2027-in-barcelona/
+LOCATION:Barcelona\, Spain
+URL:https://www.suse.com/susecon/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:twilio-signal-main-2027@upcoming-keynotes
+SUMMARY:SIGNAL · Main keynote
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+DESCRIPTION:Twilio’s published SIGNAL keynote session.\nThe agenda lists 
+ 09:00–10:30 at the San Francisco venue without an explicit time zone. Ke
+ pt date-only until the organizer clarifies the zone.\nAttendance: In perso
+ n\nIn-person attendance confirmed. A live online option has not been verif
+ ied.\nAll-day placeholder: keynote time pending.\nOfficial source: https:/
+ /signal.twilio.com/
+LOCATION:San Francisco
+URL:https://signal.twilio.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:twilio-signal-technical-2027@upcoming-keynotes
+SUMMARY:SIGNAL · Technical keynote
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+DESCRIPTION:Twilio’s published SIGNAL keynote session.\nThe agenda lists 
+ 09:00–10:00 at the San Francisco venue without an explicit time zone. Ke
+ pt date-only until the organizer clarifies the zone.\nAttendance: In perso
+ n\nIn-person attendance confirmed. A live online option has not been verif
+ ied.\nAll-day placeholder: keynote time pending.\nOfficial source: https:/
+ /signal.twilio.com/
+LOCATION:San Francisco
+URL:https://signal.twilio.com/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -558,15 +1221,86 @@ UID:waymo-ces-2027@upcoming-keynotes
 SUMMARY:CES · Waymo keynote
 DTSTART:20270106T023000Z
 DESCRIPTION:Waymo’s next chapter in autonomous mobility.\nUpdated officia
- l release lists January 5 at 6:30 PM Pacific. End time not announced.\nEnd
-  time not announced.\nOfficial source: https://www.ces.tech/press-releases
- /waymo-co-ceo-tekedra-mawakana-to-keynote-at-ces-2027
+ l release lists January 5 at 6:30 PM Pacific. End time not announced.\nAtt
+ endance: In person\nIn-person attendance confirmed. A live online option h
+ as not been verified.\nEnd time not announced.\nOfficial source: https://w
+ ww.ces.tech/press-releases/waymo-co-ceo-tekedra-mawakana-to-keynote-at-ces
+ -2027
 LOCATION:Las Vegas
 URL:https://www.ces.tech/press-releases/waymo-co-ceo-tekedra-mawakana-to-ke
  ynote-at-ces-2027
 STATUS:CONFIRMED
-DTSTAMP:20261117T185945Z
-LAST-MODIFIED:20261117T185945Z
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:websummit-lisbon-2027@upcoming-keynotes
+SUMMARY:Web Summit Lisbon
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271112
+DESCRIPTION:Web Summit Lisbon. Conference dates announced\; individual keyn
+ ote schedule pending.\nAttendance: In person\nIn-person attendance confirm
+ ed. A live online option has not been verified.\nConference dates\; see th
+ e event for individual keynote times.\nOfficial source: https://websummit.
+ com/web-summit-2027/
+LOCATION:Lisbon\, Portugal
+URL:https://websummit.com/web-summit-2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:websummit-qatar-2027@upcoming-keynotes
+SUMMARY:Web Summit Qatar
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270204
+DESCRIPTION:Web Summit Qatar. Conference dates announced\; individual keyno
+ te schedule pending.\nAttendance: In person\nIn-person attendance confirme
+ d. A live online option has not been verified.\nConference dates\; see the
+  event for individual keynote times.\nOfficial source: https://qatar.websu
+ mmit.com/web-summit-qatar-2027/
+LOCATION:Doha\, Qatar
+URL:https://qatar.websummit.com/web-summit-qatar-2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wordcamp-europe-2027@upcoming-keynotes
+SUMMARY:WordCamp Europe
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270530
+DESCRIPTION:WordCamp Europe. Conference dates announced\; individual keynot
+ e schedule pending.\nAttendance: In person\nIn-person attendance confirmed
+ . A live online option has not been verified.\nConference dates\; see the 
+ event for individual keynote times.\nOfficial source: https://europe.wordc
+ amp.org/2027/
+LOCATION:Málaga\, Spain
+URL:https://europe.wordcamp.org/2027/
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:workday-rising-emea-2026@upcoming-keynotes
+SUMMARY:Workday Rising EMEA
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261120
+DESCRIPTION:Workday Rising EMEA. Conference dates announced\; individual ke
+ ynote schedule pending.\nAttendance: In person\nIn-person attendance confi
+ rmed. A live online option has not been verified.\nConference dates\; see 
+ the event for individual keynote times.\nOfficial source: https://www.work
+ day.com/en-us/company/latest/events-webinars/events.html
+LOCATION:Barcelona\, Spain
+URL:https://www.workday.com/en-us/company/latest/events-webinars/events.htm
+ l
+STATUS:CONFIRMED
+DTSTAMP:20261117T193810Z
+LAST-MODIFIED:20261117T193810Z
 SEQUENCE:0
 END:VEVENT
 END:VCALENDAR

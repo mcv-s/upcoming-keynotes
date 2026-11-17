@@ -16,7 +16,27 @@
       "color": "#53679b",
       "event": "Security · official announcements",
       "url": "https://1password.com/",
-      "sector": "Security"
+      "sector": "Security",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://1password.com/webinars",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed upcoming webinar listings; no new keynote or launch presentation confirmed."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:1password.com \"1Password\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")",
+          "1Password official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Acer",
@@ -24,7 +44,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.acer.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://news.acer.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:acer.com \"Acer\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Adobe",
@@ -32,7 +71,32 @@
       "color": "#53679b",
       "event": "Design & creativity · official announcements",
       "url": "https://www.adobe.com/events.html",
-      "sector": "Design & creativity"
+      "sector": "Design & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.adobe.com/events.html",
+            "access": "read"
+          },
+          {
+            "url": "https://summit.adobe.com/na/faq/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "adobe-summit-2027"
+        ],
+        "queries": [
+          "site:adobe.com \"Adobe\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Alibaba",
@@ -40,7 +104,31 @@
       "color": "#53679b",
       "event": "AI & cloud · official announcements",
       "url": "https://www.alibabagroup.com/",
-      "sector": "AI & cloud"
+      "sector": "AI & cloud",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.alibabacloud.com/events",
+            "access": "read"
+          },
+          {
+            "url": "https://home.alibabagroup.com/en-US/news-press-releases",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:alibabagroup.com \"Alibaba\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")",
+          "Alibaba official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Amazon",
@@ -48,14 +136,53 @@
       "color": "#53679b",
       "event": "Commerce & devices · official announcements",
       "url": "https://www.amazon.com/",
-      "sector": "Commerce & devices"
+      "sector": "Commerce & devices",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.aboutamazon.com/news/devices",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:amazon.com \"Amazon\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")",
+          "Amazon official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": "amazon-logo"
     },
     {
       "company": "AMD",
       "mark": "↗",
       "color": "#b53c3e",
       "event": "Product & developer keynotes",
-      "url": "https://www.amd.com/en/corporate/events.html"
+      "url": "https://www.amd.com/en/corporate/events.html",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.amd.com/en/corporate/events.html",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the dated event directory; many entries describe third-party participation, not an AMD keynote. No separate AMD keynote verified."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:amd.com \"AMD\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Anthropic",
@@ -63,7 +190,26 @@
       "color": "#53679b",
       "event": "AI & research · official announcements",
       "url": "https://www.anthropic.com/events",
-      "sector": "AI & research"
+      "sector": "AI & research",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.anthropic.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Upcoming Ignite and re:Invent participation found; no separate keynote time verified."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:anthropic.com \"Anthropic\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Anysphere / Cursor",
@@ -71,14 +217,55 @@
       "color": "#53679b",
       "event": "AI & developer tools · official announcements",
       "url": "https://cursor.com/",
-      "sector": "AI & developer tools"
+      "sector": "AI & developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://cursor.com/blog",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Compile Amsterdam says January 27 without a year, under a 2026 parent heading. Sydney says February 2027 without an exact day. Neither can be dated safely."
+        ],
+        "blockers": [
+          "Compile Amsterdam says January 27 without a year, under a 2026 parent heading. Sydney says February 2027 without an exact day. Neither can be dated safely."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:cursor.com \"Anysphere\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")",
+          "Anysphere / Cursor official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Apple",
       "mark": "a",
       "color": "#505563",
       "event": "Apple Events & WWDC",
-      "url": "https://www.apple.com/apple-events/"
+      "url": "https://www.apple.com/apple-events/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.apple.com/apple-events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:apple.com \"Apple\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")"
+        ]
+      },
+      "iconName": "apple-logo"
     },
     {
       "company": "Arduino",
@@ -86,7 +273,27 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.arduino.cc/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://blog.arduino.cc/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official blog confirms Massimo Banzi on the Maker Faire Shenzhen main stage December 12–13; individual talk date/time and keynote classification still need verification."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:arduino.cc \"Arduino\" (keynote OR conference OR launch OR events) (2027 OR \"November 2026\" OR \"December 2026\")",
+          "Arduino official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Arm",
@@ -94,7 +301,26 @@
       "color": "#53679b",
       "event": "Semiconductors · official announcements",
       "url": "https://www.arm.com/",
-      "sector": "Semiconductors"
+      "sector": "Semiconductors",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.arm.com/company/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Arm upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "ASUS",
@@ -102,7 +328,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.asus.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.asus.com/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "ASUS upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Atlassian",
@@ -110,7 +355,37 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://events.atlassian.com/team",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.atlassian.com/company/events",
+            "access": "read"
+          },
+          {
+            "url": "https://events.atlassian.com/team",
+            "access": "read"
+          },
+          {
+            "url": "https://events.atlassian.com/teamontour-toronto",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 2 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "atlassian-team-2027",
+          "atlassian-tour-toronto-keynote-2026"
+        ],
+        "queries": [
+          "Atlassian upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "AWS",
@@ -118,7 +393,40 @@
       "color": "#53679b",
       "event": "Cloud & infrastructure · official announcements",
       "url": "https://aws.amazon.com/events/",
-      "sector": "Cloud & infrastructure"
+      "sector": "Cloud & infrastructure",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/events/",
+            "access": "read"
+          },
+          {
+            "url": "https://aws.amazon.com/events/reinvent/livestream/",
+            "access": "read"
+          },
+          {
+            "url": "https://aws.amazon.com/events/reinvent/sessions/keynotes/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 5 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "aws-developer-2026",
+          "aws-ceo-2026",
+          "aws-data-2026",
+          "aws-partner-2026",
+          "aws-technical-2026"
+        ],
+        "queries": [
+          "AWS upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Baidu",
@@ -126,7 +434,27 @@
       "color": "#53679b",
       "event": "AI & cloud · official announcements",
       "url": "https://www.baidu.com/",
-      "sector": "AI & cloud"
+      "sector": "AI & cloud",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://ir.baidu.com/news-releases",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Baidu upcoming events keynotes conferences 2027 official",
+          "Baidu official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Bitwarden",
@@ -134,7 +462,31 @@
       "color": "#53679b",
       "event": "Security · official announcements",
       "url": "https://bitwarden.com/events/",
-      "sector": "Security"
+      "sector": "Security",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://bitwarden.com/events/",
+            "access": "read",
+            "method": "rendered browser"
+          },
+          {
+            "url": "https://community.bitwarden.com/c/announcements/events/75",
+            "access": "unavailable"
+          }
+        ],
+        "findings": [
+          "Rendered events directory reviewed; upcoming training demos and booth participation are outside keynote scope."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Bitwarden upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Blackrock",
@@ -142,7 +494,26 @@
       "color": "#53679b",
       "event": "Finance & investing · official announcements",
       "url": "https://ir.blackrock.com/news-and-events/events-and-presentations/default.aspx",
-      "sector": "Finance & investing"
+      "sector": "Finance & investing",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://ir.blackrock.com/news-and-events/events-and-presentations/default.aspx",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Blackrock upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Block",
@@ -150,7 +521,33 @@
       "color": "#53679b",
       "event": "Commerce & payments · official announcements",
       "url": "https://block.xyz/",
-      "sector": "Commerce & payments"
+      "sector": "Commerce & payments",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://block.xyz/inside",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://block.xyz/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official news channel could not be fetched; focused search did not establish a future keynote."
+        ],
+        "blockers": [
+          "Official news channel could not be fetched; focused search did not establish a future keynote."
+        ],
+        "eventIds": [],
+        "queries": [
+          "Block upcoming events keynotes conferences 2027 official",
+          "Block official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Blue Origin",
@@ -158,7 +555,26 @@
       "color": "#53679b",
       "event": "Space · official announcements",
       "url": "https://www.blueorigin.com/",
-      "sector": "Space"
+      "sector": "Space",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.blueorigin.com/news",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Blue Origin upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "BMW",
@@ -166,7 +582,26 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://www.bmwgroup.com/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.bmwgroup.com/en/investor-relations/corporate-events.html",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "BMW upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Boston Dynamics",
@@ -174,7 +609,26 @@
       "color": "#53679b",
       "event": "Robotics · official announcements",
       "url": "https://bostondynamics.com/",
-      "sector": "Robotics"
+      "sector": "Robotics",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://bostondynamics.com/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Boston Dynamics upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Broadcom",
@@ -182,7 +636,26 @@
       "color": "#53679b",
       "event": "Semiconductors · official announcements",
       "url": "https://www.broadcom.com/",
-      "sector": "Semiconductors"
+      "sector": "Semiconductors",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.broadcom.com/company/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Broadcom upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Bun",
@@ -190,7 +663,27 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://bun.sh/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://bun.sh/blog",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Bun upcoming events keynotes conferences 2027 official",
+          "Bun official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "BYD",
@@ -198,7 +691,26 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://www.byd.com/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://prod.byd.com/cn/live-list",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "BYD upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "ByteDance",
@@ -206,7 +718,33 @@
       "color": "#53679b",
       "event": "AI & media · official announcements",
       "url": "https://www.bytedance.com/",
-      "sector": "AI & media"
+      "sector": "AI & media",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.bytedance.com/en/news",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.bytedance.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official news URL returned 404; search evidence alone cannot verify absence."
+        ],
+        "blockers": [
+          "Official news URL returned 404; search evidence alone cannot verify absence."
+        ],
+        "eventIds": [],
+        "queries": [
+          "ByteDance upcoming events keynotes conferences 2027 official",
+          "ByteDance official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Canonical",
@@ -214,7 +752,26 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://ubuntu.com/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://canonical.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Canonical upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Canva",
@@ -222,7 +779,26 @@
       "color": "#53679b",
       "event": "Design & creativity · official announcements",
       "url": "https://www.canva.com/",
-      "sector": "Design & creativity"
+      "sector": "Design & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://www.canva.com/canva-create/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Canva Create 2027 announced without exact dates."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Canva upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "CES / CTA",
@@ -230,7 +806,26 @@
       "color": "#53679b",
       "event": "Multi-company conferences · official announcements",
       "url": "https://www.ces.tech/",
-      "sector": "Multi-company conferences"
+      "sector": "Multi-company conferences",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.ces.tech/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "CES / CTA upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "ClickHouse",
@@ -238,7 +833,26 @@
       "color": "#53679b",
       "event": "Data & AI · official announcements",
       "url": "https://clickhouse.com/",
-      "sector": "Data & AI"
+      "sector": "Data & AI",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://clickhouse.com/company/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "ClickHouse upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Cloudflare",
@@ -246,7 +860,26 @@
       "color": "#53679b",
       "event": "Cloud & infrastructure · official announcements",
       "url": "https://www.cloudflare.com/",
-      "sector": "Cloud & infrastructure"
+      "sector": "Cloud & infrastructure",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.cloudflare.com/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Cloudflare upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "CNCF",
@@ -254,7 +887,46 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://www.cncf.io/events/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.cncf.io/events/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/attend/faq/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2027/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 3 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "kubecon-europe-2027",
+          "kubecon-japan-2027",
+          "kubecon-na-2027"
+        ],
+        "queries": [
+          "CNCF upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Cognition",
@@ -262,7 +934,27 @@
       "color": "#53679b",
       "event": "AI & developer tools · official announcements",
       "url": "https://cognition.ai/",
-      "sector": "AI & developer tools"
+      "sector": "AI & developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://cognition.ai/blog",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Cognition upcoming events keynotes conferences 2027 official",
+          "Cognition official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Cohere",
@@ -270,7 +962,26 @@
       "color": "#53679b",
       "event": "AI & research · official announcements",
       "url": "https://cohere.com/",
-      "sector": "AI & research"
+      "sector": "AI & research",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://cohere.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Cohere upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Confluent",
@@ -278,7 +989,26 @@
       "color": "#53679b",
       "event": "Data & AI · official announcements",
       "url": "https://www.confluent.io/",
-      "sector": "Data & AI"
+      "sector": "Data & AI",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.confluent.io/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Confluent upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "CrowdStrike",
@@ -286,7 +1016,27 @@
       "color": "#53679b",
       "event": "Security · official announcements",
       "url": "https://www.crowdstrike.com/",
-      "sector": "Security"
+      "sector": "Security",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.crowdstrike.com/en-us/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "CrowdStrike upcoming events keynotes conferences 2027 official",
+          "CrowdStrike official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Databricks",
@@ -294,7 +1044,32 @@
       "color": "#53679b",
       "event": "Data & AI · official announcements",
       "url": "https://www.databricks.com/dataaisummit",
-      "sector": "Data & AI"
+      "sector": "Data & AI",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.databricks.com/events",
+            "access": "read"
+          },
+          {
+            "url": "https://www.databricks.com/dataaisummit",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "databricks-summit-2027"
+        ],
+        "queries": [
+          "Databricks upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Datadog",
@@ -302,7 +1077,32 @@
       "color": "#53679b",
       "event": "Cloud & infrastructure · official announcements",
       "url": "https://www.datadoghq.com/",
-      "sector": "Cloud & infrastructure"
+      "sector": "Cloud & infrastructure",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.datadoghq.com/events-webinars/",
+            "access": "read"
+          },
+          {
+            "url": "https://dash.datadoghq.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "datadog-dash-2027"
+        ],
+        "queries": [
+          "Datadog upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "DeepSeek",
@@ -310,7 +1110,26 @@
       "color": "#53679b",
       "event": "AI & research · official announcements",
       "url": "https://www.deepseek.com/",
-      "sector": "AI & research"
+      "sector": "AI & research",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.deepseek.com/en/news/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "DeepSeek upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Dell",
@@ -318,7 +1137,32 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.dell.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.dell.com/en-us/events",
+            "access": "read"
+          },
+          {
+            "url": "https://www.dell.com/en-us/learn/events/lp/dell-technologies-world/overview",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "dell-world-2027"
+        ],
+        "queries": [
+          "Dell upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Deno",
@@ -326,7 +1170,26 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://deno.com/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://deno.com/blog",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Deno upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Disney",
@@ -334,7 +1197,26 @@
       "color": "#53679b",
       "event": "Media · official announcements",
       "url": "https://thewaltdisneycompany.com/",
-      "sector": "Media"
+      "sector": "Media",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://thewaltdisneycompany.com/news/d23-asia-first-look/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "D23 Asia Singapore June 25–27, 2027 announced with evening showcases; not listed as a technology keynote without a qualifying program."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Disney upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "DJI",
@@ -342,7 +1224,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.dji.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.dji.com/event",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "DJI upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Docker",
@@ -350,7 +1251,26 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://www.docker.com/events/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.docker.com/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Docker upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Dropbox",
@@ -358,7 +1278,26 @@
       "color": "#53679b",
       "event": "Productivity · official announcements",
       "url": "https://www.dropbox.com/",
-      "sector": "Productivity"
+      "sector": "Productivity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://events.dropbox.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Dropbox upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": "dropbox-logo"
     },
     {
       "company": "Elastic",
@@ -366,7 +1305,26 @@
       "color": "#53679b",
       "event": "Data & AI · official announcements",
       "url": "https://www.elastic.co/",
-      "sector": "Data & AI"
+      "sector": "Data & AI",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.elastic.co/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Elastic upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "ElevenLabs",
@@ -374,7 +1332,26 @@
       "color": "#53679b",
       "event": "AI & creativity · official announcements",
       "url": "https://elevenlabs.io/",
-      "sector": "AI & creativity"
+      "sector": "AI & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://elevenlabs.io/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "ElevenLabs upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Epic Games",
@@ -382,7 +1359,26 @@
       "color": "#53679b",
       "event": "Games & entertainment · official announcements",
       "url": "https://www.epicgames.com/",
-      "sector": "Games & entertainment"
+      "sector": "Games & entertainment",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.unrealengine.com/unreal-fest",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Epic Games upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "ESPC",
@@ -390,7 +1386,42 @@
       "color": "#53679b",
       "event": "Community conferences · official announcements",
       "url": "https://espc.tech/conference/espc-2026/",
-      "sector": "Community conferences"
+      "sector": "Community conferences",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://espc.tech/",
+            "access": "read"
+          },
+          {
+            "url": "https://espc.tech/conference/espc-2026/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+            "access": "read"
+          },
+          {
+            "url": "https://espc.tech/conference/eppc-2027/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 3 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "espc-amsterdam-2026",
+          "eppc-2027",
+          "espc-fabric-sql-2027"
+        ],
+        "queries": [
+          "ESPC upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Esri",
@@ -398,7 +1429,32 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://www.esri.com/en-us/about/events/devtech/overview",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.esri.com/en-us/about/events/index",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.esri.com/en-us/about/events/devtech/overview",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "esri-devtech-2027"
+        ],
+        "queries": [
+          "Esri upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Fairphone",
@@ -406,7 +1462,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.fairphone.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.fairphone.com/press",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Fairphone upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Figma",
@@ -414,7 +1489,32 @@
       "color": "#53679b",
       "event": "Design & creativity · official announcements",
       "url": "https://config.figma.com/",
-      "sector": "Design & creativity"
+      "sector": "Design & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.figma.com/events-and-webinars/",
+            "access": "read"
+          },
+          {
+            "url": "https://config.figma.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "figma-config-2027"
+        ],
+        "queries": [
+          "Figma upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": "figma-logo"
     },
     {
       "company": "Figure",
@@ -422,7 +1522,27 @@
       "color": "#53679b",
       "event": "Robotics · official announcements",
       "url": "https://www.figure.ai/",
-      "sector": "Robotics"
+      "sector": "Robotics",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.figure.ai/news",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Figure upcoming events keynotes conferences 2027 official",
+          "Figure official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "FOSDEM",
@@ -430,7 +1550,32 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://fosdem.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://fosdem.org/2027/calendar/",
+            "access": "read"
+          },
+          {
+            "url": "https://fosdem.org/2027/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "fosdem-2027"
+        ],
+        "queries": [
+          "FOSDEM upcoming events keynotes conferences 2027 official"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Framer",
@@ -438,7 +1583,27 @@
       "color": "#53679b",
       "event": "Design & creativity · official announcements",
       "url": "https://www.framer.com/",
-      "sector": "Design & creativity"
+      "sector": "Design & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.framer.com/updates/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Framer upcoming events keynotes conferences 2027 official",
+          "Framer official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": "framer-logo"
     },
     {
       "company": "Framework",
@@ -446,7 +1611,27 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://frame.work/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://frame.work/blog",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "Framework upcoming events keynotes conferences 2027 official",
+          "Framework official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Garmin",
@@ -454,7 +1639,33 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.garmin.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://investors.garmin.com/news-and-events/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.garmin.com/en-US/newsroom/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official events channel exposed insufficient current schedule content."
+        ],
+        "blockers": [
+          "Official events channel exposed insufficient current schedule content."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:garmin.com upcoming events keynote conference 2027",
+          "Garmin official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "GitHub",
@@ -462,7 +1673,48 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://github.com/resources/events",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://github.com/resources/events",
+            "access": "read",
+            "method": "rendered browser"
+          },
+          {
+            "url": "https://github.com/resources/events?page=2",
+            "access": "read",
+            "method": "rendered browser"
+          },
+          {
+            "url": "https://github.com/resources/events?page=3",
+            "access": "read",
+            "method": "rendered browser"
+          },
+          {
+            "url": "https://github.com/resources/events?page=4",
+            "access": "read",
+            "method": "rendered browser"
+          },
+          {
+            "url": "https://github.com/resources/events?page=5",
+            "access": "read",
+            "method": "rendered browser"
+          }
+        ],
+        "findings": [
+          "All five official event-directory pages reviewed in the browser. Regional Universe recaps and Microsoft AI Tour dates found; no dated Universe 2027 keynote announcement. Tour/recap sessions need keynote qualification before individual listings."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:github.com upcoming events keynote conference 2027",
+          "GitHub official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": "github-logo"
     },
     {
       "company": "GitLab",
@@ -470,7 +1722,26 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://about.gitlab.com/events/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://about.gitlab.com/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:gitlab.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "gitlab-logo"
     },
     {
       "company": "GNOME",
@@ -478,14 +1749,54 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://www.gnome.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://events.gnome.org/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:gnome.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Google",
       "mark": "G",
       "color": "#386fd1",
       "event": "Google I/O",
-      "url": "https://developers.google.com/events/"
+      "url": "https://developers.google.com/events/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://developers.google.com/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "google-next-2027"
+        ],
+        "queries": [
+          "site:google.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "google-logo"
     },
     {
       "company": "GSMA / MWC",
@@ -493,7 +1804,28 @@
       "color": "#53679b",
       "event": "Multi-company conferences · official announcements",
       "url": "https://www.mwcbarcelona.com/",
-      "sector": "Multi-company conferences"
+      "sector": "Multi-company conferences",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.mwcbarcelona.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "mwc-barcelona-2027"
+        ],
+        "queries": [
+          "site:mwcbarcelona.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "HashiCorp",
@@ -501,7 +1833,32 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://www.hashicorp.com/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.hashicorp.com/en/events",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.hashicorp.com/events",
+            "access": "unavailable"
+          }
+        ],
+        "findings": [
+          "Rendered events page showed featured webinars but its dynamic event list returned null/zero results; full listing remains unverified."
+        ],
+        "blockers": [
+          "Rendered events page showed featured webinars but its dynamic event list returned null/zero results; full listing remains unverified."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:hashicorp.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Honor",
@@ -509,7 +1866,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.honor.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.honor.com/mea/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:honor.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "HP",
@@ -517,7 +1893,33 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.hp.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.hp.com/us-en/events/amplify.html",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.hp.com/us-en/newsroom.html",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Amplify channel was inaccessible and no exact future keynote was verified from alternative primary evidence."
+        ],
+        "blockers": [
+          "Amplify channel was inaccessible and no exact future keynote was verified from alternative primary evidence."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:hp.com upcoming events keynote conference 2027",
+          "HP official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "HPE",
@@ -525,7 +1927,33 @@
       "color": "#53679b",
       "event": "Cloud & infrastructure · official announcements",
       "url": "https://www.hpe.com/",
-      "sector": "Cloud & infrastructure"
+      "sector": "Cloud & infrastructure",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.hpe.com/us/en/discover/lasvegas.html",
+            "access": "read"
+          },
+          {
+            "url": "https://www.hpe.com/us/en/discover/barcelona.html",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 2 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "hpe-discover-vegas-2027",
+          "hpe-discover-barcelona-keynote-2026"
+        ],
+        "queries": [
+          "site:hpe.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Huawei",
@@ -533,7 +1961,26 @@
       "color": "#53679b",
       "event": "Hardware & connectivity · official announcements",
       "url": "https://www.huawei.com/",
-      "sector": "Hardware & connectivity"
+      "sector": "Hardware & connectivity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.huawei.com/en/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:huawei.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "HubSpot",
@@ -541,7 +1988,32 @@
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
       "url": "https://www.hubspot.com/",
-      "sector": "Cloud & enterprise"
+      "sector": "Cloud & enterprise",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://unbound.hubspot.com/blog",
+            "access": "read"
+          },
+          {
+            "url": "https://unbound.hubspot.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "hubspot-unbound-2027"
+        ],
+        "queries": [
+          "site:hubspot.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Hugging Face",
@@ -549,7 +2021,27 @@
       "color": "#53679b",
       "event": "AI & research · official announcements",
       "url": "https://huggingface.co/",
-      "sector": "AI & research"
+      "sector": "AI & research",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://huggingface.co/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:huggingface.co upcoming events keynote conference 2027",
+          "Hugging Face official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "IBM",
@@ -557,7 +2049,28 @@
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
       "url": "https://www.ibm.com/events/think",
-      "sector": "Cloud & enterprise"
+      "sector": "Cloud & enterprise",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.ibm.com/events/think",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "ibm-think-2027"
+        ],
+        "queries": [
+          "site:ibm.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Instagram",
@@ -565,14 +2078,59 @@
       "color": "#53679b",
       "event": "Social & media · official announcements",
       "url": "https://about.instagram.com/",
-      "sector": "Social & media"
+      "sector": "Social & media",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://about.instagram.com/blog",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://about.fb.com/news/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official blog was rate-limited; no current keynote announcement verified."
+        ],
+        "blockers": [
+          "Official blog was rate-limited; no current keynote announcement verified."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:instagram.com upcoming events keynote conference 2027",
+          "Instagram official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": "instagram-logo"
     },
     {
       "company": "Intel",
       "mark": "i",
       "color": "#167ab6",
       "event": "Product & developer events",
-      "url": "https://www.intel.com/content/www/us/en/events/overview.html"
+      "url": "https://www.intel.com/content/www/us/en/events/overview.html",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.intel.com/content/www/us/en/events/overview.html",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:intel.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "JetBrains",
@@ -580,7 +2138,37 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://www.jetbrains.com/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.jetbrains.com/company/conferences/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.jetbrains.com/company/livestreams/",
+            "access": "read"
+          },
+          {
+            "url": "https://kotlinconf.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "jetbrains-kotlinconf-2027"
+        ],
+        "queries": [
+          "site:jetbrains.com upcoming events keynote conference 2027",
+          "JetBrains official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "KDE",
@@ -588,7 +2176,26 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://akademy.kde.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://akademy.kde.org/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Akademy 2027 planning found; exact future keynote dates not confirmed."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:kde.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Lenovo",
@@ -596,7 +2203,28 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://news.lenovo.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://news.lenovo.com/pressroom/press-releases/tech-world-ces-2027-defining-the-next-era-of-hybrid-ai/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "lenovo-ces-2027"
+        ],
+        "queries": [
+          "site:lenovo.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "LG",
@@ -604,7 +2232,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.lg.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.lg.com/global/newsroom/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:lg.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Linear",
@@ -612,7 +2259,26 @@
       "color": "#53679b",
       "event": "Productivity · official announcements",
       "url": "https://linear.app/",
-      "sector": "Productivity"
+      "sector": "Productivity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://linear.app/blog",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:linear.app upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Linux Foundation",
@@ -620,7 +2286,57 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://events.linuxfoundation.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://events.linuxfoundation.org/about/calendar/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/open-source-summit-north-america/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/open-source-summit-europe-2027/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/open-source-summit-japan/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/",
+            "access": "read"
+          },
+          {
+            "url": "https://events.linuxfoundation.org/pytorch-conference-2027/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 6 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "oss-north-america-2027",
+          "oss-europe-2027",
+          "oss-japan-2026",
+          "agntcon-na-2027",
+          "agntcon-europe-2027",
+          "pytorch-conference-2027"
+        ],
+        "queries": [
+          "site:linuxfoundation.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Lucid",
@@ -628,7 +2344,26 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://lucidmotors.com/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://lucidmotors.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:lucidmotors.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "MediaTek",
@@ -636,7 +2371,28 @@
       "color": "#53679b",
       "event": "Semiconductors · official announcements",
       "url": "https://www.mediatek.com/",
-      "sector": "Semiconductors"
+      "sector": "Semiconductors",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.mediatek.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official event page did not expose a usable current event list."
+        ],
+        "blockers": [
+          "Official event page did not expose a usable current event list."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:mediatek.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Mercedes-Benz",
@@ -644,21 +2400,88 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://group.mercedes-benz.com/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://group.mercedes-benz.com/investors/events/capital-market-days/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:mercedes-benz.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Meta",
       "mark": "∞",
       "color": "#196bcb",
       "event": "Meta Connect",
-      "url": "https://developers.meta.com/connect/"
+      "url": "https://developers.meta.com/connect/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://developers.meta.com/connect/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:meta.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "meta-logo"
     },
     {
       "company": "Microsoft",
       "mark": "M",
       "color": "#5b68bb",
       "event": "Microsoft Build",
-      "url": "https://build.microsoft.com/"
+      "url": "https://build.microsoft.com/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://events.microsoft.com/",
+            "access": "read"
+          },
+          {
+            "url": "https://news.microsoft.com/events/ignite/2026/",
+            "access": "read"
+          },
+          {
+            "url": "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/join-nvidia-and-microsoft-at-ignite-2026/4573012",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "ignite-2026"
+        ],
+        "queries": [
+          "site:microsoft.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "windows-logo"
     },
     {
       "company": "Midjourney",
@@ -666,7 +2489,32 @@
       "color": "#53679b",
       "event": "AI & creativity · official announcements",
       "url": "https://www.midjourney.com/",
-      "sector": "AI & creativity"
+      "sector": "AI & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://updates.midjourney.com/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.midjourney.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Updates channel redirects to a private/gated page. No login attempted."
+        ],
+        "blockers": [
+          "Updates channel redirects to a private/gated page. No login attempted."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:midjourney.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Mistral AI",
@@ -674,7 +2522,26 @@
       "color": "#53679b",
       "event": "AI & research · official announcements",
       "url": "https://mistral.ai/",
-      "sector": "AI & research"
+      "sector": "AI & research",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://learn.mistral.ai/public/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official events page reviewed; displayed July and April 2026 events are past. No dated future keynote verified."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:mistral.ai upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "MongoDB",
@@ -682,7 +2549,33 @@
       "color": "#53679b",
       "event": "Data & AI · official announcements",
       "url": "https://www.mongodb.com/",
-      "sector": "Data & AI"
+      "sector": "Data & AI",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.mongodb.com/events",
+            "access": "read"
+          },
+          {
+            "url": "https://www.mongodb.com/events/mongodb-local/toronto",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official dynamic event page exposed no schedule in the available content."
+        ],
+        "blockers": [
+          "Official dynamic event page exposed no schedule in the available content."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:mongodb.com upcoming events keynote conference 2027",
+          "MongoDB official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Motorola",
@@ -690,7 +2583,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.motorola.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://motorolanews.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:motorola.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Mozilla",
@@ -698,7 +2610,26 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://www.mozilla.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://www.mozillafestival.org/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "MozFest returning to Barcelona in 2027; exact dates not published on reviewed page."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:mozilla.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Netflix",
@@ -706,7 +2637,33 @@
       "color": "#53679b",
       "event": "Media · official announcements",
       "url": "https://about.netflix.com/",
-      "sector": "Media"
+      "sector": "Media",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://about.netflix.com/en/news",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://about.netflix.com/en/newsroom",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "News channel returned 404; focused search did not establish a future keynote."
+        ],
+        "blockers": [
+          "News channel returned 404; focused search did not establish a future keynote."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:netflix.com upcoming events keynote conference 2027",
+          "Netflix official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Netlify",
@@ -714,7 +2671,32 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://www.netlify.com/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.netlify.com/events/",
+            "access": "read"
+          },
+          {
+            "url": "https://luma.com/netlify-xqd5",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "netlify-community-launch-2026"
+        ],
+        "queries": [
+          "site:netlify.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Nintendo",
@@ -722,7 +2704,26 @@
       "color": "#53679b",
       "event": "Games & entertainment · official announcements",
       "url": "https://www.nintendo.com/",
-      "sector": "Games & entertainment"
+      "sector": "Games & entertainment",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.nintendo.com/us/nintendo-direct/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:nintendo.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Nothing",
@@ -730,7 +2731,33 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://nothing.tech/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://nothing.tech/pages/newsroom",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://nothing.tech/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Newsroom URL returned 404; no current primary announcement verified."
+        ],
+        "blockers": [
+          "Newsroom URL returned 404; no current primary announcement verified."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:nothing.tech upcoming events keynote conference 2027",
+          "Nothing official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Notion",
@@ -738,7 +2765,27 @@
       "color": "#53679b",
       "event": "Productivity · official announcements",
       "url": "https://www.notion.com/",
-      "sector": "Productivity"
+      "sector": "Productivity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.notion.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:notion.com upcoming events keynote conference 2027",
+          "Notion official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": "notion-logo"
     },
     {
       "company": "NVIDIA",
@@ -746,7 +2793,37 @@
       "color": "#53679b",
       "event": "AI & hardware · official announcements",
       "url": "https://www.nvidia.com/gtc/",
-      "sector": "AI & hardware"
+      "sector": "AI & hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.nvidia.com/gtc/events/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.nvidia.com/gtc/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.nvidia.com/gtc/dc/keynote/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 2 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "nvidia-gtc-2027",
+          "nvidia-gtc-dc-2026"
+        ],
+        "queries": [
+          "site:nvidia.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Okta",
@@ -754,7 +2831,28 @@
       "color": "#53679b",
       "event": "Security · official announcements",
       "url": "https://www.okta.com/",
-      "sector": "Security"
+      "sector": "Security",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.okta.com/oktane/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "okta-oktane-2027"
+        ],
+        "queries": [
+          "site:okta.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "OnePlus",
@@ -762,14 +2860,55 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.oneplus.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.oneplus.com/global/launch",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:oneplus.com upcoming events keynote conference 2027",
+          "OnePlus official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "OpenAI",
       "mark": "O",
       "color": "#177767",
       "event": "Developer & product events",
-      "url": "https://openai.com/news/"
+      "url": "https://openai.com/news/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://openai.com/live/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Regional Sydney pages contain conflicting October 2026 hero dates and February 2027 agenda dates; excluded until organizer clarification."
+        ],
+        "blockers": [
+          "Regional Sydney pages contain conflicting October 2026 hero dates and February 2027 agenda dates; excluded until organizer clarification."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:openai.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "open-ai-logo"
     },
     {
       "company": "OpenJS Foundation",
@@ -777,7 +2916,26 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://openjsf.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://openjsf.org/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:openjsf.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "OPPO",
@@ -785,7 +2943,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.oppo.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.oppo.com/en/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:oppo.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Oracle",
@@ -793,7 +2970,41 @@
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
       "url": "https://www.oracle.com/events/",
-      "sector": "Cloud & enterprise"
+      "sector": "Cloud & enterprise",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.oracle.com/government/public-sector-summit/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.oracle.com/ai-world-tour/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 10 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "oracle-public-sector-morning-2027",
+          "oracle-public-sector-afternoon-2027",
+          "oracle-ai-tour-mumbai-2027",
+          "oracle-ai-tour-paris-2027",
+          "oracle-ai-tour-tokyo-2027",
+          "oracle-ai-tour-sydney-2027",
+          "oracle-ai-tour-london-2027",
+          "oracle-ai-tour-new-york-2027",
+          "oracle-ai-tour-singapore-2027",
+          "oracle-ai-tour-dubai-2027"
+        ],
+        "queries": [
+          "site:oracle.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Palo Alto Networks",
@@ -801,7 +3012,26 @@
       "color": "#53679b",
       "event": "Security · official announcements",
       "url": "https://www.paloaltonetworks.com/",
-      "sector": "Security"
+      "sector": "Security",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://register.paloaltonetworks.com/igniteontour",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Ignite on Tour lists 2026/2027 regional dates; individual keynote agendas and session times need follow-up. No invented keynote times added."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:paloaltonetworks.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Panasonic",
@@ -809,7 +3039,28 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.panasonic.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.lsin.panasonic.com/sbox-registration",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "panasonic-solutionbox-2027"
+        ],
+        "queries": [
+          "site:panasonic.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "PayPal",
@@ -817,7 +3068,28 @@
       "color": "#53679b",
       "event": "Commerce & payments · official announcements",
       "url": "https://www.paypal.com/",
-      "sector": "Commerce & payments"
+      "sector": "Commerce & payments",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://developer.paypal.com/community/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Developer page has an invalid November 17–12, 2026 range. It is also a hackathon rather than a verified keynote."
+        ],
+        "blockers": [
+          "Developer page has an invalid November 17–12, 2026 range. It is also a hackathon rather than a verified keynote."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:paypal.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "paypal-logo"
     },
     {
       "company": "Perplexity",
@@ -825,7 +3097,33 @@
       "color": "#53679b",
       "event": "AI & research · official announcements",
       "url": "https://www.perplexity.ai/",
-      "sector": "AI & research"
+      "sector": "AI & research",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.perplexity.ai/hub/blog",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.perplexity.ai/en-GB/hub/blog",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official news channel unavailable through the research tool; focused search did not verify a future keynote."
+        ],
+        "blockers": [
+          "Official news channel unavailable through the research tool; focused search did not verify a future keynote."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:perplexity.ai upcoming events keynote conference 2027",
+          "Perplexity official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Python Software Foundation",
@@ -833,7 +3131,26 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://www.python.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://us.pycon.org/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:python.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Qualcomm",
@@ -841,7 +3158,26 @@
       "color": "#53679b",
       "event": "Semiconductors · official announcements",
       "url": "https://www.qualcomm.com/",
-      "sector": "Semiconductors"
+      "sector": "Semiconductors",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.qualcomm.com/company/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:qualcomm.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Raspberry Pi",
@@ -849,7 +3185,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.raspberrypi.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://events.raspberrypi.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:raspberrypi.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Red Hat",
@@ -857,7 +3212,28 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://www.redhat.com/en/summit/about/faq",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.redhat.com/en/summit/about/faq",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "redhat-summit-2027"
+        ],
+        "queries": [
+          "site:redhat.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Redis",
@@ -865,7 +3241,26 @@
       "color": "#53679b",
       "event": "Data & AI · official announcements",
       "url": "https://redis.io/",
-      "sector": "Data & AI"
+      "sector": "Data & AI",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://redis.io/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:redis.io upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Replit",
@@ -873,7 +3268,26 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://replit.com/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://replit.com/blog/category/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:replit.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "replit-logo"
     },
     {
       "company": "Rivian",
@@ -881,7 +3295,33 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://rivian.com/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://rivian.com/newsroom",
+            "access": "read"
+          },
+          {
+            "url": "https://rivian.com/events/autonomy-and-ai-day",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "rivian-ai-day-2026"
+        ],
+        "queries": [
+          "site:rivian.com upcoming events keynote conference 2027",
+          "Rivian official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Roblox",
@@ -889,7 +3329,26 @@
       "color": "#53679b",
       "event": "Games & entertainment · official announcements",
       "url": "https://corp.roblox.com/",
-      "sector": "Games & entertainment"
+      "sector": "Games & entertainment",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://events.roblox.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:roblox.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Rocket Lab",
@@ -897,7 +3356,26 @@
       "color": "#53679b",
       "event": "Space · official announcements",
       "url": "https://www.rocketlabcorp.com/",
-      "sector": "Space"
+      "sector": "Space",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.rocketlabcorp.com/updates/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:rocketlabcorp.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "RSAC",
@@ -905,7 +3383,28 @@
       "color": "#53679b",
       "event": "Security conferences · official announcements",
       "url": "https://www.rsaconference.com/",
-      "sector": "Security conferences"
+      "sector": "Security conferences",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.rsaconference.com/About/FAQ",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "rsac-2027"
+        ],
+        "queries": [
+          "site:rsaconference.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Runway",
@@ -913,7 +3412,26 @@
       "color": "#53679b",
       "event": "AI & creativity · official announcements",
       "url": "https://runwayml.com/",
-      "sector": "AI & creativity"
+      "sector": "AI & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://summit.runwayml.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:runwayml.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Rust Foundation",
@@ -921,21 +3439,94 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://rustfoundation.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://rustfoundation.org/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:rustfoundation.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Salesforce",
       "mark": "sf",
       "color": "#167fa8",
       "event": "Dreamforce & company events",
-      "url": "https://www.salesforce.com/events/"
+      "url": "https://www.salesforce.com/events/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.salesforce.com/events/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.salesforce.com/jp/events/world-tour/tokyo/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.salesforce.com/events/world-tour/nyc/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.salesforce.com/tdx/form-save-date-tdx27/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 3 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "salesforce-tokyo-keynote-2026",
+          "salesforce-nyc-keynote-2026",
+          "salesforce-tdx-2027"
+        ],
+        "queries": [
+          "site:salesforce.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Samsung",
       "mark": "S",
       "color": "#2953b8",
       "event": "Galaxy Unpacked",
-      "url": "https://www.samsung.com/us/unpacked/"
+      "url": "https://www.samsung.com/us/unpacked/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.samsung.com/us/unpacked/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:samsung.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "SAP",
@@ -943,7 +3534,32 @@
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
       "url": "https://www.sap.com/events.html",
-      "sector": "Cloud & enterprise"
+      "sector": "Cloud & enterprise",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.sap.com/events",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.sap.com/events/index.epx",
+            "access": "unavailable"
+          }
+        ],
+        "findings": [
+          "Official directory URLs failed; Sapphire search results exposed replay content without confirmed 2027 dates."
+        ],
+        "blockers": [
+          "Official directory URLs failed; Sapphire search results exposed replay content without confirmed 2027 dates."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:sap.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "ServiceNow",
@@ -951,7 +3567,32 @@
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
       "url": "https://www.servicenow.com/events.html",
-      "sector": "Cloud & enterprise"
+      "sector": "Cloud & enterprise",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.servicenow.com/events.html",
+            "access": "read"
+          },
+          {
+            "url": "https://www.servicenow.com/events/knowledge.html",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "servicenow-knowledge-2027"
+        ],
+        "queries": [
+          "site:servicenow.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Shopify",
@@ -959,7 +3600,33 @@
       "color": "#53679b",
       "event": "Commerce & payments · official announcements",
       "url": "https://www.shopify.com/",
-      "sector": "Commerce & payments"
+      "sector": "Commerce & payments",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.shopify.com/editions",
+            "access": "read"
+          },
+          {
+            "url": "https://www.shopify.com/news",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Rendered Editions page remained Loading; future presentation date unverified."
+        ],
+        "blockers": [
+          "Rendered Editions page remained Loading; future presentation date unverified."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:shopify.com upcoming events keynote conference 2027",
+          "Shopify official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Slack",
@@ -967,7 +3634,26 @@
       "color": "#53679b",
       "event": "Productivity · official announcements",
       "url": "https://slack.com/",
-      "sector": "Productivity"
+      "sector": "Productivity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://slack.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:slack.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "slack-logo"
     },
     {
       "company": "Slush",
@@ -975,7 +3661,28 @@
       "color": "#53679b",
       "event": "Startup conferences · official announcements",
       "url": "https://slush.org/",
-      "sector": "Startup conferences"
+      "sector": "Startup conferences",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://slush.org/event-info",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "slush-2026"
+        ],
+        "queries": [
+          "site:slush.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Snowflake",
@@ -983,21 +3690,87 @@
       "color": "#53679b",
       "event": "Data & AI · official announcements",
       "url": "https://www.snowflake.com/en/events/summit/",
-      "sector": "Data & AI"
+      "sector": "Data & AI",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.snowflake.com/en/events/summit/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "snowflake-summit-2027"
+        ],
+        "queries": [
+          "site:snowflake.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Sony",
       "mark": "S",
       "color": "#505563",
       "event": "Product announcements",
-      "url": "https://www.sony.com/en/SonyInfo/News/Press/"
+      "url": "https://www.sony.com/en/SonyInfo/News/Press/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.sony.com/en/SonyInfo/News/Press/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:sony.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "SpaceX",
       "mark": "X",
       "color": "#40516e",
       "event": "Company & technology updates",
-      "url": "https://www.spacex.com/updates/"
+      "url": "https://www.spacex.com/updates/",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.spacex.com/updates/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.spacex.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official updates channel exposed no readable schedule. Search-only absence is not a verification."
+        ],
+        "blockers": [
+          "Official updates channel exposed no readable schedule. Search-only absence is not a verification."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:spacex.com upcoming events keynote conference 2027",
+          "SpaceX official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Spotify",
@@ -1005,7 +3778,26 @@
       "color": "#53679b",
       "event": "Media · official announcements",
       "url": "https://newsroom.spotify.com/",
-      "sector": "Media"
+      "sector": "Media",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://newsroom.spotify.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:spotify.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "spotify-logo"
     },
     {
       "company": "Stability AI",
@@ -1013,7 +3805,26 @@
       "color": "#53679b",
       "event": "AI & creativity · official announcements",
       "url": "https://stability.ai/",
-      "sector": "AI & creativity"
+      "sector": "AI & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://stability.ai/news",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:stability.ai upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Stellantis",
@@ -1021,7 +3832,32 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://www.stellantis.com/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.stellantis.com/en/news/press-releases",
+            "access": "read"
+          },
+          {
+            "url": "https://www.ces.tech/press-releases/stellantis-to-bring-human-centered-mobility-vision-to-ces-2027-keynote",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "stellantis-ces-2027"
+        ],
+        "queries": [
+          "site:stellantis.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Stripe",
@@ -1029,7 +3865,31 @@
       "color": "#53679b",
       "event": "Commerce & payments · official announcements",
       "url": "https://stripesessions.com/",
-      "sector": "Commerce & payments"
+      "sector": "Commerce & payments",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://stripesessions.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 4 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "stripe-opening-2027",
+          "stripe-product-2027",
+          "stripe-developer-2027",
+          "stripe-thursday-2027"
+        ],
+        "queries": [
+          "site:stripesessions.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "stripe-logo"
     },
     {
       "company": "Supabase",
@@ -1037,7 +3897,26 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://supabase.com/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://supabase.com/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Select 2027 promotion found without exact dates."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:supabase.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "SUSE",
@@ -1045,7 +3924,32 @@
       "color": "#53679b",
       "event": "Open source · official announcements",
       "url": "https://www.suse.com/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.suse.com/susecon/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.suse.com/blog/early-bird-registration-is-open-for-susecon-2027-in-barcelona/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "susecon-2027"
+        ],
+        "queries": [
+          "site:suse.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "TechCrunch",
@@ -1053,7 +3957,26 @@
       "color": "#53679b",
       "event": "Startup conferences · official announcements",
       "url": "https://techcrunch.com/",
-      "sector": "Startup conferences"
+      "sector": "Startup conferences",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Disrupt 2027 dates explicitly pending; year-long StrictlyVC placeholder is not an event date."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:techcrunch.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Tencent",
@@ -1061,14 +3984,66 @@
       "color": "#53679b",
       "event": "AI & cloud · official announcements",
       "url": "https://www.tencent.com/",
-      "sector": "AI & cloud"
+      "sector": "AI & cloud",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.tencent.com/en-us/articles.html",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://www.tencent.com/newsroom/all-news/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official news channel unavailable; no future keynote verified from alternatives."
+        ],
+        "blockers": [
+          "Official news channel unavailable; no future keynote verified from alternatives."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:tencent.com upcoming events keynote conference 2027",
+          "Tencent official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Tesla",
       "mark": "T",
       "color": "#c83543",
       "event": "Company & product presentations",
-      "url": "https://www.tesla.com/events"
+      "url": "https://www.tesla.com/events",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.tesla.com/events",
+            "access": "read"
+          },
+          {
+            "url": "https://ir.tesla.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Official events channel exposed no readable schedule. Search-only absence is not a verification."
+        ],
+        "blockers": [
+          "Official events channel exposed no readable schedule. Search-only absence is not a verification."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:tesla.com upcoming events keynote conference 2027",
+          "Tesla official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Toyota",
@@ -1076,7 +4051,26 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://global.toyota/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://global.toyota/en/newsroom/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:global.toyota upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "TSMC",
@@ -1084,7 +4078,26 @@
       "color": "#53679b",
       "event": "Semiconductors · official announcements",
       "url": "https://www.tsmc.com/",
-      "sector": "Semiconductors"
+      "sector": "Semiconductors",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://pr.tsmc.com/english/events",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Europe OIP workshop November 24 in Munich found; official page does not establish a public keynote slot."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:tsmc.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Twilio",
@@ -1092,7 +4105,29 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://www.twilio.com/",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://signal.twilio.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 2 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "twilio-signal-main-2027",
+          "twilio-signal-technical-2027"
+        ],
+        "queries": [
+          "site:twilio.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Unity",
@@ -1100,7 +4135,26 @@
       "color": "#53679b",
       "event": "Games & entertainment · official announcements",
       "url": "https://unity.com/",
-      "sector": "Games & entertainment"
+      "sector": "Games & entertainment",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://unity.com/events-hub",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Unite Tokyo November 17 already elapsed in Tokyo at audit time; third-party booth participation not treated as a future keynote."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:unity.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Valve",
@@ -1108,7 +4162,26 @@
       "color": "#53679b",
       "event": "Games & entertainment · official announcements",
       "url": "https://www.valvesoftware.com/",
-      "sector": "Games & entertainment"
+      "sector": "Games & entertainment",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.valvesoftware.com/en/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:valvesoftware.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Vercel",
@@ -1116,7 +4189,26 @@
       "color": "#53679b",
       "event": "Developer tools · official announcements",
       "url": "https://vercel.com/events",
-      "sector": "Developer tools"
+      "sector": "Developer tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "dates_or_program_pending",
+        "sources": [
+          {
+            "url": "https://vercel.com/ship/sf",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Open 27 lists February 2027 and Ship lists May 2027 without exact days. No inferred dates added."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:vercel.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "vidIQ",
@@ -1124,7 +4216,27 @@
       "color": "#3374c3",
       "event": "Creator tools · official announcements",
       "url": "https://vidiq.com/",
-      "sector": "Creator tools"
+      "sector": "Creator tools",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://vidiq.com/blog/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:vidiq.com upcoming events keynote conference 2027",
+          "vidIQ official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "vivo",
@@ -1132,7 +4244,26 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.vivo.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.vivo.com/en/about-vivo/news",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:vivo.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Waymo",
@@ -1140,7 +4271,28 @@
       "color": "#53679b",
       "event": "Mobility · official announcements",
       "url": "https://waymo.com/",
-      "sector": "Mobility"
+      "sector": "Mobility",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.ces.tech/press-releases/waymo-co-ceo-tekedra-mawakana-to-keynote-at-ces-2027",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "waymo-ces-2027"
+        ],
+        "queries": [
+          "site:waymo.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Web Summit",
@@ -1148,7 +4300,33 @@
       "color": "#53679b",
       "event": "Multi-company conferences · official announcements",
       "url": "https://websummit.com/",
-      "sector": "Multi-company conferences"
+      "sector": "Multi-company conferences",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://websummit.com/web-summit-2027/",
+            "access": "read"
+          },
+          {
+            "url": "https://qatar.websummit.com/web-summit-qatar-2027/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 2 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "websummit-lisbon-2027",
+          "websummit-qatar-2027"
+        ],
+        "queries": [
+          "site:websummit.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Webflow",
@@ -1156,7 +4334,33 @@
       "color": "#53679b",
       "event": "Design & creativity · official announcements",
       "url": "https://webflow.com/",
-      "sector": "Design & creativity"
+      "sector": "Design & creativity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://community.webflow.com/events",
+            "access": "read"
+          },
+          {
+            "url": "https://webflow.com/webflowconf",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Community event directory exposed insufficient schedule content."
+        ],
+        "blockers": [
+          "Community event directory exposed insufficient schedule content."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:webflow.com upcoming events keynote conference 2027",
+          "Webflow official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Wiz",
@@ -1164,7 +4368,28 @@
       "color": "#53679b",
       "event": "Security · official announcements",
       "url": "https://www.wiz.io/",
-      "sector": "Security"
+      "sector": "Security",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.wiz.io/wizdom/london",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Wizdom London lists November 17–19 with Monday–Wednesday weekdays and 2025 context. Year is ambiguous; not treated as a 2026 event."
+        ],
+        "blockers": [
+          "Wizdom London lists November 17–19 with Monday–Wednesday weekdays and 2025 context. Year is ambiguous; not treated as a 2026 event."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:wiz.io upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Wordpress",
@@ -1172,7 +4397,32 @@
       "color": "#21759b",
       "event": "WordPress community & product announcements",
       "url": "https://wordpress.org/",
-      "sector": "Open source"
+      "sector": "Open source",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://events.wordpress.org/",
+            "access": "read"
+          },
+          {
+            "url": "https://europe.wordcamp.org/2027/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "wordcamp-europe-2027"
+        ],
+        "queries": [
+          "site:wordpress.org upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Workday",
@@ -1180,7 +4430,28 @@
       "color": "#53679b",
       "event": "Cloud & enterprise · official announcements",
       "url": "https://www.workday.com/",
-      "sector": "Cloud & enterprise"
+      "sector": "Cloud & enterprise",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://www.workday.com/en-us/company/latest/events-webinars/events.html",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "workday-rising-emea-2026"
+        ],
+        "queries": [
+          "site:workday.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "X",
@@ -1188,14 +4459,53 @@
       "color": "#53679b",
       "event": "Social & media · official announcements",
       "url": "https://x.com/",
-      "sector": "Social & media"
+      "sector": "Social & media",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://blog.x.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:x.com upcoming events keynote conference 2027",
+          "X official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": "x-logo"
     },
     {
       "company": "xAI",
       "mark": "x",
       "color": "#505563",
       "event": "Model & product announcements",
-      "url": "https://x.ai/news"
+      "url": "https://x.ai/news",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://x.ai/news",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:x.ai upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Xbox",
@@ -1203,7 +4513,26 @@
       "color": "#53679b",
       "event": "Games & entertainment · official announcements",
       "url": "https://www.xbox.com/",
-      "sector": "Games & entertainment"
+      "sector": "Games & entertainment",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://news.xbox.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:xbox.com upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "Xiaomi",
@@ -1211,7 +4540,31 @@
       "color": "#53679b",
       "event": "Hardware · official announcements",
       "url": "https://www.mi.com/",
-      "sector": "Hardware"
+      "sector": "Hardware",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://www.mi.com/global/event/",
+            "access": "read"
+          },
+          {
+            "url": "https://www.mi.com/uk/launch/xiaomi-launch-november-2026",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:mi.com upcoming events keynote conference 2027",
+          "Xiaomi official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
     },
     {
       "company": "YouTube",
@@ -1219,7 +4572,26 @@
       "color": "#53679b",
       "event": "Social & media · official announcements",
       "url": "https://blog.youtube/",
-      "sector": "Social & media"
+      "sector": "Social & media",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "reviewed_no_qualifying_announcement",
+        "sources": [
+          {
+            "url": "https://blog.youtube/news-and-events/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Reviewed the official channel and a focused organization search. No qualifying upcoming keynote announcement verified in those sources; this does not establish absence elsewhere."
+        ],
+        "blockers": [],
+        "eventIds": [],
+        "queries": [
+          "site:blog.youtube upcoming events keynote conference 2027"
+        ]
+      },
+      "iconName": "youtube-logo"
     },
     {
       "company": "Zoom",
@@ -1227,7 +4599,60 @@
       "color": "#53679b",
       "event": "Productivity · official announcements",
       "url": "https://www.zoom.com/",
-      "sector": "Productivity"
+      "sector": "Productivity",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "blocked_unverified",
+        "sources": [
+          {
+            "url": "https://www.zoom.com/en/zoomtopia/",
+            "access": "unavailable"
+          },
+          {
+            "url": "https://ev.zoom.com/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Zoomtopia page could not be opened; future date remains unverified."
+        ],
+        "blockers": [
+          "Zoomtopia page could not be opened; future date remains unverified."
+        ],
+        "eventIds": [],
+        "queries": [
+          "site:zoom.com upcoming events keynote conference 2027",
+          "Zoom official product launch keynote conference events November December 2026 2027"
+        ]
+      },
+      "iconName": null
+    },
+    {
+      "company": "KHIPU",
+      "mark": "K",
+      "color": "#53679b",
+      "event": "Latin American AI research & startup stages",
+      "url": "https://khipu.ai/",
+      "sector": "AI & research",
+      "audit": {
+        "attemptedAt": "2026-11-17T19:38:10Z",
+        "outcome": "verified_upcoming",
+        "sources": [
+          {
+            "url": "https://khipu.ai/khipu-for-startups/",
+            "access": "read"
+          }
+        ],
+        "findings": [
+          "Verified 1 dated calendar listings; individual keynote schedules remain pending for conference placeholders."
+        ],
+        "blockers": [],
+        "eventIds": [
+          "khipu-2027"
+        ],
+        "discoveredOutsideInitialList": true
+      },
+      "iconName": null
     }
   ]
 }
