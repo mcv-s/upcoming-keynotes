@@ -27,7 +27,7 @@ Use your calendar app's **Subscribe / From URL** function. Importing a downloade
 All changing event and research details live in JSON:
 
 - `events.json`: events, per-event `checked` dates, global research date `updated`, schedule caveats, cancellations.
-- `companies.json`: 149 initial companies/organizers, official research starting points, broad discovery queries, and non-exclusive coverage policy. Official homepages are research starting points, not claims of a scheduled keynote.
+- `companies.json`: an expanded set of companies/organizers, official research starting points, broad discovery queries, and non-exclusive coverage policy. Official homepages are research starting points, not claims of a scheduled keynote.
 - `site.json`: public URL, feed filename/name, refresh and stale-data settings, research scope and schedule metadata.
 
 `tracked-companies.txt` mirrors the companies in companies.json for convenient reading. Edit companies.json and regenerate the mirror. If a user adds names directly to the text file, add corresponding research entries to companies.json first; the generator refuses to discard text-only seeds. This list is **not an allowlist**: add verified keynotes from companies, communities, and regions absent from it. We include developer tools, open source, startups, hardware, AI, enterprise, games, consumer products, robotics, space, and mobility.

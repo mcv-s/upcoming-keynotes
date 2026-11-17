@@ -1135,6 +1135,14 @@
       "sector": "Security"
     },
     {
+      "company": "Wordpress",
+      "mark": "W",
+      "color": "#21759b",
+      "event": "WordPress community & product announcements",
+      "url": "https://wordpress.org/",
+      "sector": "Open source"
+    },
+    {
       "company": "Workday",
       "mark": "W",
       "color": "#53679b",
